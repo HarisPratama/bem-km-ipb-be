@@ -21,6 +21,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+app.get('/', (req, res) => {
+    res.status(200).json('BEM KM IPB API')
+})
 app.use(router)
 
 app.listen(PORT, () => {
