@@ -22,7 +22,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-    res.status(200).json('BEM KM IPB API')
+    res.status(200).json('BEM KM IPB API ')
 })
 app.use(router)
 
