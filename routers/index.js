@@ -7,6 +7,7 @@ const documentsRouter = require('./documents')
 const articleRouter = require('./article')
 const videoRouter = require('./videos')
 const kambioRouter = require('./kambio')
+const wofRouter = require('./wof')
 
 router.use('/user', userRouter)
 router.use('/news', newsRouter)
@@ -15,5 +16,6 @@ router.use('/images', imagesRouter)
 router.use('/file', documentsRouter)
 router.use('/videos', videoRouter)
 router.use('/kambio', kambioRouter)
+router.use('/wof', wofRouter)
 
 module.exports = router

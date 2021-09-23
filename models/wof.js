@@ -1,25 +1,24 @@
 const mongoose = require('mongoose')
 const { Schema } = require('mongoose')
 
-const KambioSchema = new Schema({
+const WofSchema = new Schema({
     title: {
         type: String,
         required: true
-    },
-    latinName: {
-        type: String
     },
     desc: {
         type: String,
         required: true
     },
-    location: {
-        type: String
+    academic: {
+        type: Boolean,
+        required: true
     },
-    taksonomi: {
-        type: Array
+    name: {
+        type: String,
+        required: true
     },
-    type: {
+    month: {
         type: String,
         required: true
     },
@@ -31,9 +30,11 @@ const KambioSchema = new Schema({
         type: Array,
         required: true
     }
+}, {
+    toJSON: { virtuals: true }
 })
 
-KambioSchema.index({ title: 'text' })
-const KambioModel = mongoose.model('Kambio', KambioSchema)
+WofSchema.index({ title: 'text' })
+const WofModel = mongoose.model('Wof', WofSchema)
 
-module.exports = KambioModel
+module.exports = WofModel

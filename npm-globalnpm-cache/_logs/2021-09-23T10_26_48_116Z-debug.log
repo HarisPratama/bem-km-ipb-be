@@ -1,0 +1,2785 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.16.0
+4 verbose npm-session 0d2d7435e7927fa4
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall bem-km-ipb@1.0.0
+7 info lifecycle bem-km-ipb@1.0.0~preinstall: bem-km-ipb@1.0.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 24ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 261ms
+16 silly install loadAllDepsIntoIdealTree
+17 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 406ms
+18 timing stage:loadIdealTree Completed in 777ms
+19 silly currentTree bem-km-ipb@1.0.0
+20 silly idealTree bem-km-ipb@1.0.0
+20 silly idealTree +-- @mapbox/node-pre-gyp@1.0.5
+20 silly idealTree +-- @types/node@16.9.2
+20 silly idealTree +-- @types/webidl-conversions@6.1.1
+20 silly idealTree +-- @types/whatwg-url@8.2.1
+20 silly idealTree +-- abbrev@1.1.1
+20 silly idealTree +-- accepts@1.3.7
+20 silly idealTree +-- agent-base@6.0.2
+20 silly idealTree | +-- debug@4.3.2
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- ansi-regex@2.1.1
+20 silly idealTree +-- append-field@1.0.0
+20 silly idealTree +-- aproba@1.2.0
+20 silly idealTree +-- are-we-there-yet@1.1.7
+20 silly idealTree +-- array-flatten@1.1.1
+20 silly idealTree +-- balanced-match@1.0.2
+20 silly idealTree +-- base64-js@1.5.1
+20 silly idealTree +-- bcrypt@5.0.1
+20 silly idealTree +-- body-parser@1.19.0
+20 silly idealTree +-- brace-expansion@1.1.11
+20 silly idealTree +-- bson@4.5.2
+20 silly idealTree +-- buffer-equal-constant-time@1.0.1
+20 silly idealTree +-- buffer-from@1.1.2
+20 silly idealTree +-- buffer@5.7.1
+20 silly idealTree +-- busboy@0.2.14
+20 silly idealTree | +-- isarray@0.0.1
+20 silly idealTree | +-- readable-stream@1.1.14
+20 silly idealTree | `-- string_decoder@0.10.31
+20 silly idealTree +-- bytes@3.1.0
+20 silly idealTree +-- chownr@2.0.0
+20 silly idealTree +-- code-point-at@1.1.0
+20 silly idealTree +-- concat-map@0.0.1
+20 silly idealTree +-- concat-stream@1.6.2
+20 silly idealTree +-- console-control-strings@1.1.0
+20 silly idealTree +-- content-disposition@0.5.3
+20 silly idealTree +-- content-type@1.0.4
+20 silly idealTree +-- cookie-signature@1.0.6
+20 silly idealTree +-- cookie@0.4.0
+20 silly idealTree +-- core-util-is@1.0.3
+20 silly idealTree +-- cors@2.8.5
+20 silly idealTree +-- debug@2.6.9
+20 silly idealTree +-- delegates@1.0.0
+20 silly idealTree +-- denque@1.5.1
+20 silly idealTree +-- depd@1.1.2
+20 silly idealTree +-- destroy@1.0.4
+20 silly idealTree +-- detect-libc@1.0.3
+20 silly idealTree +-- dicer@0.2.5
+20 silly idealTree | +-- isarray@0.0.1
+20 silly idealTree | +-- readable-stream@1.1.14
+20 silly idealTree | `-- string_decoder@0.10.31
+20 silly idealTree +-- dotenv@10.0.0
+20 silly idealTree +-- ecdsa-sig-formatter@1.0.11
+20 silly idealTree +-- ee-first@1.1.1
+20 silly idealTree +-- encodeurl@1.0.2
+20 silly idealTree +-- escape-html@1.0.3
+20 silly idealTree +-- etag@1.8.1
+20 silly idealTree +-- express@4.17.1
+20 silly idealTree +-- finalhandler@1.1.2
+20 silly idealTree +-- forwarded@0.2.0
+20 silly idealTree +-- fresh@0.5.2
+20 silly idealTree +-- fs-minipass@2.1.0
+20 silly idealTree +-- fs.realpath@1.0.0
+20 silly idealTree +-- fs@0.0.1-security
+20 silly idealTree +-- gauge@2.7.4
+20 silly idealTree +-- glob@7.1.7
+20 silly idealTree +-- has-unicode@2.0.1
+20 silly idealTree +-- http-errors@1.7.2
+20 silly idealTree +-- https-proxy-agent@5.0.0
+20 silly idealTree | +-- debug@4.3.2
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- iconv-lite@0.4.24
+20 silly idealTree +-- ieee754@1.2.1
+20 silly idealTree +-- inflight@1.0.6
+20 silly idealTree +-- inherits@2.0.3
+20 silly idealTree +-- ipaddr.js@1.9.1
+20 silly idealTree +-- is-fullwidth-code-point@1.0.0
+20 silly idealTree +-- isarray@1.0.0
+20 silly idealTree +-- jsonwebtoken@8.5.1
+20 silly idealTree | +-- ms@2.1.3
+20 silly idealTree | `-- semver@5.7.1
+20 silly idealTree +-- jwa@1.4.1
+20 silly idealTree +-- jws@3.2.2
+20 silly idealTree +-- kareem@2.3.2
+20 silly idealTree +-- lodash.includes@4.3.0
+20 silly idealTree +-- lodash.isboolean@3.0.3
+20 silly idealTree +-- lodash.isinteger@4.0.4
+20 silly idealTree +-- lodash.isnumber@3.0.3
+20 silly idealTree +-- lodash.isplainobject@4.0.6
+20 silly idealTree +-- lodash.isstring@4.0.1
+20 silly idealTree +-- lodash.once@4.1.1
+20 silly idealTree +-- lru-cache@6.0.0
+20 silly idealTree +-- make-dir@3.1.0
+20 silly idealTree | `-- semver@6.3.0
+20 silly idealTree +-- media-typer@0.3.0
+20 silly idealTree +-- memory-pager@1.5.0
+20 silly idealTree +-- merge-descriptors@1.0.1
+20 silly idealTree +-- methods@1.1.2
+20 silly idealTree +-- mime-db@1.49.0
+20 silly idealTree +-- mime-types@2.1.32
+20 silly idealTree +-- mime@1.6.0
+20 silly idealTree +-- minimatch@3.0.4
+20 silly idealTree +-- minimist@1.2.5
+20 silly idealTree +-- minipass@3.1.5
+20 silly idealTree +-- minizlib@2.1.2
+20 silly idealTree +-- mkdirp@1.0.4
+20 silly idealTree +-- mongodb-connection-string-url@2.0.0
+20 silly idealTree +-- mongodb@4.1.1
+20 silly idealTree +-- mongoose@6.0.6
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- mpath@0.8.4
+20 silly idealTree +-- mquery@4.0.0
+20 silly idealTree | +-- debug@4.3.2
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- ms@2.0.0
+20 silly idealTree +-- multer@1.4.3
+20 silly idealTree | `-- mkdirp@0.5.5
+20 silly idealTree +-- negotiator@0.6.2
+20 silly idealTree +-- node-addon-api@3.2.1
+20 silly idealTree +-- node-fetch@2.6.2
+20 silly idealTree +-- nopt@5.0.0
+20 silly idealTree +-- npmlog@4.1.2
+20 silly idealTree +-- number-is-nan@1.0.1
+20 silly idealTree +-- object-assign@4.1.1
+20 silly idealTree +-- on-finished@2.3.0
+20 silly idealTree +-- once@1.4.0
+20 silly idealTree +-- parseurl@1.3.3
+20 silly idealTree +-- path-is-absolute@1.0.1
+20 silly idealTree +-- path-to-regexp@0.1.7
+20 silly idealTree +-- process-nextick-args@2.0.1
+20 silly idealTree +-- proxy-addr@2.0.7
+20 silly idealTree +-- punycode@2.1.1
+20 silly idealTree +-- qs@6.7.0
+20 silly idealTree +-- range-parser@1.2.1
+20 silly idealTree +-- raw-body@2.4.0
+20 silly idealTree +-- readable-stream@2.3.7
+20 silly idealTree +-- regexp-clone@1.0.0
+20 silly idealTree +-- rimraf@3.0.2
+20 silly idealTree +-- safe-buffer@5.1.2
+20 silly idealTree +-- safer-buffer@2.1.2
+20 silly idealTree +-- saslprep@1.0.3
+20 silly idealTree +-- semver@7.3.5
+20 silly idealTree +-- send@0.17.1
+20 silly idealTree | `-- ms@2.1.1
+20 silly idealTree +-- serve-static@1.14.1
+20 silly idealTree +-- set-blocking@2.0.0
+20 silly idealTree +-- setprototypeof@1.1.1
+20 silly idealTree +-- sift@13.5.2
+20 silly idealTree +-- signal-exit@3.0.4
+20 silly idealTree +-- sliced@1.0.1
+20 silly idealTree +-- sparse-bitfield@3.0.3
+20 silly idealTree +-- statuses@1.5.0
+20 silly idealTree +-- streamsearch@0.1.2
+20 silly idealTree +-- string_decoder@1.1.1
+20 silly idealTree +-- string-width@1.0.2
+20 silly idealTree +-- strip-ansi@3.0.1
+20 silly idealTree +-- tar@6.1.11
+20 silly idealTree +-- toidentifier@1.0.0
+20 silly idealTree +-- tr46@2.1.0
+20 silly idealTree +-- type-is@1.6.18
+20 silly idealTree +-- typedarray@0.0.6
+20 silly idealTree +-- unpipe@1.0.0
+20 silly idealTree +-- util-deprecate@1.0.2
+20 silly idealTree +-- utils-merge@1.0.1
+20 silly idealTree +-- vary@1.1.2
+20 silly idealTree +-- webidl-conversions@6.1.0
+20 silly idealTree +-- whatwg-url@9.1.0
+20 silly idealTree +-- wide-align@1.1.3
+20 silly idealTree +-- wrappy@1.0.2
+20 silly idealTree +-- xtend@4.0.2
+20 silly idealTree `-- yallist@4.0.0
+21 silly install generateActionsToTake
+22 timing stage:generateActionsToTake Completed in 85ms
+23 silly diffTrees action count 169
+24 silly diffTrees add @types/node@16.9.2
+25 silly diffTrees add @types/webidl-conversions@6.1.1
+26 silly diffTrees add @types/whatwg-url@8.2.1
+27 silly diffTrees add abbrev@1.1.1
+28 silly diffTrees add ms@2.1.2
+29 silly diffTrees add debug@4.3.2
+30 silly diffTrees add agent-base@6.0.2
+31 silly diffTrees add ansi-regex@2.1.1
+32 silly diffTrees add append-field@1.0.0
+33 silly diffTrees add aproba@1.2.0
+34 silly diffTrees add array-flatten@1.1.1
+35 silly diffTrees add balanced-match@1.0.2
+36 silly diffTrees add base64-js@1.5.1
+37 silly diffTrees add buffer-equal-constant-time@1.0.1
+38 silly diffTrees add buffer-from@1.1.2
+39 silly diffTrees add isarray@0.0.1
+40 silly diffTrees add string_decoder@0.10.31
+41 silly diffTrees add bytes@3.1.0
+42 silly diffTrees add chownr@2.0.0
+43 silly diffTrees add code-point-at@1.1.0
+44 silly diffTrees add concat-map@0.0.1
+45 silly diffTrees add brace-expansion@1.1.11
+46 silly diffTrees add console-control-strings@1.1.0
+47 silly diffTrees add content-type@1.0.4
+48 silly diffTrees add cookie@0.4.0
+49 silly diffTrees add cookie-signature@1.0.6
+50 silly diffTrees add core-util-is@1.0.3
+51 silly diffTrees add delegates@1.0.0
+52 silly diffTrees add denque@1.5.1
+53 silly diffTrees add depd@1.1.2
+54 silly diffTrees add destroy@1.0.4
+55 silly diffTrees add detect-libc@1.0.3
+56 silly diffTrees add isarray@0.0.1
+57 silly diffTrees add string_decoder@0.10.31
+58 silly diffTrees add ee-first@1.1.1
+59 silly diffTrees add encodeurl@1.0.2
+60 silly diffTrees add escape-html@1.0.3
+61 silly diffTrees add etag@1.8.1
+62 silly diffTrees add forwarded@0.2.0
+63 silly diffTrees add fresh@0.5.2
+64 silly diffTrees add fs.realpath@1.0.0
+65 silly diffTrees add has-unicode@2.0.1
+66 silly diffTrees add ms@2.1.2
+67 silly diffTrees add debug@4.3.2
+68 silly diffTrees add https-proxy-agent@5.0.0
+69 silly diffTrees add ieee754@1.2.1
+70 silly diffTrees add buffer@5.7.1
+71 silly diffTrees add bson@4.5.2
+72 silly diffTrees add inherits@2.0.3
+73 silly diffTrees add readable-stream@1.1.14
+74 silly diffTrees add readable-stream@1.1.14
+75 silly diffTrees add ipaddr.js@1.9.1
+76 silly diffTrees add isarray@1.0.0
+77 silly diffTrees add ms@2.1.3
+78 silly diffTrees add semver@5.7.1
+79 silly diffTrees add kareem@2.3.2
+80 silly diffTrees add lodash.includes@4.3.0
+81 silly diffTrees add lodash.isboolean@3.0.3
+82 silly diffTrees add lodash.isinteger@4.0.4
+83 silly diffTrees add lodash.isnumber@3.0.3
+84 silly diffTrees add lodash.isplainobject@4.0.6
+85 silly diffTrees add lodash.isstring@4.0.1
+86 silly diffTrees add lodash.once@4.1.1
+87 silly diffTrees add semver@6.3.0
+88 silly diffTrees add make-dir@3.1.0
+89 silly diffTrees add media-typer@0.3.0
+90 silly diffTrees add memory-pager@1.5.0
+91 silly diffTrees add merge-descriptors@1.0.1
+92 silly diffTrees add methods@1.1.2
+93 silly diffTrees add mime@1.6.0
+94 silly diffTrees add mime-db@1.49.0
+95 silly diffTrees add mime-types@2.1.32
+96 silly diffTrees add minimatch@3.0.4
+97 silly diffTrees add minimist@1.2.5
+98 silly diffTrees add mkdirp@1.0.4
+99 silly diffTrees add ms@2.1.2
+100 silly diffTrees add mpath@0.8.4
+101 silly diffTrees add ms@2.1.2
+102 silly diffTrees add debug@4.3.2
+103 silly diffTrees add ms@2.0.0
+104 silly diffTrees add debug@2.6.9
+105 silly diffTrees add mkdirp@0.5.5
+106 silly diffTrees add negotiator@0.6.2
+107 silly diffTrees add accepts@1.3.7
+108 silly diffTrees add node-addon-api@3.2.1
+109 silly diffTrees add node-fetch@2.6.2
+110 silly diffTrees add nopt@5.0.0
+111 silly diffTrees add number-is-nan@1.0.1
+112 silly diffTrees add is-fullwidth-code-point@1.0.0
+113 silly diffTrees add object-assign@4.1.1
+114 silly diffTrees add on-finished@2.3.0
+115 silly diffTrees add parseurl@1.3.3
+116 silly diffTrees add path-is-absolute@1.0.1
+117 silly diffTrees add path-to-regexp@0.1.7
+118 silly diffTrees add process-nextick-args@2.0.1
+119 silly diffTrees add proxy-addr@2.0.7
+120 silly diffTrees add punycode@2.1.1
+121 silly diffTrees add qs@6.7.0
+122 silly diffTrees add range-parser@1.2.1
+123 silly diffTrees add regexp-clone@1.0.0
+124 silly diffTrees add safe-buffer@5.1.2
+125 silly diffTrees add content-disposition@0.5.3
+126 silly diffTrees add ecdsa-sig-formatter@1.0.11
+127 silly diffTrees add jwa@1.4.1
+128 silly diffTrees add jws@3.2.2
+129 silly diffTrees add safer-buffer@2.1.2
+130 silly diffTrees add iconv-lite@0.4.24
+131 silly diffTrees add ms@2.1.1
+132 silly diffTrees add set-blocking@2.0.0
+133 silly diffTrees add setprototypeof@1.1.1
+134 silly diffTrees add sift@13.5.2
+135 silly diffTrees add signal-exit@3.0.4
+136 silly diffTrees add sliced@1.0.1
+137 silly diffTrees add mquery@4.0.0
+138 silly diffTrees add sparse-bitfield@3.0.3
+139 silly diffTrees add saslprep@1.0.3
+140 silly diffTrees add statuses@1.5.0
+141 silly diffTrees add streamsearch@0.1.2
+142 silly diffTrees add dicer@0.2.5
+143 silly diffTrees add busboy@0.2.14
+144 silly diffTrees add string_decoder@1.1.1
+145 silly diffTrees add strip-ansi@3.0.1
+146 silly diffTrees add string-width@1.0.2
+147 silly diffTrees add toidentifier@1.0.0
+148 silly diffTrees add http-errors@1.7.2
+149 silly diffTrees add send@0.17.1
+150 silly diffTrees add serve-static@1.14.1
+151 silly diffTrees add tr46@2.1.0
+152 silly diffTrees add type-is@1.6.18
+153 silly diffTrees add typedarray@0.0.6
+154 silly diffTrees add unpipe@1.0.0
+155 silly diffTrees add finalhandler@1.1.2
+156 silly diffTrees add raw-body@2.4.0
+157 silly diffTrees add body-parser@1.19.0
+158 silly diffTrees add util-deprecate@1.0.2
+159 silly diffTrees add readable-stream@2.3.7
+160 silly diffTrees add are-we-there-yet@1.1.7
+161 silly diffTrees add concat-stream@1.6.2
+162 silly diffTrees add utils-merge@1.0.1
+163 silly diffTrees add vary@1.1.2
+164 silly diffTrees add webidl-conversions@6.1.0
+165 silly diffTrees add whatwg-url@9.1.0
+166 silly diffTrees add mongodb-connection-string-url@2.0.0
+167 silly diffTrees add mongodb@4.1.1
+168 silly diffTrees add wide-align@1.1.3
+169 silly diffTrees add gauge@2.7.4
+170 silly diffTrees add npmlog@4.1.2
+171 silly diffTrees add wrappy@1.0.2
+172 silly diffTrees add once@1.4.0
+173 silly diffTrees add inflight@1.0.6
+174 silly diffTrees add glob@7.1.7
+175 silly diffTrees add rimraf@3.0.2
+176 silly diffTrees add xtend@4.0.2
+177 silly diffTrees add yallist@4.0.0
+178 silly diffTrees add lru-cache@6.0.0
+179 silly diffTrees add semver@7.3.5
+180 silly diffTrees add minipass@3.1.5
+181 silly diffTrees add fs-minipass@2.1.0
+182 silly diffTrees add minizlib@2.1.2
+183 silly diffTrees add tar@6.1.11
+184 silly diffTrees add @mapbox/node-pre-gyp@1.0.5
+185 silly diffTrees add bcrypt@5.0.1
+186 silly diffTrees add cors@2.8.5
+187 silly diffTrees add dotenv@10.0.0
+188 silly diffTrees add express@4.17.1
+189 silly diffTrees add fs@0.0.1-security
+190 silly diffTrees add jsonwebtoken@8.5.1
+191 silly diffTrees add mongoose@6.0.6
+192 silly diffTrees add multer@1.4.3
+193 silly decomposeActions action count 1352
+194 silly decomposeActions fetch @types/node@16.9.2
+195 silly decomposeActions extract @types/node@16.9.2
+196 silly decomposeActions preinstall @types/node@16.9.2
+197 silly decomposeActions build @types/node@16.9.2
+198 silly decomposeActions install @types/node@16.9.2
+199 silly decomposeActions postinstall @types/node@16.9.2
+200 silly decomposeActions finalize @types/node@16.9.2
+201 silly decomposeActions refresh-package-json @types/node@16.9.2
+202 silly decomposeActions fetch @types/webidl-conversions@6.1.1
+203 silly decomposeActions extract @types/webidl-conversions@6.1.1
+204 silly decomposeActions preinstall @types/webidl-conversions@6.1.1
+205 silly decomposeActions build @types/webidl-conversions@6.1.1
+206 silly decomposeActions install @types/webidl-conversions@6.1.1
+207 silly decomposeActions postinstall @types/webidl-conversions@6.1.1
+208 silly decomposeActions finalize @types/webidl-conversions@6.1.1
+209 silly decomposeActions refresh-package-json @types/webidl-conversions@6.1.1
+210 silly decomposeActions fetch @types/whatwg-url@8.2.1
+211 silly decomposeActions extract @types/whatwg-url@8.2.1
+212 silly decomposeActions preinstall @types/whatwg-url@8.2.1
+213 silly decomposeActions build @types/whatwg-url@8.2.1
+214 silly decomposeActions install @types/whatwg-url@8.2.1
+215 silly decomposeActions postinstall @types/whatwg-url@8.2.1
+216 silly decomposeActions finalize @types/whatwg-url@8.2.1
+217 silly decomposeActions refresh-package-json @types/whatwg-url@8.2.1
+218 silly decomposeActions fetch abbrev@1.1.1
+219 silly decomposeActions extract abbrev@1.1.1
+220 silly decomposeActions preinstall abbrev@1.1.1
+221 silly decomposeActions build abbrev@1.1.1
+222 silly decomposeActions install abbrev@1.1.1
+223 silly decomposeActions postinstall abbrev@1.1.1
+224 silly decomposeActions finalize abbrev@1.1.1
+225 silly decomposeActions refresh-package-json abbrev@1.1.1
+226 silly decomposeActions fetch ms@2.1.2
+227 silly decomposeActions extract ms@2.1.2
+228 silly decomposeActions preinstall ms@2.1.2
+229 silly decomposeActions build ms@2.1.2
+230 silly decomposeActions install ms@2.1.2
+231 silly decomposeActions postinstall ms@2.1.2
+232 silly decomposeActions finalize ms@2.1.2
+233 silly decomposeActions refresh-package-json ms@2.1.2
+234 silly decomposeActions fetch debug@4.3.2
+235 silly decomposeActions extract debug@4.3.2
+236 silly decomposeActions preinstall debug@4.3.2
+237 silly decomposeActions build debug@4.3.2
+238 silly decomposeActions install debug@4.3.2
+239 silly decomposeActions postinstall debug@4.3.2
+240 silly decomposeActions finalize debug@4.3.2
+241 silly decomposeActions refresh-package-json debug@4.3.2
+242 silly decomposeActions fetch agent-base@6.0.2
+243 silly decomposeActions extract agent-base@6.0.2
+244 silly decomposeActions preinstall agent-base@6.0.2
+245 silly decomposeActions build agent-base@6.0.2
+246 silly decomposeActions install agent-base@6.0.2
+247 silly decomposeActions postinstall agent-base@6.0.2
+248 silly decomposeActions finalize agent-base@6.0.2
+249 silly decomposeActions refresh-package-json agent-base@6.0.2
+250 silly decomposeActions fetch ansi-regex@2.1.1
+251 silly decomposeActions extract ansi-regex@2.1.1
+252 silly decomposeActions preinstall ansi-regex@2.1.1
+253 silly decomposeActions build ansi-regex@2.1.1
+254 silly decomposeActions install ansi-regex@2.1.1
+255 silly decomposeActions postinstall ansi-regex@2.1.1
+256 silly decomposeActions finalize ansi-regex@2.1.1
+257 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+258 silly decomposeActions fetch append-field@1.0.0
+259 silly decomposeActions extract append-field@1.0.0
+260 silly decomposeActions preinstall append-field@1.0.0
+261 silly decomposeActions build append-field@1.0.0
+262 silly decomposeActions install append-field@1.0.0
+263 silly decomposeActions postinstall append-field@1.0.0
+264 silly decomposeActions finalize append-field@1.0.0
+265 silly decomposeActions refresh-package-json append-field@1.0.0
+266 silly decomposeActions fetch aproba@1.2.0
+267 silly decomposeActions extract aproba@1.2.0
+268 silly decomposeActions preinstall aproba@1.2.0
+269 silly decomposeActions build aproba@1.2.0
+270 silly decomposeActions install aproba@1.2.0
+271 silly decomposeActions postinstall aproba@1.2.0
+272 silly decomposeActions finalize aproba@1.2.0
+273 silly decomposeActions refresh-package-json aproba@1.2.0
+274 silly decomposeActions fetch array-flatten@1.1.1
+275 silly decomposeActions extract array-flatten@1.1.1
+276 silly decomposeActions preinstall array-flatten@1.1.1
+277 silly decomposeActions build array-flatten@1.1.1
+278 silly decomposeActions install array-flatten@1.1.1
+279 silly decomposeActions postinstall array-flatten@1.1.1
+280 silly decomposeActions finalize array-flatten@1.1.1
+281 silly decomposeActions refresh-package-json array-flatten@1.1.1
+282 silly decomposeActions fetch balanced-match@1.0.2
+283 silly decomposeActions extract balanced-match@1.0.2
+284 silly decomposeActions preinstall balanced-match@1.0.2
+285 silly decomposeActions build balanced-match@1.0.2
+286 silly decomposeActions install balanced-match@1.0.2
+287 silly decomposeActions postinstall balanced-match@1.0.2
+288 silly decomposeActions finalize balanced-match@1.0.2
+289 silly decomposeActions refresh-package-json balanced-match@1.0.2
+290 silly decomposeActions fetch base64-js@1.5.1
+291 silly decomposeActions extract base64-js@1.5.1
+292 silly decomposeActions preinstall base64-js@1.5.1
+293 silly decomposeActions build base64-js@1.5.1
+294 silly decomposeActions install base64-js@1.5.1
+295 silly decomposeActions postinstall base64-js@1.5.1
+296 silly decomposeActions finalize base64-js@1.5.1
+297 silly decomposeActions refresh-package-json base64-js@1.5.1
+298 silly decomposeActions fetch buffer-equal-constant-time@1.0.1
+299 silly decomposeActions extract buffer-equal-constant-time@1.0.1
+300 silly decomposeActions preinstall buffer-equal-constant-time@1.0.1
+301 silly decomposeActions build buffer-equal-constant-time@1.0.1
+302 silly decomposeActions install buffer-equal-constant-time@1.0.1
+303 silly decomposeActions postinstall buffer-equal-constant-time@1.0.1
+304 silly decomposeActions finalize buffer-equal-constant-time@1.0.1
+305 silly decomposeActions refresh-package-json buffer-equal-constant-time@1.0.1
+306 silly decomposeActions fetch buffer-from@1.1.2
+307 silly decomposeActions extract buffer-from@1.1.2
+308 silly decomposeActions preinstall buffer-from@1.1.2
+309 silly decomposeActions build buffer-from@1.1.2
+310 silly decomposeActions install buffer-from@1.1.2
+311 silly decomposeActions postinstall buffer-from@1.1.2
+312 silly decomposeActions finalize buffer-from@1.1.2
+313 silly decomposeActions refresh-package-json buffer-from@1.1.2
+314 silly decomposeActions fetch isarray@0.0.1
+315 silly decomposeActions extract isarray@0.0.1
+316 silly decomposeActions preinstall isarray@0.0.1
+317 silly decomposeActions build isarray@0.0.1
+318 silly decomposeActions install isarray@0.0.1
+319 silly decomposeActions postinstall isarray@0.0.1
+320 silly decomposeActions finalize isarray@0.0.1
+321 silly decomposeActions refresh-package-json isarray@0.0.1
+322 silly decomposeActions fetch string_decoder@0.10.31
+323 silly decomposeActions extract string_decoder@0.10.31
+324 silly decomposeActions preinstall string_decoder@0.10.31
+325 silly decomposeActions build string_decoder@0.10.31
+326 silly decomposeActions install string_decoder@0.10.31
+327 silly decomposeActions postinstall string_decoder@0.10.31
+328 silly decomposeActions finalize string_decoder@0.10.31
+329 silly decomposeActions refresh-package-json string_decoder@0.10.31
+330 silly decomposeActions fetch bytes@3.1.0
+331 silly decomposeActions extract bytes@3.1.0
+332 silly decomposeActions preinstall bytes@3.1.0
+333 silly decomposeActions build bytes@3.1.0
+334 silly decomposeActions install bytes@3.1.0
+335 silly decomposeActions postinstall bytes@3.1.0
+336 silly decomposeActions finalize bytes@3.1.0
+337 silly decomposeActions refresh-package-json bytes@3.1.0
+338 silly decomposeActions fetch chownr@2.0.0
+339 silly decomposeActions extract chownr@2.0.0
+340 silly decomposeActions preinstall chownr@2.0.0
+341 silly decomposeActions build chownr@2.0.0
+342 silly decomposeActions install chownr@2.0.0
+343 silly decomposeActions postinstall chownr@2.0.0
+344 silly decomposeActions finalize chownr@2.0.0
+345 silly decomposeActions refresh-package-json chownr@2.0.0
+346 silly decomposeActions fetch code-point-at@1.1.0
+347 silly decomposeActions extract code-point-at@1.1.0
+348 silly decomposeActions preinstall code-point-at@1.1.0
+349 silly decomposeActions build code-point-at@1.1.0
+350 silly decomposeActions install code-point-at@1.1.0
+351 silly decomposeActions postinstall code-point-at@1.1.0
+352 silly decomposeActions finalize code-point-at@1.1.0
+353 silly decomposeActions refresh-package-json code-point-at@1.1.0
+354 silly decomposeActions fetch concat-map@0.0.1
+355 silly decomposeActions extract concat-map@0.0.1
+356 silly decomposeActions preinstall concat-map@0.0.1
+357 silly decomposeActions build concat-map@0.0.1
+358 silly decomposeActions install concat-map@0.0.1
+359 silly decomposeActions postinstall concat-map@0.0.1
+360 silly decomposeActions finalize concat-map@0.0.1
+361 silly decomposeActions refresh-package-json concat-map@0.0.1
+362 silly decomposeActions fetch brace-expansion@1.1.11
+363 silly decomposeActions extract brace-expansion@1.1.11
+364 silly decomposeActions preinstall brace-expansion@1.1.11
+365 silly decomposeActions build brace-expansion@1.1.11
+366 silly decomposeActions install brace-expansion@1.1.11
+367 silly decomposeActions postinstall brace-expansion@1.1.11
+368 silly decomposeActions finalize brace-expansion@1.1.11
+369 silly decomposeActions refresh-package-json brace-expansion@1.1.11
+370 silly decomposeActions fetch console-control-strings@1.1.0
+371 silly decomposeActions extract console-control-strings@1.1.0
+372 silly decomposeActions preinstall console-control-strings@1.1.0
+373 silly decomposeActions build console-control-strings@1.1.0
+374 silly decomposeActions install console-control-strings@1.1.0
+375 silly decomposeActions postinstall console-control-strings@1.1.0
+376 silly decomposeActions finalize console-control-strings@1.1.0
+377 silly decomposeActions refresh-package-json console-control-strings@1.1.0
+378 silly decomposeActions fetch content-type@1.0.4
+379 silly decomposeActions extract content-type@1.0.4
+380 silly decomposeActions preinstall content-type@1.0.4
+381 silly decomposeActions build content-type@1.0.4
+382 silly decomposeActions install content-type@1.0.4
+383 silly decomposeActions postinstall content-type@1.0.4
+384 silly decomposeActions finalize content-type@1.0.4
+385 silly decomposeActions refresh-package-json content-type@1.0.4
+386 silly decomposeActions fetch cookie@0.4.0
+387 silly decomposeActions extract cookie@0.4.0
+388 silly decomposeActions preinstall cookie@0.4.0
+389 silly decomposeActions build cookie@0.4.0
+390 silly decomposeActions install cookie@0.4.0
+391 silly decomposeActions postinstall cookie@0.4.0
+392 silly decomposeActions finalize cookie@0.4.0
+393 silly decomposeActions refresh-package-json cookie@0.4.0
+394 silly decomposeActions fetch cookie-signature@1.0.6
+395 silly decomposeActions extract cookie-signature@1.0.6
+396 silly decomposeActions preinstall cookie-signature@1.0.6
+397 silly decomposeActions build cookie-signature@1.0.6
+398 silly decomposeActions install cookie-signature@1.0.6
+399 silly decomposeActions postinstall cookie-signature@1.0.6
+400 silly decomposeActions finalize cookie-signature@1.0.6
+401 silly decomposeActions refresh-package-json cookie-signature@1.0.6
+402 silly decomposeActions fetch core-util-is@1.0.3
+403 silly decomposeActions extract core-util-is@1.0.3
+404 silly decomposeActions preinstall core-util-is@1.0.3
+405 silly decomposeActions build core-util-is@1.0.3
+406 silly decomposeActions install core-util-is@1.0.3
+407 silly decomposeActions postinstall core-util-is@1.0.3
+408 silly decomposeActions finalize core-util-is@1.0.3
+409 silly decomposeActions refresh-package-json core-util-is@1.0.3
+410 silly decomposeActions fetch delegates@1.0.0
+411 silly decomposeActions extract delegates@1.0.0
+412 silly decomposeActions preinstall delegates@1.0.0
+413 silly decomposeActions build delegates@1.0.0
+414 silly decomposeActions install delegates@1.0.0
+415 silly decomposeActions postinstall delegates@1.0.0
+416 silly decomposeActions finalize delegates@1.0.0
+417 silly decomposeActions refresh-package-json delegates@1.0.0
+418 silly decomposeActions fetch denque@1.5.1
+419 silly decomposeActions extract denque@1.5.1
+420 silly decomposeActions preinstall denque@1.5.1
+421 silly decomposeActions build denque@1.5.1
+422 silly decomposeActions install denque@1.5.1
+423 silly decomposeActions postinstall denque@1.5.1
+424 silly decomposeActions finalize denque@1.5.1
+425 silly decomposeActions refresh-package-json denque@1.5.1
+426 silly decomposeActions fetch depd@1.1.2
+427 silly decomposeActions extract depd@1.1.2
+428 silly decomposeActions preinstall depd@1.1.2
+429 silly decomposeActions build depd@1.1.2
+430 silly decomposeActions install depd@1.1.2
+431 silly decomposeActions postinstall depd@1.1.2
+432 silly decomposeActions finalize depd@1.1.2
+433 silly decomposeActions refresh-package-json depd@1.1.2
+434 silly decomposeActions fetch destroy@1.0.4
+435 silly decomposeActions extract destroy@1.0.4
+436 silly decomposeActions preinstall destroy@1.0.4
+437 silly decomposeActions build destroy@1.0.4
+438 silly decomposeActions install destroy@1.0.4
+439 silly decomposeActions postinstall destroy@1.0.4
+440 silly decomposeActions finalize destroy@1.0.4
+441 silly decomposeActions refresh-package-json destroy@1.0.4
+442 silly decomposeActions fetch detect-libc@1.0.3
+443 silly decomposeActions extract detect-libc@1.0.3
+444 silly decomposeActions preinstall detect-libc@1.0.3
+445 silly decomposeActions build detect-libc@1.0.3
+446 silly decomposeActions install detect-libc@1.0.3
+447 silly decomposeActions postinstall detect-libc@1.0.3
+448 silly decomposeActions finalize detect-libc@1.0.3
+449 silly decomposeActions refresh-package-json detect-libc@1.0.3
+450 silly decomposeActions fetch isarray@0.0.1
+451 silly decomposeActions extract isarray@0.0.1
+452 silly decomposeActions preinstall isarray@0.0.1
+453 silly decomposeActions build isarray@0.0.1
+454 silly decomposeActions install isarray@0.0.1
+455 silly decomposeActions postinstall isarray@0.0.1
+456 silly decomposeActions finalize isarray@0.0.1
+457 silly decomposeActions refresh-package-json isarray@0.0.1
+458 silly decomposeActions fetch string_decoder@0.10.31
+459 silly decomposeActions extract string_decoder@0.10.31
+460 silly decomposeActions preinstall string_decoder@0.10.31
+461 silly decomposeActions build string_decoder@0.10.31
+462 silly decomposeActions install string_decoder@0.10.31
+463 silly decomposeActions postinstall string_decoder@0.10.31
+464 silly decomposeActions finalize string_decoder@0.10.31
+465 silly decomposeActions refresh-package-json string_decoder@0.10.31
+466 silly decomposeActions fetch ee-first@1.1.1
+467 silly decomposeActions extract ee-first@1.1.1
+468 silly decomposeActions preinstall ee-first@1.1.1
+469 silly decomposeActions build ee-first@1.1.1
+470 silly decomposeActions install ee-first@1.1.1
+471 silly decomposeActions postinstall ee-first@1.1.1
+472 silly decomposeActions finalize ee-first@1.1.1
+473 silly decomposeActions refresh-package-json ee-first@1.1.1
+474 silly decomposeActions fetch encodeurl@1.0.2
+475 silly decomposeActions extract encodeurl@1.0.2
+476 silly decomposeActions preinstall encodeurl@1.0.2
+477 silly decomposeActions build encodeurl@1.0.2
+478 silly decomposeActions install encodeurl@1.0.2
+479 silly decomposeActions postinstall encodeurl@1.0.2
+480 silly decomposeActions finalize encodeurl@1.0.2
+481 silly decomposeActions refresh-package-json encodeurl@1.0.2
+482 silly decomposeActions fetch escape-html@1.0.3
+483 silly decomposeActions extract escape-html@1.0.3
+484 silly decomposeActions preinstall escape-html@1.0.3
+485 silly decomposeActions build escape-html@1.0.3
+486 silly decomposeActions install escape-html@1.0.3
+487 silly decomposeActions postinstall escape-html@1.0.3
+488 silly decomposeActions finalize escape-html@1.0.3
+489 silly decomposeActions refresh-package-json escape-html@1.0.3
+490 silly decomposeActions fetch etag@1.8.1
+491 silly decomposeActions extract etag@1.8.1
+492 silly decomposeActions preinstall etag@1.8.1
+493 silly decomposeActions build etag@1.8.1
+494 silly decomposeActions install etag@1.8.1
+495 silly decomposeActions postinstall etag@1.8.1
+496 silly decomposeActions finalize etag@1.8.1
+497 silly decomposeActions refresh-package-json etag@1.8.1
+498 silly decomposeActions fetch forwarded@0.2.0
+499 silly decomposeActions extract forwarded@0.2.0
+500 silly decomposeActions preinstall forwarded@0.2.0
+501 silly decomposeActions build forwarded@0.2.0
+502 silly decomposeActions install forwarded@0.2.0
+503 silly decomposeActions postinstall forwarded@0.2.0
+504 silly decomposeActions finalize forwarded@0.2.0
+505 silly decomposeActions refresh-package-json forwarded@0.2.0
+506 silly decomposeActions fetch fresh@0.5.2
+507 silly decomposeActions extract fresh@0.5.2
+508 silly decomposeActions preinstall fresh@0.5.2
+509 silly decomposeActions build fresh@0.5.2
+510 silly decomposeActions install fresh@0.5.2
+511 silly decomposeActions postinstall fresh@0.5.2
+512 silly decomposeActions finalize fresh@0.5.2
+513 silly decomposeActions refresh-package-json fresh@0.5.2
+514 silly decomposeActions fetch fs.realpath@1.0.0
+515 silly decomposeActions extract fs.realpath@1.0.0
+516 silly decomposeActions preinstall fs.realpath@1.0.0
+517 silly decomposeActions build fs.realpath@1.0.0
+518 silly decomposeActions install fs.realpath@1.0.0
+519 silly decomposeActions postinstall fs.realpath@1.0.0
+520 silly decomposeActions finalize fs.realpath@1.0.0
+521 silly decomposeActions refresh-package-json fs.realpath@1.0.0
+522 silly decomposeActions fetch has-unicode@2.0.1
+523 silly decomposeActions extract has-unicode@2.0.1
+524 silly decomposeActions preinstall has-unicode@2.0.1
+525 silly decomposeActions build has-unicode@2.0.1
+526 silly decomposeActions install has-unicode@2.0.1
+527 silly decomposeActions postinstall has-unicode@2.0.1
+528 silly decomposeActions finalize has-unicode@2.0.1
+529 silly decomposeActions refresh-package-json has-unicode@2.0.1
+530 silly decomposeActions fetch ms@2.1.2
+531 silly decomposeActions extract ms@2.1.2
+532 silly decomposeActions preinstall ms@2.1.2
+533 silly decomposeActions build ms@2.1.2
+534 silly decomposeActions install ms@2.1.2
+535 silly decomposeActions postinstall ms@2.1.2
+536 silly decomposeActions finalize ms@2.1.2
+537 silly decomposeActions refresh-package-json ms@2.1.2
+538 silly decomposeActions fetch debug@4.3.2
+539 silly decomposeActions extract debug@4.3.2
+540 silly decomposeActions preinstall debug@4.3.2
+541 silly decomposeActions build debug@4.3.2
+542 silly decomposeActions install debug@4.3.2
+543 silly decomposeActions postinstall debug@4.3.2
+544 silly decomposeActions finalize debug@4.3.2
+545 silly decomposeActions refresh-package-json debug@4.3.2
+546 silly decomposeActions fetch https-proxy-agent@5.0.0
+547 silly decomposeActions extract https-proxy-agent@5.0.0
+548 silly decomposeActions preinstall https-proxy-agent@5.0.0
+549 silly decomposeActions build https-proxy-agent@5.0.0
+550 silly decomposeActions install https-proxy-agent@5.0.0
+551 silly decomposeActions postinstall https-proxy-agent@5.0.0
+552 silly decomposeActions finalize https-proxy-agent@5.0.0
+553 silly decomposeActions refresh-package-json https-proxy-agent@5.0.0
+554 silly decomposeActions fetch ieee754@1.2.1
+555 silly decomposeActions extract ieee754@1.2.1
+556 silly decomposeActions preinstall ieee754@1.2.1
+557 silly decomposeActions build ieee754@1.2.1
+558 silly decomposeActions install ieee754@1.2.1
+559 silly decomposeActions postinstall ieee754@1.2.1
+560 silly decomposeActions finalize ieee754@1.2.1
+561 silly decomposeActions refresh-package-json ieee754@1.2.1
+562 silly decomposeActions fetch buffer@5.7.1
+563 silly decomposeActions extract buffer@5.7.1
+564 silly decomposeActions preinstall buffer@5.7.1
+565 silly decomposeActions build buffer@5.7.1
+566 silly decomposeActions install buffer@5.7.1
+567 silly decomposeActions postinstall buffer@5.7.1
+568 silly decomposeActions finalize buffer@5.7.1
+569 silly decomposeActions refresh-package-json buffer@5.7.1
+570 silly decomposeActions fetch bson@4.5.2
+571 silly decomposeActions extract bson@4.5.2
+572 silly decomposeActions preinstall bson@4.5.2
+573 silly decomposeActions build bson@4.5.2
+574 silly decomposeActions install bson@4.5.2
+575 silly decomposeActions postinstall bson@4.5.2
+576 silly decomposeActions finalize bson@4.5.2
+577 silly decomposeActions refresh-package-json bson@4.5.2
+578 silly decomposeActions fetch inherits@2.0.3
+579 silly decomposeActions extract inherits@2.0.3
+580 silly decomposeActions preinstall inherits@2.0.3
+581 silly decomposeActions build inherits@2.0.3
+582 silly decomposeActions install inherits@2.0.3
+583 silly decomposeActions postinstall inherits@2.0.3
+584 silly decomposeActions finalize inherits@2.0.3
+585 silly decomposeActions refresh-package-json inherits@2.0.3
+586 silly decomposeActions fetch readable-stream@1.1.14
+587 silly decomposeActions extract readable-stream@1.1.14
+588 silly decomposeActions preinstall readable-stream@1.1.14
+589 silly decomposeActions build readable-stream@1.1.14
+590 silly decomposeActions install readable-stream@1.1.14
+591 silly decomposeActions postinstall readable-stream@1.1.14
+592 silly decomposeActions finalize readable-stream@1.1.14
+593 silly decomposeActions refresh-package-json readable-stream@1.1.14
+594 silly decomposeActions fetch readable-stream@1.1.14
+595 silly decomposeActions extract readable-stream@1.1.14
+596 silly decomposeActions preinstall readable-stream@1.1.14
+597 silly decomposeActions build readable-stream@1.1.14
+598 silly decomposeActions install readable-stream@1.1.14
+599 silly decomposeActions postinstall readable-stream@1.1.14
+600 silly decomposeActions finalize readable-stream@1.1.14
+601 silly decomposeActions refresh-package-json readable-stream@1.1.14
+602 silly decomposeActions fetch ipaddr.js@1.9.1
+603 silly decomposeActions extract ipaddr.js@1.9.1
+604 silly decomposeActions preinstall ipaddr.js@1.9.1
+605 silly decomposeActions build ipaddr.js@1.9.1
+606 silly decomposeActions install ipaddr.js@1.9.1
+607 silly decomposeActions postinstall ipaddr.js@1.9.1
+608 silly decomposeActions finalize ipaddr.js@1.9.1
+609 silly decomposeActions refresh-package-json ipaddr.js@1.9.1
+610 silly decomposeActions fetch isarray@1.0.0
+611 silly decomposeActions extract isarray@1.0.0
+612 silly decomposeActions preinstall isarray@1.0.0
+613 silly decomposeActions build isarray@1.0.0
+614 silly decomposeActions install isarray@1.0.0
+615 silly decomposeActions postinstall isarray@1.0.0
+616 silly decomposeActions finalize isarray@1.0.0
+617 silly decomposeActions refresh-package-json isarray@1.0.0
+618 silly decomposeActions fetch ms@2.1.3
+619 silly decomposeActions extract ms@2.1.3
+620 silly decomposeActions preinstall ms@2.1.3
+621 silly decomposeActions build ms@2.1.3
+622 silly decomposeActions install ms@2.1.3
+623 silly decomposeActions postinstall ms@2.1.3
+624 silly decomposeActions finalize ms@2.1.3
+625 silly decomposeActions refresh-package-json ms@2.1.3
+626 silly decomposeActions fetch semver@5.7.1
+627 silly decomposeActions extract semver@5.7.1
+628 silly decomposeActions preinstall semver@5.7.1
+629 silly decomposeActions build semver@5.7.1
+630 silly decomposeActions install semver@5.7.1
+631 silly decomposeActions postinstall semver@5.7.1
+632 silly decomposeActions finalize semver@5.7.1
+633 silly decomposeActions refresh-package-json semver@5.7.1
+634 silly decomposeActions fetch kareem@2.3.2
+635 silly decomposeActions extract kareem@2.3.2
+636 silly decomposeActions preinstall kareem@2.3.2
+637 silly decomposeActions build kareem@2.3.2
+638 silly decomposeActions install kareem@2.3.2
+639 silly decomposeActions postinstall kareem@2.3.2
+640 silly decomposeActions finalize kareem@2.3.2
+641 silly decomposeActions refresh-package-json kareem@2.3.2
+642 silly decomposeActions fetch lodash.includes@4.3.0
+643 silly decomposeActions extract lodash.includes@4.3.0
+644 silly decomposeActions preinstall lodash.includes@4.3.0
+645 silly decomposeActions build lodash.includes@4.3.0
+646 silly decomposeActions install lodash.includes@4.3.0
+647 silly decomposeActions postinstall lodash.includes@4.3.0
+648 silly decomposeActions finalize lodash.includes@4.3.0
+649 silly decomposeActions refresh-package-json lodash.includes@4.3.0
+650 silly decomposeActions fetch lodash.isboolean@3.0.3
+651 silly decomposeActions extract lodash.isboolean@3.0.3
+652 silly decomposeActions preinstall lodash.isboolean@3.0.3
+653 silly decomposeActions build lodash.isboolean@3.0.3
+654 silly decomposeActions install lodash.isboolean@3.0.3
+655 silly decomposeActions postinstall lodash.isboolean@3.0.3
+656 silly decomposeActions finalize lodash.isboolean@3.0.3
+657 silly decomposeActions refresh-package-json lodash.isboolean@3.0.3
+658 silly decomposeActions fetch lodash.isinteger@4.0.4
+659 silly decomposeActions extract lodash.isinteger@4.0.4
+660 silly decomposeActions preinstall lodash.isinteger@4.0.4
+661 silly decomposeActions build lodash.isinteger@4.0.4
+662 silly decomposeActions install lodash.isinteger@4.0.4
+663 silly decomposeActions postinstall lodash.isinteger@4.0.4
+664 silly decomposeActions finalize lodash.isinteger@4.0.4
+665 silly decomposeActions refresh-package-json lodash.isinteger@4.0.4
+666 silly decomposeActions fetch lodash.isnumber@3.0.3
+667 silly decomposeActions extract lodash.isnumber@3.0.3
+668 silly decomposeActions preinstall lodash.isnumber@3.0.3
+669 silly decomposeActions build lodash.isnumber@3.0.3
+670 silly decomposeActions install lodash.isnumber@3.0.3
+671 silly decomposeActions postinstall lodash.isnumber@3.0.3
+672 silly decomposeActions finalize lodash.isnumber@3.0.3
+673 silly decomposeActions refresh-package-json lodash.isnumber@3.0.3
+674 silly decomposeActions fetch lodash.isplainobject@4.0.6
+675 silly decomposeActions extract lodash.isplainobject@4.0.6
+676 silly decomposeActions preinstall lodash.isplainobject@4.0.6
+677 silly decomposeActions build lodash.isplainobject@4.0.6
+678 silly decomposeActions install lodash.isplainobject@4.0.6
+679 silly decomposeActions postinstall lodash.isplainobject@4.0.6
+680 silly decomposeActions finalize lodash.isplainobject@4.0.6
+681 silly decomposeActions refresh-package-json lodash.isplainobject@4.0.6
+682 silly decomposeActions fetch lodash.isstring@4.0.1
+683 silly decomposeActions extract lodash.isstring@4.0.1
+684 silly decomposeActions preinstall lodash.isstring@4.0.1
+685 silly decomposeActions build lodash.isstring@4.0.1
+686 silly decomposeActions install lodash.isstring@4.0.1
+687 silly decomposeActions postinstall lodash.isstring@4.0.1
+688 silly decomposeActions finalize lodash.isstring@4.0.1
+689 silly decomposeActions refresh-package-json lodash.isstring@4.0.1
+690 silly decomposeActions fetch lodash.once@4.1.1
+691 silly decomposeActions extract lodash.once@4.1.1
+692 silly decomposeActions preinstall lodash.once@4.1.1
+693 silly decomposeActions build lodash.once@4.1.1
+694 silly decomposeActions install lodash.once@4.1.1
+695 silly decomposeActions postinstall lodash.once@4.1.1
+696 silly decomposeActions finalize lodash.once@4.1.1
+697 silly decomposeActions refresh-package-json lodash.once@4.1.1
+698 silly decomposeActions fetch semver@6.3.0
+699 silly decomposeActions extract semver@6.3.0
+700 silly decomposeActions preinstall semver@6.3.0
+701 silly decomposeActions build semver@6.3.0
+702 silly decomposeActions install semver@6.3.0
+703 silly decomposeActions postinstall semver@6.3.0
+704 silly decomposeActions finalize semver@6.3.0
+705 silly decomposeActions refresh-package-json semver@6.3.0
+706 silly decomposeActions fetch make-dir@3.1.0
+707 silly decomposeActions extract make-dir@3.1.0
+708 silly decomposeActions preinstall make-dir@3.1.0
+709 silly decomposeActions build make-dir@3.1.0
+710 silly decomposeActions install make-dir@3.1.0
+711 silly decomposeActions postinstall make-dir@3.1.0
+712 silly decomposeActions finalize make-dir@3.1.0
+713 silly decomposeActions refresh-package-json make-dir@3.1.0
+714 silly decomposeActions fetch media-typer@0.3.0
+715 silly decomposeActions extract media-typer@0.3.0
+716 silly decomposeActions preinstall media-typer@0.3.0
+717 silly decomposeActions build media-typer@0.3.0
+718 silly decomposeActions install media-typer@0.3.0
+719 silly decomposeActions postinstall media-typer@0.3.0
+720 silly decomposeActions finalize media-typer@0.3.0
+721 silly decomposeActions refresh-package-json media-typer@0.3.0
+722 silly decomposeActions fetch memory-pager@1.5.0
+723 silly decomposeActions extract memory-pager@1.5.0
+724 silly decomposeActions preinstall memory-pager@1.5.0
+725 silly decomposeActions build memory-pager@1.5.0
+726 silly decomposeActions install memory-pager@1.5.0
+727 silly decomposeActions postinstall memory-pager@1.5.0
+728 silly decomposeActions finalize memory-pager@1.5.0
+729 silly decomposeActions refresh-package-json memory-pager@1.5.0
+730 silly decomposeActions fetch merge-descriptors@1.0.1
+731 silly decomposeActions extract merge-descriptors@1.0.1
+732 silly decomposeActions preinstall merge-descriptors@1.0.1
+733 silly decomposeActions build merge-descriptors@1.0.1
+734 silly decomposeActions install merge-descriptors@1.0.1
+735 silly decomposeActions postinstall merge-descriptors@1.0.1
+736 silly decomposeActions finalize merge-descriptors@1.0.1
+737 silly decomposeActions refresh-package-json merge-descriptors@1.0.1
+738 silly decomposeActions fetch methods@1.1.2
+739 silly decomposeActions extract methods@1.1.2
+740 silly decomposeActions preinstall methods@1.1.2
+741 silly decomposeActions build methods@1.1.2
+742 silly decomposeActions install methods@1.1.2
+743 silly decomposeActions postinstall methods@1.1.2
+744 silly decomposeActions finalize methods@1.1.2
+745 silly decomposeActions refresh-package-json methods@1.1.2
+746 silly decomposeActions fetch mime@1.6.0
+747 silly decomposeActions extract mime@1.6.0
+748 silly decomposeActions preinstall mime@1.6.0
+749 silly decomposeActions build mime@1.6.0
+750 silly decomposeActions install mime@1.6.0
+751 silly decomposeActions postinstall mime@1.6.0
+752 silly decomposeActions finalize mime@1.6.0
+753 silly decomposeActions refresh-package-json mime@1.6.0
+754 silly decomposeActions fetch mime-db@1.49.0
+755 silly decomposeActions extract mime-db@1.49.0
+756 silly decomposeActions preinstall mime-db@1.49.0
+757 silly decomposeActions build mime-db@1.49.0
+758 silly decomposeActions install mime-db@1.49.0
+759 silly decomposeActions postinstall mime-db@1.49.0
+760 silly decomposeActions finalize mime-db@1.49.0
+761 silly decomposeActions refresh-package-json mime-db@1.49.0
+762 silly decomposeActions fetch mime-types@2.1.32
+763 silly decomposeActions extract mime-types@2.1.32
+764 silly decomposeActions preinstall mime-types@2.1.32
+765 silly decomposeActions build mime-types@2.1.32
+766 silly decomposeActions install mime-types@2.1.32
+767 silly decomposeActions postinstall mime-types@2.1.32
+768 silly decomposeActions finalize mime-types@2.1.32
+769 silly decomposeActions refresh-package-json mime-types@2.1.32
+770 silly decomposeActions fetch minimatch@3.0.4
+771 silly decomposeActions extract minimatch@3.0.4
+772 silly decomposeActions preinstall minimatch@3.0.4
+773 silly decomposeActions build minimatch@3.0.4
+774 silly decomposeActions install minimatch@3.0.4
+775 silly decomposeActions postinstall minimatch@3.0.4
+776 silly decomposeActions finalize minimatch@3.0.4
+777 silly decomposeActions refresh-package-json minimatch@3.0.4
+778 silly decomposeActions fetch minimist@1.2.5
+779 silly decomposeActions extract minimist@1.2.5
+780 silly decomposeActions preinstall minimist@1.2.5
+781 silly decomposeActions build minimist@1.2.5
+782 silly decomposeActions install minimist@1.2.5
+783 silly decomposeActions postinstall minimist@1.2.5
+784 silly decomposeActions finalize minimist@1.2.5
+785 silly decomposeActions refresh-package-json minimist@1.2.5
+786 silly decomposeActions fetch mkdirp@1.0.4
+787 silly decomposeActions extract mkdirp@1.0.4
+788 silly decomposeActions preinstall mkdirp@1.0.4
+789 silly decomposeActions build mkdirp@1.0.4
+790 silly decomposeActions install mkdirp@1.0.4
+791 silly decomposeActions postinstall mkdirp@1.0.4
+792 silly decomposeActions finalize mkdirp@1.0.4
+793 silly decomposeActions refresh-package-json mkdirp@1.0.4
+794 silly decomposeActions fetch ms@2.1.2
+795 silly decomposeActions extract ms@2.1.2
+796 silly decomposeActions preinstall ms@2.1.2
+797 silly decomposeActions build ms@2.1.2
+798 silly decomposeActions install ms@2.1.2
+799 silly decomposeActions postinstall ms@2.1.2
+800 silly decomposeActions finalize ms@2.1.2
+801 silly decomposeActions refresh-package-json ms@2.1.2
+802 silly decomposeActions fetch mpath@0.8.4
+803 silly decomposeActions extract mpath@0.8.4
+804 silly decomposeActions preinstall mpath@0.8.4
+805 silly decomposeActions build mpath@0.8.4
+806 silly decomposeActions install mpath@0.8.4
+807 silly decomposeActions postinstall mpath@0.8.4
+808 silly decomposeActions finalize mpath@0.8.4
+809 silly decomposeActions refresh-package-json mpath@0.8.4
+810 silly decomposeActions fetch ms@2.1.2
+811 silly decomposeActions extract ms@2.1.2
+812 silly decomposeActions preinstall ms@2.1.2
+813 silly decomposeActions build ms@2.1.2
+814 silly decomposeActions install ms@2.1.2
+815 silly decomposeActions postinstall ms@2.1.2
+816 silly decomposeActions finalize ms@2.1.2
+817 silly decomposeActions refresh-package-json ms@2.1.2
+818 silly decomposeActions fetch debug@4.3.2
+819 silly decomposeActions extract debug@4.3.2
+820 silly decomposeActions preinstall debug@4.3.2
+821 silly decomposeActions build debug@4.3.2
+822 silly decomposeActions install debug@4.3.2
+823 silly decomposeActions postinstall debug@4.3.2
+824 silly decomposeActions finalize debug@4.3.2
+825 silly decomposeActions refresh-package-json debug@4.3.2
+826 silly decomposeActions fetch ms@2.0.0
+827 silly decomposeActions extract ms@2.0.0
+828 silly decomposeActions preinstall ms@2.0.0
+829 silly decomposeActions build ms@2.0.0
+830 silly decomposeActions install ms@2.0.0
+831 silly decomposeActions postinstall ms@2.0.0
+832 silly decomposeActions finalize ms@2.0.0
+833 silly decomposeActions refresh-package-json ms@2.0.0
+834 silly decomposeActions fetch debug@2.6.9
+835 silly decomposeActions extract debug@2.6.9
+836 silly decomposeActions preinstall debug@2.6.9
+837 silly decomposeActions build debug@2.6.9
+838 silly decomposeActions install debug@2.6.9
+839 silly decomposeActions postinstall debug@2.6.9
+840 silly decomposeActions finalize debug@2.6.9
+841 silly decomposeActions refresh-package-json debug@2.6.9
+842 silly decomposeActions fetch mkdirp@0.5.5
+843 silly decomposeActions extract mkdirp@0.5.5
+844 silly decomposeActions preinstall mkdirp@0.5.5
+845 silly decomposeActions build mkdirp@0.5.5
+846 silly decomposeActions install mkdirp@0.5.5
+847 silly decomposeActions postinstall mkdirp@0.5.5
+848 silly decomposeActions finalize mkdirp@0.5.5
+849 silly decomposeActions refresh-package-json mkdirp@0.5.5
+850 silly decomposeActions fetch negotiator@0.6.2
+851 silly decomposeActions extract negotiator@0.6.2
+852 silly decomposeActions preinstall negotiator@0.6.2
+853 silly decomposeActions build negotiator@0.6.2
+854 silly decomposeActions install negotiator@0.6.2
+855 silly decomposeActions postinstall negotiator@0.6.2
+856 silly decomposeActions finalize negotiator@0.6.2
+857 silly decomposeActions refresh-package-json negotiator@0.6.2
+858 silly decomposeActions fetch accepts@1.3.7
+859 silly decomposeActions extract accepts@1.3.7
+860 silly decomposeActions preinstall accepts@1.3.7
+861 silly decomposeActions build accepts@1.3.7
+862 silly decomposeActions install accepts@1.3.7
+863 silly decomposeActions postinstall accepts@1.3.7
+864 silly decomposeActions finalize accepts@1.3.7
+865 silly decomposeActions refresh-package-json accepts@1.3.7
+866 silly decomposeActions fetch node-addon-api@3.2.1
+867 silly decomposeActions extract node-addon-api@3.2.1
+868 silly decomposeActions preinstall node-addon-api@3.2.1
+869 silly decomposeActions build node-addon-api@3.2.1
+870 silly decomposeActions install node-addon-api@3.2.1
+871 silly decomposeActions postinstall node-addon-api@3.2.1
+872 silly decomposeActions finalize node-addon-api@3.2.1
+873 silly decomposeActions refresh-package-json node-addon-api@3.2.1
+874 silly decomposeActions fetch node-fetch@2.6.2
+875 silly decomposeActions extract node-fetch@2.6.2
+876 silly decomposeActions preinstall node-fetch@2.6.2
+877 silly decomposeActions build node-fetch@2.6.2
+878 silly decomposeActions install node-fetch@2.6.2
+879 silly decomposeActions postinstall node-fetch@2.6.2
+880 silly decomposeActions finalize node-fetch@2.6.2
+881 silly decomposeActions refresh-package-json node-fetch@2.6.2
+882 silly decomposeActions fetch nopt@5.0.0
+883 silly decomposeActions extract nopt@5.0.0
+884 silly decomposeActions preinstall nopt@5.0.0
+885 silly decomposeActions build nopt@5.0.0
+886 silly decomposeActions install nopt@5.0.0
+887 silly decomposeActions postinstall nopt@5.0.0
+888 silly decomposeActions finalize nopt@5.0.0
+889 silly decomposeActions refresh-package-json nopt@5.0.0
+890 silly decomposeActions fetch number-is-nan@1.0.1
+891 silly decomposeActions extract number-is-nan@1.0.1
+892 silly decomposeActions preinstall number-is-nan@1.0.1
+893 silly decomposeActions build number-is-nan@1.0.1
+894 silly decomposeActions install number-is-nan@1.0.1
+895 silly decomposeActions postinstall number-is-nan@1.0.1
+896 silly decomposeActions finalize number-is-nan@1.0.1
+897 silly decomposeActions refresh-package-json number-is-nan@1.0.1
+898 silly decomposeActions fetch is-fullwidth-code-point@1.0.0
+899 silly decomposeActions extract is-fullwidth-code-point@1.0.0
+900 silly decomposeActions preinstall is-fullwidth-code-point@1.0.0
+901 silly decomposeActions build is-fullwidth-code-point@1.0.0
+902 silly decomposeActions install is-fullwidth-code-point@1.0.0
+903 silly decomposeActions postinstall is-fullwidth-code-point@1.0.0
+904 silly decomposeActions finalize is-fullwidth-code-point@1.0.0
+905 silly decomposeActions refresh-package-json is-fullwidth-code-point@1.0.0
+906 silly decomposeActions fetch object-assign@4.1.1
+907 silly decomposeActions extract object-assign@4.1.1
+908 silly decomposeActions preinstall object-assign@4.1.1
+909 silly decomposeActions build object-assign@4.1.1
+910 silly decomposeActions install object-assign@4.1.1
+911 silly decomposeActions postinstall object-assign@4.1.1
+912 silly decomposeActions finalize object-assign@4.1.1
+913 silly decomposeActions refresh-package-json object-assign@4.1.1
+914 silly decomposeActions fetch on-finished@2.3.0
+915 silly decomposeActions extract on-finished@2.3.0
+916 silly decomposeActions preinstall on-finished@2.3.0
+917 silly decomposeActions build on-finished@2.3.0
+918 silly decomposeActions install on-finished@2.3.0
+919 silly decomposeActions postinstall on-finished@2.3.0
+920 silly decomposeActions finalize on-finished@2.3.0
+921 silly decomposeActions refresh-package-json on-finished@2.3.0
+922 silly decomposeActions fetch parseurl@1.3.3
+923 silly decomposeActions extract parseurl@1.3.3
+924 silly decomposeActions preinstall parseurl@1.3.3
+925 silly decomposeActions build parseurl@1.3.3
+926 silly decomposeActions install parseurl@1.3.3
+927 silly decomposeActions postinstall parseurl@1.3.3
+928 silly decomposeActions finalize parseurl@1.3.3
+929 silly decomposeActions refresh-package-json parseurl@1.3.3
+930 silly decomposeActions fetch path-is-absolute@1.0.1
+931 silly decomposeActions extract path-is-absolute@1.0.1
+932 silly decomposeActions preinstall path-is-absolute@1.0.1
+933 silly decomposeActions build path-is-absolute@1.0.1
+934 silly decomposeActions install path-is-absolute@1.0.1
+935 silly decomposeActions postinstall path-is-absolute@1.0.1
+936 silly decomposeActions finalize path-is-absolute@1.0.1
+937 silly decomposeActions refresh-package-json path-is-absolute@1.0.1
+938 silly decomposeActions fetch path-to-regexp@0.1.7
+939 silly decomposeActions extract path-to-regexp@0.1.7
+940 silly decomposeActions preinstall path-to-regexp@0.1.7
+941 silly decomposeActions build path-to-regexp@0.1.7
+942 silly decomposeActions install path-to-regexp@0.1.7
+943 silly decomposeActions postinstall path-to-regexp@0.1.7
+944 silly decomposeActions finalize path-to-regexp@0.1.7
+945 silly decomposeActions refresh-package-json path-to-regexp@0.1.7
+946 silly decomposeActions fetch process-nextick-args@2.0.1
+947 silly decomposeActions extract process-nextick-args@2.0.1
+948 silly decomposeActions preinstall process-nextick-args@2.0.1
+949 silly decomposeActions build process-nextick-args@2.0.1
+950 silly decomposeActions install process-nextick-args@2.0.1
+951 silly decomposeActions postinstall process-nextick-args@2.0.1
+952 silly decomposeActions finalize process-nextick-args@2.0.1
+953 silly decomposeActions refresh-package-json process-nextick-args@2.0.1
+954 silly decomposeActions fetch proxy-addr@2.0.7
+955 silly decomposeActions extract proxy-addr@2.0.7
+956 silly decomposeActions preinstall proxy-addr@2.0.7
+957 silly decomposeActions build proxy-addr@2.0.7
+958 silly decomposeActions install proxy-addr@2.0.7
+959 silly decomposeActions postinstall proxy-addr@2.0.7
+960 silly decomposeActions finalize proxy-addr@2.0.7
+961 silly decomposeActions refresh-package-json proxy-addr@2.0.7
+962 silly decomposeActions fetch punycode@2.1.1
+963 silly decomposeActions extract punycode@2.1.1
+964 silly decomposeActions preinstall punycode@2.1.1
+965 silly decomposeActions build punycode@2.1.1
+966 silly decomposeActions install punycode@2.1.1
+967 silly decomposeActions postinstall punycode@2.1.1
+968 silly decomposeActions finalize punycode@2.1.1
+969 silly decomposeActions refresh-package-json punycode@2.1.1
+970 silly decomposeActions fetch qs@6.7.0
+971 silly decomposeActions extract qs@6.7.0
+972 silly decomposeActions preinstall qs@6.7.0
+973 silly decomposeActions build qs@6.7.0
+974 silly decomposeActions install qs@6.7.0
+975 silly decomposeActions postinstall qs@6.7.0
+976 silly decomposeActions finalize qs@6.7.0
+977 silly decomposeActions refresh-package-json qs@6.7.0
+978 silly decomposeActions fetch range-parser@1.2.1
+979 silly decomposeActions extract range-parser@1.2.1
+980 silly decomposeActions preinstall range-parser@1.2.1
+981 silly decomposeActions build range-parser@1.2.1
+982 silly decomposeActions install range-parser@1.2.1
+983 silly decomposeActions postinstall range-parser@1.2.1
+984 silly decomposeActions finalize range-parser@1.2.1
+985 silly decomposeActions refresh-package-json range-parser@1.2.1
+986 silly decomposeActions fetch regexp-clone@1.0.0
+987 silly decomposeActions extract regexp-clone@1.0.0
+988 silly decomposeActions preinstall regexp-clone@1.0.0
+989 silly decomposeActions build regexp-clone@1.0.0
+990 silly decomposeActions install regexp-clone@1.0.0
+991 silly decomposeActions postinstall regexp-clone@1.0.0
+992 silly decomposeActions finalize regexp-clone@1.0.0
+993 silly decomposeActions refresh-package-json regexp-clone@1.0.0
+994 silly decomposeActions fetch safe-buffer@5.1.2
+995 silly decomposeActions extract safe-buffer@5.1.2
+996 silly decomposeActions preinstall safe-buffer@5.1.2
+997 silly decomposeActions build safe-buffer@5.1.2
+998 silly decomposeActions install safe-buffer@5.1.2
+999 silly decomposeActions postinstall safe-buffer@5.1.2
+1000 silly decomposeActions finalize safe-buffer@5.1.2
+1001 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+1002 silly decomposeActions fetch content-disposition@0.5.3
+1003 silly decomposeActions extract content-disposition@0.5.3
+1004 silly decomposeActions preinstall content-disposition@0.5.3
+1005 silly decomposeActions build content-disposition@0.5.3
+1006 silly decomposeActions install content-disposition@0.5.3
+1007 silly decomposeActions postinstall content-disposition@0.5.3
+1008 silly decomposeActions finalize content-disposition@0.5.3
+1009 silly decomposeActions refresh-package-json content-disposition@0.5.3
+1010 silly decomposeActions fetch ecdsa-sig-formatter@1.0.11
+1011 silly decomposeActions extract ecdsa-sig-formatter@1.0.11
+1012 silly decomposeActions preinstall ecdsa-sig-formatter@1.0.11
+1013 silly decomposeActions build ecdsa-sig-formatter@1.0.11
+1014 silly decomposeActions install ecdsa-sig-formatter@1.0.11
+1015 silly decomposeActions postinstall ecdsa-sig-formatter@1.0.11
+1016 silly decomposeActions finalize ecdsa-sig-formatter@1.0.11
+1017 silly decomposeActions refresh-package-json ecdsa-sig-formatter@1.0.11
+1018 silly decomposeActions fetch jwa@1.4.1
+1019 silly decomposeActions extract jwa@1.4.1
+1020 silly decomposeActions preinstall jwa@1.4.1
+1021 silly decomposeActions build jwa@1.4.1
+1022 silly decomposeActions install jwa@1.4.1
+1023 silly decomposeActions postinstall jwa@1.4.1
+1024 silly decomposeActions finalize jwa@1.4.1
+1025 silly decomposeActions refresh-package-json jwa@1.4.1
+1026 silly decomposeActions fetch jws@3.2.2
+1027 silly decomposeActions extract jws@3.2.2
+1028 silly decomposeActions preinstall jws@3.2.2
+1029 silly decomposeActions build jws@3.2.2
+1030 silly decomposeActions install jws@3.2.2
+1031 silly decomposeActions postinstall jws@3.2.2
+1032 silly decomposeActions finalize jws@3.2.2
+1033 silly decomposeActions refresh-package-json jws@3.2.2
+1034 silly decomposeActions fetch safer-buffer@2.1.2
+1035 silly decomposeActions extract safer-buffer@2.1.2
+1036 silly decomposeActions preinstall safer-buffer@2.1.2
+1037 silly decomposeActions build safer-buffer@2.1.2
+1038 silly decomposeActions install safer-buffer@2.1.2
+1039 silly decomposeActions postinstall safer-buffer@2.1.2
+1040 silly decomposeActions finalize safer-buffer@2.1.2
+1041 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+1042 silly decomposeActions fetch iconv-lite@0.4.24
+1043 silly decomposeActions extract iconv-lite@0.4.24
+1044 silly decomposeActions preinstall iconv-lite@0.4.24
+1045 silly decomposeActions build iconv-lite@0.4.24
+1046 silly decomposeActions install iconv-lite@0.4.24
+1047 silly decomposeActions postinstall iconv-lite@0.4.24
+1048 silly decomposeActions finalize iconv-lite@0.4.24
+1049 silly decomposeActions refresh-package-json iconv-lite@0.4.24
+1050 silly decomposeActions fetch ms@2.1.1
+1051 silly decomposeActions extract ms@2.1.1
+1052 silly decomposeActions preinstall ms@2.1.1
+1053 silly decomposeActions build ms@2.1.1
+1054 silly decomposeActions install ms@2.1.1
+1055 silly decomposeActions postinstall ms@2.1.1
+1056 silly decomposeActions finalize ms@2.1.1
+1057 silly decomposeActions refresh-package-json ms@2.1.1
+1058 silly decomposeActions fetch set-blocking@2.0.0
+1059 silly decomposeActions extract set-blocking@2.0.0
+1060 silly decomposeActions preinstall set-blocking@2.0.0
+1061 silly decomposeActions build set-blocking@2.0.0
+1062 silly decomposeActions install set-blocking@2.0.0
+1063 silly decomposeActions postinstall set-blocking@2.0.0
+1064 silly decomposeActions finalize set-blocking@2.0.0
+1065 silly decomposeActions refresh-package-json set-blocking@2.0.0
+1066 silly decomposeActions fetch setprototypeof@1.1.1
+1067 silly decomposeActions extract setprototypeof@1.1.1
+1068 silly decomposeActions preinstall setprototypeof@1.1.1
+1069 silly decomposeActions build setprototypeof@1.1.1
+1070 silly decomposeActions install setprototypeof@1.1.1
+1071 silly decomposeActions postinstall setprototypeof@1.1.1
+1072 silly decomposeActions finalize setprototypeof@1.1.1
+1073 silly decomposeActions refresh-package-json setprototypeof@1.1.1
+1074 silly decomposeActions fetch sift@13.5.2
+1075 silly decomposeActions extract sift@13.5.2
+1076 silly decomposeActions preinstall sift@13.5.2
+1077 silly decomposeActions build sift@13.5.2
+1078 silly decomposeActions install sift@13.5.2
+1079 silly decomposeActions postinstall sift@13.5.2
+1080 silly decomposeActions finalize sift@13.5.2
+1081 silly decomposeActions refresh-package-json sift@13.5.2
+1082 silly decomposeActions fetch signal-exit@3.0.4
+1083 silly decomposeActions extract signal-exit@3.0.4
+1084 silly decomposeActions preinstall signal-exit@3.0.4
+1085 silly decomposeActions build signal-exit@3.0.4
+1086 silly decomposeActions install signal-exit@3.0.4
+1087 silly decomposeActions postinstall signal-exit@3.0.4
+1088 silly decomposeActions finalize signal-exit@3.0.4
+1089 silly decomposeActions refresh-package-json signal-exit@3.0.4
+1090 silly decomposeActions fetch sliced@1.0.1
+1091 silly decomposeActions extract sliced@1.0.1
+1092 silly decomposeActions preinstall sliced@1.0.1
+1093 silly decomposeActions build sliced@1.0.1
+1094 silly decomposeActions install sliced@1.0.1
+1095 silly decomposeActions postinstall sliced@1.0.1
+1096 silly decomposeActions finalize sliced@1.0.1
+1097 silly decomposeActions refresh-package-json sliced@1.0.1
+1098 silly decomposeActions fetch mquery@4.0.0
+1099 silly decomposeActions extract mquery@4.0.0
+1100 silly decomposeActions preinstall mquery@4.0.0
+1101 silly decomposeActions build mquery@4.0.0
+1102 silly decomposeActions install mquery@4.0.0
+1103 silly decomposeActions postinstall mquery@4.0.0
+1104 silly decomposeActions finalize mquery@4.0.0
+1105 silly decomposeActions refresh-package-json mquery@4.0.0
+1106 silly decomposeActions fetch sparse-bitfield@3.0.3
+1107 silly decomposeActions extract sparse-bitfield@3.0.3
+1108 silly decomposeActions preinstall sparse-bitfield@3.0.3
+1109 silly decomposeActions build sparse-bitfield@3.0.3
+1110 silly decomposeActions install sparse-bitfield@3.0.3
+1111 silly decomposeActions postinstall sparse-bitfield@3.0.3
+1112 silly decomposeActions finalize sparse-bitfield@3.0.3
+1113 silly decomposeActions refresh-package-json sparse-bitfield@3.0.3
+1114 silly decomposeActions fetch saslprep@1.0.3
+1115 silly decomposeActions extract saslprep@1.0.3
+1116 silly decomposeActions preinstall saslprep@1.0.3
+1117 silly decomposeActions build saslprep@1.0.3
+1118 silly decomposeActions install saslprep@1.0.3
+1119 silly decomposeActions postinstall saslprep@1.0.3
+1120 silly decomposeActions finalize saslprep@1.0.3
+1121 silly decomposeActions refresh-package-json saslprep@1.0.3
+1122 silly decomposeActions fetch statuses@1.5.0
+1123 silly decomposeActions extract statuses@1.5.0
+1124 silly decomposeActions preinstall statuses@1.5.0
+1125 silly decomposeActions build statuses@1.5.0
+1126 silly decomposeActions install statuses@1.5.0
+1127 silly decomposeActions postinstall statuses@1.5.0
+1128 silly decomposeActions finalize statuses@1.5.0
+1129 silly decomposeActions refresh-package-json statuses@1.5.0
+1130 silly decomposeActions fetch streamsearch@0.1.2
+1131 silly decomposeActions extract streamsearch@0.1.2
+1132 silly decomposeActions preinstall streamsearch@0.1.2
+1133 silly decomposeActions build streamsearch@0.1.2
+1134 silly decomposeActions install streamsearch@0.1.2
+1135 silly decomposeActions postinstall streamsearch@0.1.2
+1136 silly decomposeActions finalize streamsearch@0.1.2
+1137 silly decomposeActions refresh-package-json streamsearch@0.1.2
+1138 silly decomposeActions fetch dicer@0.2.5
+1139 silly decomposeActions extract dicer@0.2.5
+1140 silly decomposeActions preinstall dicer@0.2.5
+1141 silly decomposeActions build dicer@0.2.5
+1142 silly decomposeActions install dicer@0.2.5
+1143 silly decomposeActions postinstall dicer@0.2.5
+1144 silly decomposeActions finalize dicer@0.2.5
+1145 silly decomposeActions refresh-package-json dicer@0.2.5
+1146 silly decomposeActions fetch busboy@0.2.14
+1147 silly decomposeActions extract busboy@0.2.14
+1148 silly decomposeActions preinstall busboy@0.2.14
+1149 silly decomposeActions build busboy@0.2.14
+1150 silly decomposeActions install busboy@0.2.14
+1151 silly decomposeActions postinstall busboy@0.2.14
+1152 silly decomposeActions finalize busboy@0.2.14
+1153 silly decomposeActions refresh-package-json busboy@0.2.14
+1154 silly decomposeActions fetch string_decoder@1.1.1
+1155 silly decomposeActions extract string_decoder@1.1.1
+1156 silly decomposeActions preinstall string_decoder@1.1.1
+1157 silly decomposeActions build string_decoder@1.1.1
+1158 silly decomposeActions install string_decoder@1.1.1
+1159 silly decomposeActions postinstall string_decoder@1.1.1
+1160 silly decomposeActions finalize string_decoder@1.1.1
+1161 silly decomposeActions refresh-package-json string_decoder@1.1.1
+1162 silly decomposeActions fetch strip-ansi@3.0.1
+1163 silly decomposeActions extract strip-ansi@3.0.1
+1164 silly decomposeActions preinstall strip-ansi@3.0.1
+1165 silly decomposeActions build strip-ansi@3.0.1
+1166 silly decomposeActions install strip-ansi@3.0.1
+1167 silly decomposeActions postinstall strip-ansi@3.0.1
+1168 silly decomposeActions finalize strip-ansi@3.0.1
+1169 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+1170 silly decomposeActions fetch string-width@1.0.2
+1171 silly decomposeActions extract string-width@1.0.2
+1172 silly decomposeActions preinstall string-width@1.0.2
+1173 silly decomposeActions build string-width@1.0.2
+1174 silly decomposeActions install string-width@1.0.2
+1175 silly decomposeActions postinstall string-width@1.0.2
+1176 silly decomposeActions finalize string-width@1.0.2
+1177 silly decomposeActions refresh-package-json string-width@1.0.2
+1178 silly decomposeActions fetch toidentifier@1.0.0
+1179 silly decomposeActions extract toidentifier@1.0.0
+1180 silly decomposeActions preinstall toidentifier@1.0.0
+1181 silly decomposeActions build toidentifier@1.0.0
+1182 silly decomposeActions install toidentifier@1.0.0
+1183 silly decomposeActions postinstall toidentifier@1.0.0
+1184 silly decomposeActions finalize toidentifier@1.0.0
+1185 silly decomposeActions refresh-package-json toidentifier@1.0.0
+1186 silly decomposeActions fetch http-errors@1.7.2
+1187 silly decomposeActions extract http-errors@1.7.2
+1188 silly decomposeActions preinstall http-errors@1.7.2
+1189 silly decomposeActions build http-errors@1.7.2
+1190 silly decomposeActions install http-errors@1.7.2
+1191 silly decomposeActions postinstall http-errors@1.7.2
+1192 silly decomposeActions finalize http-errors@1.7.2
+1193 silly decomposeActions refresh-package-json http-errors@1.7.2
+1194 silly decomposeActions fetch send@0.17.1
+1195 silly decomposeActions extract send@0.17.1
+1196 silly decomposeActions preinstall send@0.17.1
+1197 silly decomposeActions build send@0.17.1
+1198 silly decomposeActions install send@0.17.1
+1199 silly decomposeActions postinstall send@0.17.1
+1200 silly decomposeActions finalize send@0.17.1
+1201 silly decomposeActions refresh-package-json send@0.17.1
+1202 silly decomposeActions fetch serve-static@1.14.1
+1203 silly decomposeActions extract serve-static@1.14.1
+1204 silly decomposeActions preinstall serve-static@1.14.1
+1205 silly decomposeActions build serve-static@1.14.1
+1206 silly decomposeActions install serve-static@1.14.1
+1207 silly decomposeActions postinstall serve-static@1.14.1
+1208 silly decomposeActions finalize serve-static@1.14.1
+1209 silly decomposeActions refresh-package-json serve-static@1.14.1
+1210 silly decomposeActions fetch tr46@2.1.0
+1211 silly decomposeActions extract tr46@2.1.0
+1212 silly decomposeActions preinstall tr46@2.1.0
+1213 silly decomposeActions build tr46@2.1.0
+1214 silly decomposeActions install tr46@2.1.0
+1215 silly decomposeActions postinstall tr46@2.1.0
+1216 silly decomposeActions finalize tr46@2.1.0
+1217 silly decomposeActions refresh-package-json tr46@2.1.0
+1218 silly decomposeActions fetch type-is@1.6.18
+1219 silly decomposeActions extract type-is@1.6.18
+1220 silly decomposeActions preinstall type-is@1.6.18
+1221 silly decomposeActions build type-is@1.6.18
+1222 silly decomposeActions install type-is@1.6.18
+1223 silly decomposeActions postinstall type-is@1.6.18
+1224 silly decomposeActions finalize type-is@1.6.18
+1225 silly decomposeActions refresh-package-json type-is@1.6.18
+1226 silly decomposeActions fetch typedarray@0.0.6
+1227 silly decomposeActions extract typedarray@0.0.6
+1228 silly decomposeActions preinstall typedarray@0.0.6
+1229 silly decomposeActions build typedarray@0.0.6
+1230 silly decomposeActions install typedarray@0.0.6
+1231 silly decomposeActions postinstall typedarray@0.0.6
+1232 silly decomposeActions finalize typedarray@0.0.6
+1233 silly decomposeActions refresh-package-json typedarray@0.0.6
+1234 silly decomposeActions fetch unpipe@1.0.0
+1235 silly decomposeActions extract unpipe@1.0.0
+1236 silly decomposeActions preinstall unpipe@1.0.0
+1237 silly decomposeActions build unpipe@1.0.0
+1238 silly decomposeActions install unpipe@1.0.0
+1239 silly decomposeActions postinstall unpipe@1.0.0
+1240 silly decomposeActions finalize unpipe@1.0.0
+1241 silly decomposeActions refresh-package-json unpipe@1.0.0
+1242 silly decomposeActions fetch finalhandler@1.1.2
+1243 silly decomposeActions extract finalhandler@1.1.2
+1244 silly decomposeActions preinstall finalhandler@1.1.2
+1245 silly decomposeActions build finalhandler@1.1.2
+1246 silly decomposeActions install finalhandler@1.1.2
+1247 silly decomposeActions postinstall finalhandler@1.1.2
+1248 silly decomposeActions finalize finalhandler@1.1.2
+1249 silly decomposeActions refresh-package-json finalhandler@1.1.2
+1250 silly decomposeActions fetch raw-body@2.4.0
+1251 silly decomposeActions extract raw-body@2.4.0
+1252 silly decomposeActions preinstall raw-body@2.4.0
+1253 silly decomposeActions build raw-body@2.4.0
+1254 silly decomposeActions install raw-body@2.4.0
+1255 silly decomposeActions postinstall raw-body@2.4.0
+1256 silly decomposeActions finalize raw-body@2.4.0
+1257 silly decomposeActions refresh-package-json raw-body@2.4.0
+1258 silly decomposeActions fetch body-parser@1.19.0
+1259 silly decomposeActions extract body-parser@1.19.0
+1260 silly decomposeActions preinstall body-parser@1.19.0
+1261 silly decomposeActions build body-parser@1.19.0
+1262 silly decomposeActions install body-parser@1.19.0
+1263 silly decomposeActions postinstall body-parser@1.19.0
+1264 silly decomposeActions finalize body-parser@1.19.0
+1265 silly decomposeActions refresh-package-json body-parser@1.19.0
+1266 silly decomposeActions fetch util-deprecate@1.0.2
+1267 silly decomposeActions extract util-deprecate@1.0.2
+1268 silly decomposeActions preinstall util-deprecate@1.0.2
+1269 silly decomposeActions build util-deprecate@1.0.2
+1270 silly decomposeActions install util-deprecate@1.0.2
+1271 silly decomposeActions postinstall util-deprecate@1.0.2
+1272 silly decomposeActions finalize util-deprecate@1.0.2
+1273 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+1274 silly decomposeActions fetch readable-stream@2.3.7
+1275 silly decomposeActions extract readable-stream@2.3.7
+1276 silly decomposeActions preinstall readable-stream@2.3.7
+1277 silly decomposeActions build readable-stream@2.3.7
+1278 silly decomposeActions install readable-stream@2.3.7
+1279 silly decomposeActions postinstall readable-stream@2.3.7
+1280 silly decomposeActions finalize readable-stream@2.3.7
+1281 silly decomposeActions refresh-package-json readable-stream@2.3.7
+1282 silly decomposeActions fetch are-we-there-yet@1.1.7
+1283 silly decomposeActions extract are-we-there-yet@1.1.7
+1284 silly decomposeActions preinstall are-we-there-yet@1.1.7
+1285 silly decomposeActions build are-we-there-yet@1.1.7
+1286 silly decomposeActions install are-we-there-yet@1.1.7
+1287 silly decomposeActions postinstall are-we-there-yet@1.1.7
+1288 silly decomposeActions finalize are-we-there-yet@1.1.7
+1289 silly decomposeActions refresh-package-json are-we-there-yet@1.1.7
+1290 silly decomposeActions fetch concat-stream@1.6.2
+1291 silly decomposeActions extract concat-stream@1.6.2
+1292 silly decomposeActions preinstall concat-stream@1.6.2
+1293 silly decomposeActions build concat-stream@1.6.2
+1294 silly decomposeActions install concat-stream@1.6.2
+1295 silly decomposeActions postinstall concat-stream@1.6.2
+1296 silly decomposeActions finalize concat-stream@1.6.2
+1297 silly decomposeActions refresh-package-json concat-stream@1.6.2
+1298 silly decomposeActions fetch utils-merge@1.0.1
+1299 silly decomposeActions extract utils-merge@1.0.1
+1300 silly decomposeActions preinstall utils-merge@1.0.1
+1301 silly decomposeActions build utils-merge@1.0.1
+1302 silly decomposeActions install utils-merge@1.0.1
+1303 silly decomposeActions postinstall utils-merge@1.0.1
+1304 silly decomposeActions finalize utils-merge@1.0.1
+1305 silly decomposeActions refresh-package-json utils-merge@1.0.1
+1306 silly decomposeActions fetch vary@1.1.2
+1307 silly decomposeActions extract vary@1.1.2
+1308 silly decomposeActions preinstall vary@1.1.2
+1309 silly decomposeActions build vary@1.1.2
+1310 silly decomposeActions install vary@1.1.2
+1311 silly decomposeActions postinstall vary@1.1.2
+1312 silly decomposeActions finalize vary@1.1.2
+1313 silly decomposeActions refresh-package-json vary@1.1.2
+1314 silly decomposeActions fetch webidl-conversions@6.1.0
+1315 silly decomposeActions extract webidl-conversions@6.1.0
+1316 silly decomposeActions preinstall webidl-conversions@6.1.0
+1317 silly decomposeActions build webidl-conversions@6.1.0
+1318 silly decomposeActions install webidl-conversions@6.1.0
+1319 silly decomposeActions postinstall webidl-conversions@6.1.0
+1320 silly decomposeActions finalize webidl-conversions@6.1.0
+1321 silly decomposeActions refresh-package-json webidl-conversions@6.1.0
+1322 silly decomposeActions fetch whatwg-url@9.1.0
+1323 silly decomposeActions extract whatwg-url@9.1.0
+1324 silly decomposeActions preinstall whatwg-url@9.1.0
+1325 silly decomposeActions build whatwg-url@9.1.0
+1326 silly decomposeActions install whatwg-url@9.1.0
+1327 silly decomposeActions postinstall whatwg-url@9.1.0
+1328 silly decomposeActions finalize whatwg-url@9.1.0
+1329 silly decomposeActions refresh-package-json whatwg-url@9.1.0
+1330 silly decomposeActions fetch mongodb-connection-string-url@2.0.0
+1331 silly decomposeActions extract mongodb-connection-string-url@2.0.0
+1332 silly decomposeActions preinstall mongodb-connection-string-url@2.0.0
+1333 silly decomposeActions build mongodb-connection-string-url@2.0.0
+1334 silly decomposeActions install mongodb-connection-string-url@2.0.0
+1335 silly decomposeActions postinstall mongodb-connection-string-url@2.0.0
+1336 silly decomposeActions finalize mongodb-connection-string-url@2.0.0
+1337 silly decomposeActions refresh-package-json mongodb-connection-string-url@2.0.0
+1338 silly decomposeActions fetch mongodb@4.1.1
+1339 silly decomposeActions extract mongodb@4.1.1
+1340 silly decomposeActions preinstall mongodb@4.1.1
+1341 silly decomposeActions build mongodb@4.1.1
+1342 silly decomposeActions install mongodb@4.1.1
+1343 silly decomposeActions postinstall mongodb@4.1.1
+1344 silly decomposeActions finalize mongodb@4.1.1
+1345 silly decomposeActions refresh-package-json mongodb@4.1.1
+1346 silly decomposeActions fetch wide-align@1.1.3
+1347 silly decomposeActions extract wide-align@1.1.3
+1348 silly decomposeActions preinstall wide-align@1.1.3
+1349 silly decomposeActions build wide-align@1.1.3
+1350 silly decomposeActions install wide-align@1.1.3
+1351 silly decomposeActions postinstall wide-align@1.1.3
+1352 silly decomposeActions finalize wide-align@1.1.3
+1353 silly decomposeActions refresh-package-json wide-align@1.1.3
+1354 silly decomposeActions fetch gauge@2.7.4
+1355 silly decomposeActions extract gauge@2.7.4
+1356 silly decomposeActions preinstall gauge@2.7.4
+1357 silly decomposeActions build gauge@2.7.4
+1358 silly decomposeActions install gauge@2.7.4
+1359 silly decomposeActions postinstall gauge@2.7.4
+1360 silly decomposeActions finalize gauge@2.7.4
+1361 silly decomposeActions refresh-package-json gauge@2.7.4
+1362 silly decomposeActions fetch npmlog@4.1.2
+1363 silly decomposeActions extract npmlog@4.1.2
+1364 silly decomposeActions preinstall npmlog@4.1.2
+1365 silly decomposeActions build npmlog@4.1.2
+1366 silly decomposeActions install npmlog@4.1.2
+1367 silly decomposeActions postinstall npmlog@4.1.2
+1368 silly decomposeActions finalize npmlog@4.1.2
+1369 silly decomposeActions refresh-package-json npmlog@4.1.2
+1370 silly decomposeActions fetch wrappy@1.0.2
+1371 silly decomposeActions extract wrappy@1.0.2
+1372 silly decomposeActions preinstall wrappy@1.0.2
+1373 silly decomposeActions build wrappy@1.0.2
+1374 silly decomposeActions install wrappy@1.0.2
+1375 silly decomposeActions postinstall wrappy@1.0.2
+1376 silly decomposeActions finalize wrappy@1.0.2
+1377 silly decomposeActions refresh-package-json wrappy@1.0.2
+1378 silly decomposeActions fetch once@1.4.0
+1379 silly decomposeActions extract once@1.4.0
+1380 silly decomposeActions preinstall once@1.4.0
+1381 silly decomposeActions build once@1.4.0
+1382 silly decomposeActions install once@1.4.0
+1383 silly decomposeActions postinstall once@1.4.0
+1384 silly decomposeActions finalize once@1.4.0
+1385 silly decomposeActions refresh-package-json once@1.4.0
+1386 silly decomposeActions fetch inflight@1.0.6
+1387 silly decomposeActions extract inflight@1.0.6
+1388 silly decomposeActions preinstall inflight@1.0.6
+1389 silly decomposeActions build inflight@1.0.6
+1390 silly decomposeActions install inflight@1.0.6
+1391 silly decomposeActions postinstall inflight@1.0.6
+1392 silly decomposeActions finalize inflight@1.0.6
+1393 silly decomposeActions refresh-package-json inflight@1.0.6
+1394 silly decomposeActions fetch glob@7.1.7
+1395 silly decomposeActions extract glob@7.1.7
+1396 silly decomposeActions preinstall glob@7.1.7
+1397 silly decomposeActions build glob@7.1.7
+1398 silly decomposeActions install glob@7.1.7
+1399 silly decomposeActions postinstall glob@7.1.7
+1400 silly decomposeActions finalize glob@7.1.7
+1401 silly decomposeActions refresh-package-json glob@7.1.7
+1402 silly decomposeActions fetch rimraf@3.0.2
+1403 silly decomposeActions extract rimraf@3.0.2
+1404 silly decomposeActions preinstall rimraf@3.0.2
+1405 silly decomposeActions build rimraf@3.0.2
+1406 silly decomposeActions install rimraf@3.0.2
+1407 silly decomposeActions postinstall rimraf@3.0.2
+1408 silly decomposeActions finalize rimraf@3.0.2
+1409 silly decomposeActions refresh-package-json rimraf@3.0.2
+1410 silly decomposeActions fetch xtend@4.0.2
+1411 silly decomposeActions extract xtend@4.0.2
+1412 silly decomposeActions preinstall xtend@4.0.2
+1413 silly decomposeActions build xtend@4.0.2
+1414 silly decomposeActions install xtend@4.0.2
+1415 silly decomposeActions postinstall xtend@4.0.2
+1416 silly decomposeActions finalize xtend@4.0.2
+1417 silly decomposeActions refresh-package-json xtend@4.0.2
+1418 silly decomposeActions fetch yallist@4.0.0
+1419 silly decomposeActions extract yallist@4.0.0
+1420 silly decomposeActions preinstall yallist@4.0.0
+1421 silly decomposeActions build yallist@4.0.0
+1422 silly decomposeActions install yallist@4.0.0
+1423 silly decomposeActions postinstall yallist@4.0.0
+1424 silly decomposeActions finalize yallist@4.0.0
+1425 silly decomposeActions refresh-package-json yallist@4.0.0
+1426 silly decomposeActions fetch lru-cache@6.0.0
+1427 silly decomposeActions extract lru-cache@6.0.0
+1428 silly decomposeActions preinstall lru-cache@6.0.0
+1429 silly decomposeActions build lru-cache@6.0.0
+1430 silly decomposeActions install lru-cache@6.0.0
+1431 silly decomposeActions postinstall lru-cache@6.0.0
+1432 silly decomposeActions finalize lru-cache@6.0.0
+1433 silly decomposeActions refresh-package-json lru-cache@6.0.0
+1434 silly decomposeActions fetch semver@7.3.5
+1435 silly decomposeActions extract semver@7.3.5
+1436 silly decomposeActions preinstall semver@7.3.5
+1437 silly decomposeActions build semver@7.3.5
+1438 silly decomposeActions install semver@7.3.5
+1439 silly decomposeActions postinstall semver@7.3.5
+1440 silly decomposeActions finalize semver@7.3.5
+1441 silly decomposeActions refresh-package-json semver@7.3.5
+1442 silly decomposeActions fetch minipass@3.1.5
+1443 silly decomposeActions extract minipass@3.1.5
+1444 silly decomposeActions preinstall minipass@3.1.5
+1445 silly decomposeActions build minipass@3.1.5
+1446 silly decomposeActions install minipass@3.1.5
+1447 silly decomposeActions postinstall minipass@3.1.5
+1448 silly decomposeActions finalize minipass@3.1.5
+1449 silly decomposeActions refresh-package-json minipass@3.1.5
+1450 silly decomposeActions fetch fs-minipass@2.1.0
+1451 silly decomposeActions extract fs-minipass@2.1.0
+1452 silly decomposeActions preinstall fs-minipass@2.1.0
+1453 silly decomposeActions build fs-minipass@2.1.0
+1454 silly decomposeActions install fs-minipass@2.1.0
+1455 silly decomposeActions postinstall fs-minipass@2.1.0
+1456 silly decomposeActions finalize fs-minipass@2.1.0
+1457 silly decomposeActions refresh-package-json fs-minipass@2.1.0
+1458 silly decomposeActions fetch minizlib@2.1.2
+1459 silly decomposeActions extract minizlib@2.1.2
+1460 silly decomposeActions preinstall minizlib@2.1.2
+1461 silly decomposeActions build minizlib@2.1.2
+1462 silly decomposeActions install minizlib@2.1.2
+1463 silly decomposeActions postinstall minizlib@2.1.2
+1464 silly decomposeActions finalize minizlib@2.1.2
+1465 silly decomposeActions refresh-package-json minizlib@2.1.2
+1466 silly decomposeActions fetch tar@6.1.11
+1467 silly decomposeActions extract tar@6.1.11
+1468 silly decomposeActions preinstall tar@6.1.11
+1469 silly decomposeActions build tar@6.1.11
+1470 silly decomposeActions install tar@6.1.11
+1471 silly decomposeActions postinstall tar@6.1.11
+1472 silly decomposeActions finalize tar@6.1.11
+1473 silly decomposeActions refresh-package-json tar@6.1.11
+1474 silly decomposeActions fetch @mapbox/node-pre-gyp@1.0.5
+1475 silly decomposeActions extract @mapbox/node-pre-gyp@1.0.5
+1476 silly decomposeActions preinstall @mapbox/node-pre-gyp@1.0.5
+1477 silly decomposeActions build @mapbox/node-pre-gyp@1.0.5
+1478 silly decomposeActions install @mapbox/node-pre-gyp@1.0.5
+1479 silly decomposeActions postinstall @mapbox/node-pre-gyp@1.0.5
+1480 silly decomposeActions finalize @mapbox/node-pre-gyp@1.0.5
+1481 silly decomposeActions refresh-package-json @mapbox/node-pre-gyp@1.0.5
+1482 silly decomposeActions fetch bcrypt@5.0.1
+1483 silly decomposeActions extract bcrypt@5.0.1
+1484 silly decomposeActions preinstall bcrypt@5.0.1
+1485 silly decomposeActions build bcrypt@5.0.1
+1486 silly decomposeActions install bcrypt@5.0.1
+1487 silly decomposeActions postinstall bcrypt@5.0.1
+1488 silly decomposeActions finalize bcrypt@5.0.1
+1489 silly decomposeActions refresh-package-json bcrypt@5.0.1
+1490 silly decomposeActions fetch cors@2.8.5
+1491 silly decomposeActions extract cors@2.8.5
+1492 silly decomposeActions preinstall cors@2.8.5
+1493 silly decomposeActions build cors@2.8.5
+1494 silly decomposeActions install cors@2.8.5
+1495 silly decomposeActions postinstall cors@2.8.5
+1496 silly decomposeActions finalize cors@2.8.5
+1497 silly decomposeActions refresh-package-json cors@2.8.5
+1498 silly decomposeActions fetch dotenv@10.0.0
+1499 silly decomposeActions extract dotenv@10.0.0
+1500 silly decomposeActions preinstall dotenv@10.0.0
+1501 silly decomposeActions build dotenv@10.0.0
+1502 silly decomposeActions install dotenv@10.0.0
+1503 silly decomposeActions postinstall dotenv@10.0.0
+1504 silly decomposeActions finalize dotenv@10.0.0
+1505 silly decomposeActions refresh-package-json dotenv@10.0.0
+1506 silly decomposeActions fetch express@4.17.1
+1507 silly decomposeActions extract express@4.17.1
+1508 silly decomposeActions preinstall express@4.17.1
+1509 silly decomposeActions build express@4.17.1
+1510 silly decomposeActions install express@4.17.1
+1511 silly decomposeActions postinstall express@4.17.1
+1512 silly decomposeActions finalize express@4.17.1
+1513 silly decomposeActions refresh-package-json express@4.17.1
+1514 silly decomposeActions fetch fs@0.0.1-security
+1515 silly decomposeActions extract fs@0.0.1-security
+1516 silly decomposeActions preinstall fs@0.0.1-security
+1517 silly decomposeActions build fs@0.0.1-security
+1518 silly decomposeActions install fs@0.0.1-security
+1519 silly decomposeActions postinstall fs@0.0.1-security
+1520 silly decomposeActions finalize fs@0.0.1-security
+1521 silly decomposeActions refresh-package-json fs@0.0.1-security
+1522 silly decomposeActions fetch jsonwebtoken@8.5.1
+1523 silly decomposeActions extract jsonwebtoken@8.5.1
+1524 silly decomposeActions preinstall jsonwebtoken@8.5.1
+1525 silly decomposeActions build jsonwebtoken@8.5.1
+1526 silly decomposeActions install jsonwebtoken@8.5.1
+1527 silly decomposeActions postinstall jsonwebtoken@8.5.1
+1528 silly decomposeActions finalize jsonwebtoken@8.5.1
+1529 silly decomposeActions refresh-package-json jsonwebtoken@8.5.1
+1530 silly decomposeActions fetch mongoose@6.0.6
+1531 silly decomposeActions extract mongoose@6.0.6
+1532 silly decomposeActions preinstall mongoose@6.0.6
+1533 silly decomposeActions build mongoose@6.0.6
+1534 silly decomposeActions install mongoose@6.0.6
+1535 silly decomposeActions postinstall mongoose@6.0.6
+1536 silly decomposeActions finalize mongoose@6.0.6
+1537 silly decomposeActions refresh-package-json mongoose@6.0.6
+1538 silly decomposeActions fetch multer@1.4.3
+1539 silly decomposeActions extract multer@1.4.3
+1540 silly decomposeActions preinstall multer@1.4.3
+1541 silly decomposeActions build multer@1.4.3
+1542 silly decomposeActions install multer@1.4.3
+1543 silly decomposeActions postinstall multer@1.4.3
+1544 silly decomposeActions finalize multer@1.4.3
+1545 silly decomposeActions refresh-package-json multer@1.4.3
+1546 silly install executeActions
+1547 silly doSerial global-install 1352
+1548 verbose correctMkdir C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks correctMkdir not in flight; initializing
+1549 verbose makeCacheDir UID & GID are irrelevant on win32
+1550 verbose lock using C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks\staging-01e27175e07e2c97.lock for C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging
+1551 silly doParallel extract 169
+1552 silly extract @types/node@16.9.2
+1553 silly extract @types/webidl-conversions@6.1.1
+1554 silly extract @types/whatwg-url@8.2.1
+1555 silly extract abbrev@1.1.1
+1556 silly extract ms@2.1.2
+1557 silly extract debug@4.3.2
+1558 silly extract agent-base@6.0.2
+1559 silly extract ansi-regex@2.1.1
+1560 silly extract append-field@1.0.0
+1561 silly extract aproba@1.2.0
+1562 silly extract array-flatten@1.1.1
+1563 silly extract balanced-match@1.0.2
+1564 silly extract base64-js@1.5.1
+1565 silly extract buffer-equal-constant-time@1.0.1
+1566 silly extract buffer-from@1.1.2
+1567 silly extract isarray@0.0.1
+1568 silly extract string_decoder@0.10.31
+1569 silly extract bytes@3.1.0
+1570 silly extract chownr@2.0.0
+1571 silly extract code-point-at@1.1.0
+1572 silly extract concat-map@0.0.1
+1573 silly extract brace-expansion@1.1.11
+1574 silly extract console-control-strings@1.1.0
+1575 silly extract content-type@1.0.4
+1576 silly extract cookie@0.4.0
+1577 silly extract cookie-signature@1.0.6
+1578 silly extract core-util-is@1.0.3
+1579 silly extract delegates@1.0.0
+1580 silly extract denque@1.5.1
+1581 silly extract depd@1.1.2
+1582 silly extract destroy@1.0.4
+1583 silly extract detect-libc@1.0.3
+1584 silly extract isarray@0.0.1
+1585 silly extract string_decoder@0.10.31
+1586 silly extract ee-first@1.1.1
+1587 silly extract encodeurl@1.0.2
+1588 silly extract escape-html@1.0.3
+1589 silly extract etag@1.8.1
+1590 silly extract forwarded@0.2.0
+1591 silly extract fresh@0.5.2
+1592 silly extract fs.realpath@1.0.0
+1593 silly extract has-unicode@2.0.1
+1594 silly extract ms@2.1.2
+1595 silly extract debug@4.3.2
+1596 silly extract https-proxy-agent@5.0.0
+1597 silly extract ieee754@1.2.1
+1598 silly extract buffer@5.7.1
+1599 silly extract bson@4.5.2
+1600 silly extract inherits@2.0.3
+1601 silly extract readable-stream@1.1.14
+1602 silly tarball trying abbrev@1.1.1 by hash: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+1603 silly tarball trying ms@2.1.2 by hash: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+1604 silly tarball trying debug@4.3.2 by hash: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
+1605 silly tarball trying agent-base@6.0.2 by hash: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+1606 silly tarball trying ansi-regex@2.1.1 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+1607 silly tarball trying append-field@1.0.0 by hash: sha1-HjRA6RXwsSA9I3SOeO3XubW0PlY=
+1608 silly tarball trying aproba@1.2.0 by hash: sha512-Y9J6ZjXtoYh8RnXVCMOU/ttDmk1aBjunq9vO0ta5x85WDQiQfUF9sIPBITdbiiIVcBo03Hi3jMxigBtsddlXRw==
+1609 silly tarball trying array-flatten@1.1.1 by hash: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+1610 silly tarball trying balanced-match@1.0.2 by hash: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+1611 silly tarball trying base64-js@1.5.1 by hash: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+1612 silly tarball trying buffer-equal-constant-time@1.0.1 by hash: sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
+1613 silly tarball trying buffer-from@1.1.2 by hash: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
+1614 silly tarball trying isarray@0.0.1 by hash: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+1615 silly tarball trying string_decoder@0.10.31 by hash: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+1616 silly tarball trying bytes@3.1.0 by hash: sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
+1617 silly tarball trying chownr@2.0.0 by hash: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
+1618 silly tarball trying code-point-at@1.1.0 by hash: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+1619 silly tarball trying concat-map@0.0.1 by hash: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+1620 silly tarball trying brace-expansion@1.1.11 by hash: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+1621 silly tarball trying console-control-strings@1.1.0 by hash: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+1622 silly tarball trying content-type@1.0.4 by hash: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
+1623 silly tarball trying cookie@0.4.0 by hash: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
+1624 silly tarball trying cookie-signature@1.0.6 by hash: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+1625 silly tarball trying core-util-is@1.0.3 by hash: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
+1626 silly tarball trying delegates@1.0.0 by hash: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
+1627 silly tarball trying denque@1.5.1 by hash: sha512-XwE+iZ4D6ZUB7mfYRMb5wByE8L74HCn30FBN7sWnXksWc1LO1bPDl67pBR9o/kC4z/xSNAwkMYcGgqDV3BE3Hw==
+1628 silly tarball trying depd@1.1.2 by hash: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+1629 silly tarball trying destroy@1.0.4 by hash: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+1630 silly tarball trying detect-libc@1.0.3 by hash: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+1631 silly tarball trying isarray@0.0.1 by hash: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+1632 silly tarball trying string_decoder@0.10.31 by hash: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+1633 silly tarball trying ee-first@1.1.1 by hash: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+1634 silly tarball trying encodeurl@1.0.2 by hash: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+1635 silly tarball trying escape-html@1.0.3 by hash: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+1636 silly tarball trying etag@1.8.1 by hash: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+1637 silly tarball trying forwarded@0.2.0 by hash: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
+1638 silly tarball trying fresh@0.5.2 by hash: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+1639 silly tarball trying fs.realpath@1.0.0 by hash: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+1640 silly tarball trying has-unicode@2.0.1 by hash: sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=
+1641 silly tarball trying ms@2.1.2 by hash: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+1642 silly tarball trying debug@4.3.2 by hash: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
+1643 silly tarball trying https-proxy-agent@5.0.0 by hash: sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
+1644 silly tarball trying ieee754@1.2.1 by hash: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
+1645 silly tarball trying buffer@5.7.1 by hash: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==
+1646 silly tarball trying bson@4.5.2 by hash: sha512-8CEMJpwc7qlQtrn2rney38jQSEeMar847lz0LyitwRmVknAW8iHXrzW4fTjHfyWm0E3sukyD/zppdH+QU1QefA==
+1647 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+1648 silly tarball trying readable-stream@1.1.14 by hash: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
+1649 silly tarball trying @types/node@16.9.2 by hash: sha512-ZHty/hKoOLZvSz6BtP1g7tc7nUeJhoCf3flLjh8ZEv1vFKBWHXcnMbJMyN/pftSljNyy0kNW/UqI3DccnBnZ8w==
+1650 silly tarball trying @types/webidl-conversions@6.1.1 by hash: sha512-XAahCdThVuCFDQLT7R7Pk/vqeObFNL3YqRyFZg+AqAP/W1/w3xHaIxuW7WszQqTbIBOPRcItYJIou3i/mppu3Q==
+1651 silly tarball trying @types/whatwg-url@8.2.1 by hash: sha512-2YubE1sjj5ifxievI5Ge1sckb9k/Er66HyR2c+3+I6VDUUg1TLPdYYTEbQ+DjRkS4nTxMJhgWfSfMRD2sl2EYQ==
+1652 silly extract @types/webidl-conversions@6.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\@types\webidl-conversions-ce35ad87 (635ms)
+1653 silly extract abbrev@1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\abbrev-0fcab946 (634ms)
+1654 silly extract inherits@2.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\inherits-5b65e4c4 (646ms)
+1655 silly extract ieee754@1.2.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ieee754-6e94f24e (650ms)
+1656 silly extract ms@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-72dc0e54 (665ms)
+1657 silly extract ansi-regex@2.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ansi-regex-5159da03 (665ms)
+1658 silly extract aproba@1.2.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\aproba-2b76d10a (664ms)
+1659 silly extract array-flatten@1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\array-flatten-cbd1432e (663ms)
+1660 silly extract buffer-from@1.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\buffer-from-23d41f7a (662ms)
+1661 silly extract chownr@2.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\chownr-32dce12a (660ms)
+1662 silly extract code-point-at@1.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\code-point-at-9c088811 (660ms)
+1663 silly extract brace-expansion@1.1.11 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\brace-expansion-0d4084bb (659ms)
+1664 silly extract destroy@1.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\destroy-d51f45cf (656ms)
+1665 silly extract ee-first@1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ee-first-cc978fb5 (655ms)
+1666 silly extract escape-html@1.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\escape-html-97ccdb1a (654ms)
+1667 silly extract multer@1.4.3
+1668 silly extract mongoose@6.0.6
+1669 silly extract has-unicode@2.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\has-unicode-8f477e28 (680ms)
+1670 silly extract ms@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-f65ef52b (679ms)
+1671 silly extract string_decoder@0.10.31 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\string_decoder-11297f67 (688ms)
+1672 silly extract bytes@3.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\bytes-75a9b231 (688ms)
+1673 silly extract console-control-strings@1.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\console-control-strings-3ac5a3ab (686ms)
+1674 silly extract content-type@1.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\content-type-63a729d3 (686ms)
+1675 silly extract cookie-signature@1.0.6 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\cookie-signature-263169ef (685ms)
+1676 silly extract string_decoder@0.10.31 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\string_decoder-4916357d (682ms)
+1677 silly extract encodeurl@1.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\encodeurl-f4fdfae4 (681ms)
+1678 silly tarball trying multer@1.4.3 by hash: sha512-np0YLKncuZoTzufbkM6wEKp68EhWJXcU6fq6QqrSwkckd2LlMgd1UqhUJLj6NS/5sZ8dE8LYDWslsltJznnXlg==
+1679 silly tarball trying mongoose@6.0.6 by hash: sha512-8lHgva/q5msZT16KOKDl+26Mh7uzTrmznup0p/TMqDCt7Y41voP7rZ0sTW/6tk2nsrmmMlJzzThJ8vexq7aQtQ==
+1680 silly extract jsonwebtoken@8.5.1
+1681 silly extract fs@0.0.1-security
+1682 silly extract express@4.17.1
+1683 silly extract dotenv@10.0.0
+1684 silly extract cors@2.8.5
+1685 silly extract bcrypt@5.0.1
+1686 silly extract @mapbox/node-pre-gyp@1.0.5
+1687 silly extract tar@6.1.11
+1688 silly extract minizlib@2.1.2
+1689 silly extract fs-minipass@2.1.0
+1690 silly extract minipass@3.1.5
+1691 silly extract semver@7.3.5
+1692 silly extract lru-cache@6.0.0
+1693 silly extract etag@1.8.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\etag-4b2a08e1 (727ms)
+1694 silly extract forwarded@0.2.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\forwarded-7460665d (727ms)
+1695 silly extract fresh@0.5.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\fresh-154f686a (726ms)
+1696 silly extract base64-js@1.5.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\base64-js-871730c9 (736ms)
+1697 silly extract cookie@0.4.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\cookie-99953158 (732ms)
+1698 silly extract denque@1.5.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\denque-961a7a20 (731ms)
+1699 silly tarball trying jsonwebtoken@8.5.1 by hash: sha512-XjwVfRS6jTMsqYs0EsuJ4LGxXV14zQybNd4L2r0UvbVnSF9Af8x7p5MzbJ90Ioz/9TI41/hTCvznF/loiSzn8w==
+1700 silly tarball trying fs@0.0.1-security by hash: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+1701 silly tarball trying express@4.17.1 by hash: sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
+1702 silly tarball trying dotenv@10.0.0 by hash: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+1703 silly tarball trying cors@2.8.5 by hash: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
+1704 silly tarball trying bcrypt@5.0.1 by hash: sha512-9BTgmrhZM2t1bNuDtrtIMVSmmxZBrJ71n8Wg+YgdjHuIWYF7SjjmCPZFB+/5i/o/PIeRpwVJR3P+NrpIItUjqw==
+1705 silly tarball trying tar@6.1.11 by hash: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
+1706 silly tarball trying minizlib@2.1.2 by hash: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==
+1707 silly tarball trying fs-minipass@2.1.0 by hash: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==
+1708 silly tarball trying minipass@3.1.5 by hash: sha512-+8NzxD82XQoNKNrl1d/FSi+X8wAEWR+sbYAfIvub4Nz0d22plFG72CEVVaufV8PNf4qSslFTD8VMOxNVhHCjTw==
+1709 silly tarball trying semver@7.3.5 by hash: sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
+1710 silly tarball trying lru-cache@6.0.0 by hash: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+1711 silly extract yallist@4.0.0
+1712 silly extract xtend@4.0.2
+1713 silly extract rimraf@3.0.2
+1714 silly extract glob@7.1.7
+1715 silly extract inflight@1.0.6
+1716 silly extract once@1.4.0
+1717 silly extract wrappy@1.0.2
+1718 silly extract npmlog@4.1.2
+1719 silly extract gauge@2.7.4
+1720 silly extract fs.realpath@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\fs.realpath-578d5dfd (775ms)
+1721 silly extract buffer-equal-constant-time@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\buffer-equal-constant-time-b4d3530f (784ms)
+1722 silly extract core-util-is@1.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\core-util-is-1cd490d0 (779ms)
+1723 silly tarball trying @mapbox/node-pre-gyp@1.0.5 by hash: sha512-4srsKPXWlIxp5Vbqz5uLfBN+du2fJChBoYn/f2h991WLdk7jUvcSk/McVLSv/X+xQIPI8eGD5GjrnygdyHnhPA==
+1724 silly tarball trying yallist@4.0.0 by hash: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+1725 silly tarball trying xtend@4.0.2 by hash: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+1726 silly tarball trying rimraf@3.0.2 by hash: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
+1727 silly tarball trying glob@7.1.7 by hash: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
+1728 silly tarball trying inflight@1.0.6 by hash: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+1729 silly tarball trying once@1.4.0 by hash: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+1730 silly tarball trying wrappy@1.0.2 by hash: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+1731 silly tarball trying npmlog@4.1.2 by hash: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==
+1732 silly tarball trying gauge@2.7.4 by hash: sha1-LANAXHU4w51+s3sxcCLjJfsBi/c=
+1733 silly extract wide-align@1.1.3
+1734 silly extract mongodb@4.1.1
+1735 silly extract mongodb-connection-string-url@2.0.0
+1736 silly extract whatwg-url@9.1.0
+1737 silly extract webidl-conversions@6.1.0
+1738 silly extract vary@1.1.2
+1739 silly extract balanced-match@1.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\balanced-match-8f2c941a (840ms)
+1740 silly extract isarray@0.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\isarray-b4331de8 (838ms)
+1741 silly extract isarray@0.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\isarray-c2f243b2 (832ms)
+1742 silly tarball trying wide-align@1.1.3 by hash: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
+1743 silly tarball trying mongodb@4.1.1 by hash: sha512-fbACrWEyvr6yl0sSiCGV0sqEiBwTtDJ8iSojmkDjAfw9JnOZSAkUyv9seFSPYhPPKwxp1PDtyjvBNfMDz0WBLQ==
+1744 silly tarball trying mongodb-connection-string-url@2.0.0 by hash: sha512-M0I1vyLoq5+HQTuPSJWbt+hIXsMCfE8sS1fS5mvP9R2DOMoi2ZD32yWqgBIITyu0dFu4qtS50erxKjvUeBiyog==
+1745 silly tarball trying whatwg-url@9.1.0 by hash: sha512-CQ0UcrPHyomtlOCot1TL77WyMIm/bCwrJ2D6AOKGwEczU9EpyoqAokfqrf/MioU9kHcMsmJZcg1egXix2KYEsA==
+1746 silly tarball trying webidl-conversions@6.1.0 by hash: sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
+1747 silly tarball trying vary@1.1.2 by hash: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+1748 silly extract utils-merge@1.0.1
+1749 silly extract concat-stream@1.6.2
+1750 silly extract are-we-there-yet@1.1.7
+1751 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+1752 silly tarball trying concat-stream@1.6.2 by hash: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==
+1753 silly tarball trying are-we-there-yet@1.1.7 by hash: sha512-nxwy40TuMiUGqMyRHgCSWZ9FM4VAoRP4xUYSTv5ImRog+h9yISPbVH7H8fASCIzYn9wlEv4zvFL7uKDMCFQm3g==
+1754 silly extract readable-stream@2.3.7
+1755 silly extract util-deprecate@1.0.2
+1756 silly extract body-parser@1.19.0
+1757 silly tarball trying readable-stream@2.3.7 by hash: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+1758 silly tarball trying util-deprecate@1.0.2 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+1759 silly tarball trying body-parser@1.19.0 by hash: sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
+1760 silly extract debug@4.3.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\debug-49e6552c (1056ms)
+1761 silly extract delegates@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\delegates-2bd07186 (1048ms)
+1762 timing audit submit Completed in 1234ms
+1763 silly extract buffer@5.7.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\buffer-c9351a8d (1103ms)
+1764 silly extract debug@4.3.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\debug-794abef1 (1104ms)
+1765 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 1235ms
+1766 timing audit body Completed in 50ms
+1767 silly extract raw-body@2.4.0
+1768 silly extract finalhandler@1.1.2
+1769 silly extract concat-map@0.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\concat-map-b91901b9 (1162ms)
+1770 silly tarball trying raw-body@2.4.0 by hash: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
+1771 silly tarball trying finalhandler@1.1.2 by hash: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
+1772 silly extract unpipe@1.0.0
+1773 silly extract typedarray@0.0.6
+1774 silly extract append-field@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\append-field-f6e2bc83 (1210ms)
+1775 silly extract detect-libc@1.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\detect-libc-8b7bd502 (1203ms)
+1776 silly tarball trying unpipe@1.0.0 by hash: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+1777 silly tarball trying typedarray@0.0.6 by hash: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+1778 silly extract type-is@1.6.18
+1779 silly tarball trying type-is@1.6.18 by hash: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==
+1780 silly extract tr46@2.1.0
+1781 silly extract serve-static@1.14.1
+1782 silly extract https-proxy-agent@5.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\https-proxy-agent-eb97298f (1306ms)
+1783 silly tarball trying tr46@2.1.0 by hash: sha512-15Ih7phfcdP5YxqiB+iDtLoaTz4Nd35+IiAv0kQ5FNKHzXgdWqPoTIqEDDJmXceQt4JZk6lVPT8lnDlPpGDppw==
+1784 silly tarball trying serve-static@1.14.1 by hash: sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7ecpZs+3mW+XbQZu9QCg==
+1785 silly extract fs@0.0.1-security extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\fs-a3645e08 (630ms)
+1786 silly extract send@0.17.1
+1787 silly tarball trying send@0.17.1 by hash: sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+XjPJcNuE3V4fT9sAg==
+1788 silly extract http-errors@1.7.2
+1789 silly extract fs-minipass@2.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\fs-minipass-deefdcbf (733ms)
+1790 silly extract lru-cache@6.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lru-cache-66cc538f (729ms)
+1791 silly extract inflight@1.0.6 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\inflight-2a4d99c4 (686ms)
+1792 silly extract once@1.4.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\once-79b9c002 (685ms)
+1793 silly extract wrappy@1.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\wrappy-96de9a7b (685ms)
+1794 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
+1795 silly extract wide-align@1.1.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\wide-align-871f8995 (673ms)
+1796 silly extract toidentifier@1.0.0
+1797 silly extract string-width@1.0.2
+1798 silly extract strip-ansi@3.0.1
+1799 silly extract string_decoder@1.1.1
+1800 silly extract busboy@0.2.14
+1801 silly extract minizlib@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\minizlib-f0a8da22 (813ms)
+1802 silly extract yallist@4.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\yallist-19d5573d (769ms)
+1803 silly extract minipass@3.1.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\minipass-86ea4b7b (810ms)
+1804 silly extract vary@1.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\vary-4bc0de2e (706ms)
+1805 silly extract concat-stream@1.6.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\concat-stream-15d243d8 (628ms)
+1806 silly tarball trying toidentifier@1.0.0 by hash: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+1807 silly tarball trying string-width@1.0.2 by hash: sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
+1808 silly tarball trying strip-ansi@3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+1809 silly tarball trying string_decoder@1.1.1 by hash: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+1810 silly tarball trying busboy@0.2.14 by hash: sha1-bCpiLvz0fFe7vh4qnDetNseSVFM=
+1811 silly extract dicer@0.2.5
+1812 silly extract readable-stream@1.1.14 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\readable-stream-01a512b0 (1566ms)
+1813 silly extract xtend@4.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\xtend-cf670125 (806ms)
+1814 silly extract npmlog@4.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\npmlog-72bf457b (802ms)
+1815 silly extract utils-merge@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\utils-merge-23e1fb9f (667ms)
+1816 silly tarball trying dicer@0.2.5 by hash: sha1-WZbAhrszIYyBLAkL3cCc0S+stw8=
+1817 silly extract streamsearch@0.1.2
+1818 silly extract statuses@1.5.0
+1819 silly extract saslprep@1.0.3
+1820 silly extract sparse-bitfield@3.0.3
+1821 silly extract mquery@4.0.0
+1822 silly extract agent-base@6.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\agent-base-8fdc097e (1617ms)
+1823 silly extract rimraf@3.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\rimraf-08bdfb67 (841ms)
+1824 silly extract webidl-conversions@6.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\webidl-conversions-eb0cdb87 (779ms)
+1825 silly tarball trying streamsearch@0.1.2 by hash: sha1-gIudDlb8Jz2Am6VzOOkpkZoanxo=
+1826 silly tarball trying statuses@1.5.0 by hash: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+1827 silly tarball trying saslprep@1.0.3 by hash: sha512-/MY/PEMbk2SuY5sScONwhUDsV2p77Znkb/q3nSVstq/yQzYJOH/Azh29p9oJLsl3LnQwSvZDKagDGBsBwSooag==
+1828 silly tarball trying sparse-bitfield@3.0.3 by hash: sha1-/0rm5oZWBWuks+eSqzM004JzyhE=
+1829 silly tarball trying mquery@4.0.0 by hash: sha512-nGjm89lHja+T/b8cybAby6H0YgA4qYC/lx6UlwvHGqvTq8bDaNeCwl1sY8uRELrNbVWJzIihxVd+vphGGn1vBw==
+1830 silly extract sliced@1.0.1
+1831 silly extract signal-exit@3.0.4
+1832 silly extract sift@13.5.2
+1833 silly extract setprototypeof@1.1.1
+1834 silly extract depd@1.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\depd-95f903e4 (1649ms)
+1835 silly extract util-deprecate@1.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\util-deprecate-c506d088 (655ms)
+1836 silly tarball trying sliced@1.0.1 by hash: sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=
+1837 silly tarball trying signal-exit@3.0.4 by hash: sha512-rqYhcAnZ6d/vTPGghdrw7iumdcbXpsk1b8IG/rz+VWV51DM0p7XCtMoJ3qhPLIbp3tvyt3pKRbaaEMZYpHto8Q==
+1838 silly tarball trying sift@13.5.2 by hash: sha512-+gxdEOMA2J+AI+fVsCqeNn7Tgx3M9ZN9jdi95939l1IJ8cZsqS8sqpJyOkic2SJk+1+98Uwryt/gL6XDaV+UZA==
+1839 silly tarball trying setprototypeof@1.1.1 by hash: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+1840 silly extract set-blocking@2.0.0
+1841 silly extract ms@2.1.1
+1842 silly extract iconv-lite@0.4.24
+1843 silly extract cors@2.8.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\cors-6841e0b3 (985ms)
+1844 silly tarball trying set-blocking@2.0.0 by hash: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
+1845 silly tarball trying ms@2.1.1 by hash: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+1846 silly tarball trying iconv-lite@0.4.24 by hash: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+1847 silly extract safer-buffer@2.1.2
+1848 silly extract jws@3.2.2
+1849 silly extract finalhandler@1.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\finalhandler-54ed21e9 (607ms)
+1850 silly tarball trying safer-buffer@2.1.2 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+1851 silly tarball trying jws@3.2.2 by hash: sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==
+1852 silly extract jwa@1.4.1
+1853 silly extract are-we-there-yet@1.1.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\are-we-there-yet-9ec3546b (911ms)
+1854 silly extract unpipe@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\unpipe-2e8afd1b (619ms)
+1855 silly extract glob@7.1.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\glob-6f100328 (1052ms)
+1856 silly tarball trying jwa@1.4.1 by hash: sha512-qiLX/xhEEFKUAJ6FiBMbes3w9ATzyk5W7Hvzpa/SLYdxNtng+gcurvrI7TbACjIXlsJyr05/S1oUhZrc63evQA==
+1857 silly extract ecdsa-sig-formatter@1.0.11
+1858 silly extract type-is@1.6.18 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\type-is-6e15413e (615ms)
+1859 silly tarball trying ecdsa-sig-formatter@1.0.11 by hash: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==
+1860 silly extract content-disposition@0.5.3
+1861 silly extract safe-buffer@5.1.2
+1862 silly extract regexp-clone@1.0.0
+1863 silly extract raw-body@2.4.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\raw-body-ab846346 (754ms)
+1864 silly tarball trying content-disposition@0.5.3 by hash: sha512-ExO0774ikEObIAEV9kDo50o+79VCUdEB6n6lzKgGwupcVeRlhrj3qGAfwq8G6uBJjkqLrhT0qEYFcWng8z1z0g==
+1865 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+1866 silly tarball trying regexp-clone@1.0.0 by hash: sha512-TuAasHQNamyyJ2hb97IuBEif4qBHGjPHBS64sZwytpLEqtBQ1gPJTnOaQ6qmpET16cK14kkjbazl6+p0RRv0yw==
+1867 silly extract range-parser@1.2.1
+1868 silly tarball trying range-parser@1.2.1 by hash: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+1869 silly extract qs@6.7.0
+1870 silly extract serve-static@1.14.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\serve-static-a30beb6d (691ms)
+1871 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+1872 silly extract punycode@2.1.1
+1873 silly extract multer@1.4.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\multer-e3d30b2d (1406ms)
+1874 silly tarball trying punycode@2.1.1 by hash: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+1875 silly extract mongodb-connection-string-url@2.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mongodb-connection-string-url-8b5d1683 (1310ms)
+1876 silly extract @types/whatwg-url@8.2.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\@types\whatwg-url-c91286ce (2151ms)
+1877 silly extract send@0.17.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\send-73b0a4e5 (749ms)
+1878 silly extract http-errors@1.7.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\http-errors-69be3000 (684ms)
+1879 silly extract toidentifier@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\toidentifier-f3e06578 (609ms)
+1880 silly extract string-width@1.0.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\string-width-9762ec69 (609ms)
+1881 silly extract strip-ansi@3.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\strip-ansi-1df1fce8 (608ms)
+1882 silly extract proxy-addr@2.0.7
+1883 silly tarball trying proxy-addr@2.0.7 by hash: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==
+1884 silly extract process-nextick-args@2.0.1
+1885 silly extract path-to-regexp@0.1.7
+1886 silly extract path-is-absolute@1.0.1
+1887 silly extract parseurl@1.3.3
+1888 silly extract on-finished@2.3.0
+1889 silly extract object-assign@4.1.1
+1890 silly extract jsonwebtoken@8.5.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\jsonwebtoken-dc25a013 (1492ms)
+1891 silly extract dotenv@10.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\dotenv-7a54e36e (1491ms)
+1892 silly extract is-fullwidth-code-point@1.0.0
+1893 silly tarball trying process-nextick-args@2.0.1 by hash: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
+1894 silly tarball trying path-to-regexp@0.1.7 by hash: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+1895 silly tarball trying path-is-absolute@1.0.1 by hash: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+1896 silly tarball trying parseurl@1.3.3 by hash: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
+1897 silly tarball trying on-finished@2.3.0 by hash: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+1898 silly tarball trying object-assign@4.1.1 by hash: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+1899 silly tarball trying is-fullwidth-code-point@1.0.0 by hash: sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
+1900 silly extract number-is-nan@1.0.1
+1901 silly extract nopt@5.0.0
+1902 silly extract sliced@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\sliced-a3af68c8 (649ms)
+1903 silly extract signal-exit@3.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\signal-exit-dc622c91 (648ms)
+1904 silly extract ms@2.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-8d201054 (590ms)
+1905 silly tarball trying number-is-nan@1.0.1 by hash: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+1906 silly tarball trying nopt@5.0.0 by hash: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==
+1907 silly extract string_decoder@1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\string_decoder-190d1dc4 (795ms)
+1908 silly extract streamsearch@0.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\streamsearch-b3f63924 (722ms)
+1909 silly extract sparse-bitfield@3.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\sparse-bitfield-4fc4d3c3 (721ms)
+1910 silly extract set-blocking@2.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\set-blocking-3d2ddb85 (622ms)
+1911 silly extract node-fetch@2.6.2
+1912 silly extract node-addon-api@3.2.1
+1913 silly extract accepts@1.3.7
+1914 silly extract gauge@2.7.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\gauge-72bbffec (1593ms)
+1915 silly tarball trying node-fetch@2.6.2 by hash: sha512-aLoxToI6RfZ+0NOjmWAgn9+LEd30YCkJKFSyWacNZdEKTit/ZMcKjGkTRo8uWEsnIb/hfKecNPEbln02PdWbcA==
+1916 silly tarball trying node-addon-api@3.2.1 by hash: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
+1917 silly extract statuses@1.5.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\statuses-fd0a8043 (781ms)
+1918 silly extract jwa@1.4.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\jwa-995f023d (567ms)
+1919 silly tarball trying accepts@1.3.7 by hash: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
+1920 silly extract negotiator@0.6.2
+1921 silly extract mkdirp@0.5.5
+1922 silly extract debug@2.6.9
+1923 silly extract ms@2.0.0
+1924 silly extract debug@4.3.2
+1925 silly extract body-parser@1.19.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\body-parser-84bd5687 (1437ms)
+1926 silly extract setprototypeof@1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\setprototypeof-63bba302 (783ms)
+1927 silly tarball trying negotiator@0.6.2 by hash: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
+1928 silly tarball trying mkdirp@0.5.5 by hash: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
+1929 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+1930 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+1931 silly tarball trying debug@4.3.2 by hash: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
+1932 silly extract ms@2.1.2
+1933 silly extract mpath@0.8.4
+1934 silly extract typedarray@0.0.6 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\typedarray-2a3f97d1 (1290ms)
+1935 silly tarball trying ms@2.1.2 by hash: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+1936 silly tarball trying mpath@0.8.4 by hash: sha512-DTxNZomBcTWlrMW76jy1wvV37X/cNNxPW1y2Jzd4DZkAaC5ZGsm8bfGfNOthcDuRJujXLqiuS6o3Tpy0JEoh7g==
+1937 silly extract ms@2.1.2
+1938 silly extract mkdirp@1.0.4
+1939 silly extract range-parser@1.2.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\range-parser-0cd219c8 (579ms)
+1940 silly tarball trying ms@2.1.2 by hash: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+1941 silly tarball trying mkdirp@1.0.4 by hash: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+1942 silly extract minimist@1.2.5
+1943 silly extract safer-buffer@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\safer-buffer-32961493 (810ms)
+1944 silly extract safe-buffer@5.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\safe-buffer-06fbcbdb (663ms)
+1945 silly extract content-disposition@0.5.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\content-disposition-e2666cf7 (663ms)
+1946 silly tarball trying minimist@1.2.5 by hash: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+1947 silly extract minimatch@3.0.4
+1948 silly extract whatwg-url@9.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\whatwg-url-6e26e9d7 (1793ms)
+1949 silly tarball trying minimatch@3.0.4 by hash: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+1950 silly extract mime-types@2.1.32
+1951 silly extract mime-db@1.49.0
+1952 silly extract mime@1.6.0
+1953 silly tarball trying mime-types@2.1.32 by hash: sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==
+1954 silly tarball trying mime-db@1.49.0 by hash: sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
+1955 silly tarball trying mime@1.6.0 by hash: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+1956 silly extract methods@1.1.2
+1957 silly tarball trying methods@1.1.2 by hash: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+1958 silly extract jws@3.2.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\jws-3a2614fc (971ms)
+1959 silly extract ecdsa-sig-formatter@1.0.11 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ecdsa-sig-formatter-15bbc126 (870ms)
+1960 silly extract path-is-absolute@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\path-is-absolute-7aac99dc (526ms)
+1961 silly extract object-assign@4.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\object-assign-f75b030a (524ms)
+1962 silly extract process-nextick-args@2.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\process-nextick-args-fe0cd66d (526ms)
+1963 silly extract regexp-clone@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\regexp-clone-b5b3b00d (854ms)
+1964 silly extract proxy-addr@2.0.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\proxy-addr-dd4fbdd4 (585ms)
+1965 silly extract path-to-regexp@0.1.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\path-to-regexp-ea97e227 (555ms)
+1966 silly extract punycode@2.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\punycode-0e11a63d (680ms)
+1967 silly extract parseurl@1.3.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\parseurl-6586c8bf (554ms)
+1968 silly extract on-finished@2.3.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\on-finished-530cec35 (554ms)
+1969 silly extract is-fullwidth-code-point@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\is-fullwidth-code-point-4ab8936e (522ms)
+1970 silly extract merge-descriptors@1.0.1
+1971 silly extract memory-pager@1.5.0
+1972 silly extract media-typer@0.3.0
+1973 silly extract make-dir@3.1.0
+1974 silly extract semver@6.3.0
+1975 silly extract number-is-nan@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\number-is-nan-44818cf8 (503ms)
+1976 silly tarball trying merge-descriptors@1.0.1 by hash: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+1977 silly tarball trying memory-pager@1.5.0 by hash: sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
+1978 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+1979 silly tarball trying make-dir@3.1.0 by hash: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
+1980 silly tarball trying semver@6.3.0 by hash: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
+1981 silly extract lodash.once@4.1.1
+1982 silly extract lodash.isstring@4.0.1
+1983 silly extract lodash.isplainobject@4.0.6
+1984 silly extract lodash.isnumber@3.0.3
+1985 silly extract lodash.isinteger@4.0.4
+1986 silly extract lodash.isboolean@3.0.3
+1987 silly extract lodash.includes@4.3.0
+1988 silly tarball trying lodash.once@4.1.1 by hash: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
+1989 silly tarball trying lodash.isstring@4.0.1 by hash: sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
+1990 silly tarball trying lodash.isplainobject@4.0.6 by hash: sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+1991 silly tarball trying lodash.isnumber@3.0.3 by hash: sha1-POdoEMWSjQM1IwGsKHMX8RwLH/w=
+1992 silly tarball trying lodash.isinteger@4.0.4 by hash: sha1-YZwK89A/iwTDH1iChAt3sRzWg0M=
+1993 silly tarball trying lodash.isboolean@3.0.3 by hash: sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=
+1994 silly tarball trying lodash.includes@4.3.0 by hash: sha1-YLuYqHy5I8aMoeUTJUgzFISfVT8=
+1995 silly extract kareem@2.3.2
+1996 silly extract tr46@2.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\tr46-f79e0bd4 (1587ms)
+1997 silly tarball trying kareem@2.3.2 by hash: sha512-STHz9P7X2L4Kwn72fA4rGyqyXdmrMSdxqHx9IXon/FXluXieaFA6KJ2upcHAHxQPQ0LeM/OjLrhFxifHewOALQ==
+1998 silly extract semver@5.7.1
+1999 silly extract accepts@1.3.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\accepts-a1942c4d (610ms)
+2000 silly extract ms@2.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-ee7660cd (547ms)
+2001 silly tarball trying semver@5.7.1 by hash: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+2002 silly extract ms@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-c9fe5d48 (533ms)
+2003 silly extract ms@2.1.3
+2004 silly extract isarray@1.0.0
+2005 silly extract ms@2.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-0c955322 (526ms)
+2006 silly tarball trying ms@2.1.3 by hash: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+2007 silly tarball trying isarray@1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+2008 silly extract ipaddr.js@1.9.1
+2009 silly extract bcrypt@5.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\bcrypt-c178dc10 (2379ms)
+2010 silly tarball trying ipaddr.js@1.9.1 by hash: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
+2011 silly extract readable-stream@1.1.14
+2012 silly extract express@4.17.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\express-35161ecd (2420ms)
+2013 silly tarball trying readable-stream@1.1.14 by hash: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
+2014 silly extract mkdirp@0.5.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mkdirp-5e08fb04 (748ms)
+2015 silly extract nopt@5.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\nopt-d5dd9101 (945ms)
+2016 silly extract minimatch@3.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\minimatch-de0f2b66 (616ms)
+2017 silly extract debug@4.3.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\debug-ca0cee65 (845ms)
+2018 silly extract methods@1.1.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\methods-ac5161e6 (576ms)
+2019 silly extract tar@6.1.11 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\tar-5d50b525 (2587ms)
+2020 silly extract mime-types@2.1.32 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mime-types-7f8c757e (648ms)
+2021 silly extract negotiator@0.6.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\negotiator-8eac6ebe (904ms)
+2022 silly extract merge-descriptors@1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\merge-descriptors-720cee4a (564ms)
+2023 silly extract media-typer@0.3.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\media-typer-06b924b3 (563ms)
+2024 silly extract make-dir@3.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\make-dir-e39ac442 (563ms)
+2025 silly extract lodash.isstring@4.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.isstring-80bad164 (513ms)
+2026 silly extract lodash.isplainobject@4.0.6 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.isplainobject-bc6f2338 (512ms)
+2027 silly extract lodash.isnumber@3.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.isnumber-a160ad29 (512ms)
+2028 silly extract lodash.once@4.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.once-eb1b6b6f (513ms)
+2029 silly extract lodash.isinteger@4.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.isinteger-eada299f (511ms)
+2030 silly extract lodash.isboolean@3.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.isboolean-7515915b (511ms)
+2031 silly extract memory-pager@1.5.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\memory-pager-28994402 (595ms)
+2032 silly extract lodash.includes@4.3.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\lodash.includes-437e360d (542ms)
+2033 silly extract readable-stream@2.3.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\readable-stream-0d752e82 (2446ms)
+2034 silly extract node-fetch@2.6.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\node-fetch-745ce19f (1089ms)
+2035 silly extract ms@2.1.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ms-58b87f72 (396ms)
+2036 silly extract mkdirp@1.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mkdirp-4c838c39 (937ms)
+2037 silly extract mime@1.6.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mime-3ebe7e2d (836ms)
+2038 silly extract isarray@1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\isarray-03308c18 (453ms)
+2039 silly extract debug@2.6.9 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\debug-8ced453d (1095ms)
+2040 silly extract semver@6.3.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\semver-64bbae6c (728ms)
+2041 silly extract mime-db@1.49.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mime-db-256adf09 (875ms)
+2042 silly extract qs@6.7.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\qs-87d6d3df (1555ms)
+2043 silly extract semver@5.7.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\semver-e515513d (577ms)
+2044 silly extract ipaddr.js@1.9.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ipaddr.js-0190f82a (492ms)
+2045 silly extract saslprep@1.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\saslprep-ea920589 (1985ms)
+2046 silly extract @mapbox/node-pre-gyp@1.0.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\@mapbox\node-pre-gyp-4678b5c6 (2869ms)
+2047 silly extract mpath@0.8.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mpath-ec32c03f (1111ms)
+2048 silly extract minimist@1.2.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\minimist-4a72ec5a (1043ms)
+2049 silly extract sift@13.5.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\sift-f59c2cda (1978ms)
+2050 silly extract kareem@2.3.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\kareem-bc5e92f0 (739ms)
+2051 silly extract semver@7.3.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\semver-1c068df1 (2913ms)
+2052 silly extract mquery@4.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mquery-db14ee11 (2069ms)
+2053 silly extract readable-stream@1.1.14 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\readable-stream-ceb3a140 (536ms)
+2054 silly extract node-addon-api@3.2.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\node-addon-api-8395350f (1324ms)
+2055 silly extract iconv-lite@0.4.24 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\iconv-lite-263fbf24 (1988ms)
+2056 silly extract busboy@0.2.14 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\busboy-c4085560 (2301ms)
+2057 silly extract dicer@0.2.5 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\dicer-ec0a0a78 (2426ms)
+2058 silly extract @types/node@16.9.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\@types\node-eb220f4b (4118ms)
+2059 silly extract bson@4.5.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\bson-52546d58 (4384ms)
+2060 silly extract mongoose@6.0.6 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mongoose-843f8482 (4329ms)
+2061 silly extract mongodb@4.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mongodb-56fed1f6 (4221ms)
+2062 timing action:extract Completed in 5071ms
+2063 silly doReverseSerial unbuild 1352
+2064 silly doSerial remove 1352
+2065 silly doSerial move 1352
+2066 silly doSerial finalize 1352
+2067 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\node
+2068 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\webidl-conversions
+2069 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\whatwg-url
+2070 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\abbrev
+2071 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base\node_modules\ms
+2072 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base\node_modules\debug
+2073 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base
+2074 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ansi-regex
+2075 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\append-field
+2076 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\aproba
+2077 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\array-flatten
+2078 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\balanced-match
+2079 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\base64-js
+2080 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer-equal-constant-time
+2081 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer-from
+2082 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\isarray
+2083 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\string_decoder
+2084 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bytes
+2085 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\chownr
+2086 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\code-point-at
+2087 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\concat-map
+2088 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\brace-expansion
+2089 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\console-control-strings
+2090 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\content-type
+2091 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cookie
+2092 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cookie-signature
+2093 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\core-util-is
+2094 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\delegates
+2095 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\denque
+2096 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\depd
+2097 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\destroy
+2098 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\detect-libc
+2099 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer\node_modules\isarray
+2100 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer\node_modules\string_decoder
+2101 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ee-first
+2102 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\encodeurl
+2103 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\escape-html
+2104 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\etag
+2105 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\forwarded
+2106 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fresh
+2107 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs.realpath
+2108 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\has-unicode
+2109 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent\node_modules\ms
+2110 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent\node_modules\debug
+2111 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent
+2112 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ieee754
+2113 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer
+2114 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bson
+2115 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\inherits
+2116 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\readable-stream
+2117 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer\node_modules\readable-stream
+2118 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ipaddr.js
+2119 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\isarray
+2120 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jsonwebtoken\node_modules\ms
+2121 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jsonwebtoken\node_modules\semver
+2122 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\kareem
+2123 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.includes
+2124 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.isboolean
+2125 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.isinteger
+2126 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.isnumber
+2127 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.isplainobject
+2128 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.isstring
+2129 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lodash.once
+2130 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\make-dir\node_modules\semver
+2131 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\make-dir
+2132 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\media-typer
+2133 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\memory-pager
+2134 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\merge-descriptors
+2135 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\methods
+2136 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mime
+2137 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mime-db
+2138 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mime-types
+2139 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minimatch
+2140 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minimist
+2141 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mkdirp
+2142 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongoose\node_modules\ms
+2143 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mpath
+2144 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery\node_modules\ms
+2145 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery\node_modules\debug
+2146 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ms
+2147 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\debug
+2148 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\multer\node_modules\mkdirp
+2149 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\negotiator
+2150 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\accepts
+2151 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-addon-api
+2152 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-fetch
+2153 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\nopt
+2154 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\number-is-nan
+2155 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\is-fullwidth-code-point
+2156 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\object-assign
+2157 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\on-finished
+2158 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\parseurl
+2159 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\path-is-absolute
+2160 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\path-to-regexp
+2161 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\process-nextick-args
+2162 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\proxy-addr
+2163 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\punycode
+2164 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\qs
+2165 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\range-parser
+2166 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\regexp-clone
+2167 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\safe-buffer
+2168 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\content-disposition
+2169 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ecdsa-sig-formatter
+2170 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jwa
+2171 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jws
+2172 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\safer-buffer
+2173 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\iconv-lite
+2174 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\send\node_modules\ms
+2175 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\set-blocking
+2176 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\setprototypeof
+2177 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sift
+2178 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\signal-exit
+2179 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sliced
+2180 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery
+2181 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sparse-bitfield
+2182 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\saslprep
+2183 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\statuses
+2184 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\streamsearch
+2185 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer
+2186 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy
+2187 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\string_decoder
+2188 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\strip-ansi
+2189 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\string-width
+2190 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\toidentifier
+2191 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\http-errors
+2192 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\send
+2193 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\serve-static
+2194 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tr46
+2195 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\type-is
+2196 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\typedarray
+2197 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\unpipe
+2198 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\finalhandler
+2199 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\raw-body
+2200 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\body-parser
+2201 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\util-deprecate
+2202 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\readable-stream
+2203 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\are-we-there-yet
+2204 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\concat-stream
+2205 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\utils-merge
+2206 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\vary
+2207 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\webidl-conversions
+2208 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\whatwg-url
+2209 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongodb-connection-string-url
+2210 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongodb
+2211 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\wide-align
+2212 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\gauge
+2213 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\npmlog
+2214 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\wrappy
+2215 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\once
+2216 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\inflight
+2217 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\glob
+2218 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\rimraf
+2219 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\xtend
+2220 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\yallist
+2221 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lru-cache
+2222 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\semver
+2223 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minipass
+2224 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs-minipass
+2225 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minizlib
+2226 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar
+2227 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@mapbox\node-pre-gyp
+2228 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt
+2229 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cors
+2230 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dotenv
+2231 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\express
+2232 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs
+2233 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jsonwebtoken
+2234 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongoose
+2235 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\multer
+2236 timing action:finalize Completed in 1328ms
+2237 silly doParallel refresh-package-json 169
+2238 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\node
+2239 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\webidl-conversions
+2240 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@types\whatwg-url
+2241 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\abbrev
+2242 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base\node_modules\ms
+2243 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base\node_modules\debug
+2244 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\agent-base
+2245 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ansi-regex
+2246 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\append-field
+2247 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\aproba
+2248 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\array-flatten
+2249 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\balanced-match
+2250 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\base64-js
+2251 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer-equal-constant-time
+2252 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer-from
+2253 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\isarray
+2254 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\string_decoder
+2255 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bytes
+2256 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\chownr
+2257 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\code-point-at
+2258 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\concat-map
+2259 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\brace-expansion
+2260 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\console-control-strings
+2261 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\content-type
+2262 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cookie
+2263 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cookie-signature
+2264 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\core-util-is
+2265 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\delegates
+2266 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\denque
+2267 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\depd
+2268 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\destroy
+2269 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\detect-libc
+2270 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer\node_modules\isarray
+2271 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer\node_modules\string_decoder
+2272 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ee-first
+2273 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\encodeurl
+2274 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\escape-html
+2275 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\etag
+2276 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\forwarded
+2277 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fresh
+2278 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs.realpath
+2279 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\has-unicode
+2280 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent\node_modules\ms
+2281 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent\node_modules\debug
+2282 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\https-proxy-agent
+2283 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ieee754
+2284 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\buffer
+2285 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bson
+2286 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\inherits
+2287 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy\node_modules\readable-stream
+2288 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\multer
+2289 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongoose
+2290 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jsonwebtoken
+2291 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs
+2292 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\express
+2293 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dotenv
+2294 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\cors
+2295 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt
+2296 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\@mapbox\node-pre-gyp
+2297 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar
+2298 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minizlib
+2299 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs-minipass
+2300 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minipass
+2301 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\semver
+2302 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\lru-cache
+2303 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\yallist
+2304 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\xtend
+2305 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\rimraf
+2306 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\glob
+2307 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\inflight
+2308 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\once
+2309 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\wrappy
+2310 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\npmlog
+2311 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\gauge
+2312 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\wide-align
+2313 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongodb
+2314 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongodb-connection-string-url
+2315 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\whatwg-url
+2316 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\webidl-conversions
+2317 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\vary
+2318 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\utils-merge
+2319 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\concat-stream
+2320 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\are-we-there-yet
+2321 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\readable-stream
+2322 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\util-deprecate
+2323 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\body-parser
+2324 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\raw-body
+2325 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\finalhandler
+2326 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\unpipe
+2327 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\typedarray
+2328 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\type-is
+2329 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tr46
+2330 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\serve-static
+2331 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\send
+2332 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\http-errors
+2333 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\toidentifier
+2334 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\string-width
+2335 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\strip-ansi
+2336 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\string_decoder
+2337 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\busboy
+2338 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\dicer
+2339 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\streamsearch
+2340 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\statuses
+2341 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\saslprep
+2342 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sparse-bitfield
+2343 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery
+2344 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sliced
+2345 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\signal-exit
+2346 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sift
+2347 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\setprototypeof
+2348 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\set-blocking
+2349 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\send\node_modules\ms
+2350 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\iconv-lite
+2351 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\safer-buffer
+2352 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jws
+2353 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\jwa
+2354 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ecdsa-sig-formatter
+2355 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\content-disposition
+2356 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\safe-buffer
+2357 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\regexp-clone
+2358 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\range-parser
+2359 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\qs
+2360 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\punycode
+2361 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\proxy-addr
+2362 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\process-nextick-args
+2363 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\path-to-regexp
+2364 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\path-is-absolute
+2365 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\parseurl
+2366 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\on-finished
+2367 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\object-assign
+2368 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\is-fullwidth-code-point
+2369 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\number-is-nan
+2370 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\nopt
+2371 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-fetch
+2372 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-addon-api
+2373 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\accepts
+2374 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\negotiator
+2375 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\multer\node_modules\mkdirp
+2376 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\debug
+2377 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ms
+2378 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery\node_modules\debug
+2379 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mquery\node_modules\ms
+2380 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mpath
+2381 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mongoose\node_modules\ms
+2382 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mkdirp
+2383 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minimist
+2384 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\minimatch
+2385 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mime-types
+2386 timing action:refresh-package-json Completed in 883ms
+2387 verbose unlock done using C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks\staging-01e27175e07e2c97.lock for C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging
+2388 timing stage:rollbackFailedOptional Completed in 450ms
+2389 timing stage:runTopLevelLifecycles Completed in 9162ms
+2390 silly saveTree bem-km-ipb@1.0.0
+2390 silly saveTree +-- bcrypt@5.0.1
+2390 silly saveTree | +-- @mapbox/node-pre-gyp@1.0.5
+2390 silly saveTree | | +-- detect-libc@1.0.3
+2390 silly saveTree | | +-- https-proxy-agent@5.0.0
+2390 silly saveTree | | | +-- agent-base@6.0.2
+2390 silly saveTree | | | | `-- debug@4.3.2
+2390 silly saveTree | | | |   `-- ms@2.1.2
+2390 silly saveTree | | | `-- debug@4.3.2
+2390 silly saveTree | | |   `-- ms@2.1.2
+2390 silly saveTree | | +-- make-dir@3.1.0
+2390 silly saveTree | | | `-- semver@6.3.0
+2390 silly saveTree | | +-- node-fetch@2.6.2
+2390 silly saveTree | | +-- nopt@5.0.0
+2390 silly saveTree | | | `-- abbrev@1.1.1
+2390 silly saveTree | | +-- npmlog@4.1.2
+2390 silly saveTree | | | +-- are-we-there-yet@1.1.7
+2390 silly saveTree | | | | +-- delegates@1.0.0
+2390 silly saveTree | | | | `-- readable-stream@2.3.7
+2390 silly saveTree | | | |   +-- core-util-is@1.0.3
+2390 silly saveTree | | | |   +-- inherits@2.0.3
+2390 silly saveTree | | | |   +-- isarray@1.0.0
+2390 silly saveTree | | | |   +-- process-nextick-args@2.0.1
+2390 silly saveTree | | | |   +-- safe-buffer@5.1.2
+2390 silly saveTree | | | |   +-- string_decoder@1.1.1
+2390 silly saveTree | | | |   `-- util-deprecate@1.0.2
+2390 silly saveTree | | | +-- console-control-strings@1.1.0
+2390 silly saveTree | | | +-- gauge@2.7.4
+2390 silly saveTree | | | | +-- aproba@1.2.0
+2390 silly saveTree | | | | +-- has-unicode@2.0.1
+2390 silly saveTree | | | | +-- object-assign@4.1.1
+2390 silly saveTree | | | | +-- signal-exit@3.0.4
+2390 silly saveTree | | | | +-- string-width@1.0.2
+2390 silly saveTree | | | | | +-- code-point-at@1.1.0
+2390 silly saveTree | | | | | +-- is-fullwidth-code-point@1.0.0
+2390 silly saveTree | | | | | | `-- number-is-nan@1.0.1
+2390 silly saveTree | | | | | `-- strip-ansi@3.0.1
+2390 silly saveTree | | | | |   `-- ansi-regex@2.1.1
+2390 silly saveTree | | | | +-- strip-ansi@3.0.1
+2390 silly saveTree | | | | `-- wide-align@1.1.3
+2390 silly saveTree | | | `-- set-blocking@2.0.0
+2390 silly saveTree | | +-- rimraf@3.0.2
+2390 silly saveTree | | | `-- glob@7.1.7
+2390 silly saveTree | | |   +-- fs.realpath@1.0.0
+2390 silly saveTree | | |   +-- inflight@1.0.6
+2390 silly saveTree | | |   | +-- once@1.4.0
+2390 silly saveTree | | |   | | `-- wrappy@1.0.2
+2390 silly saveTree | | |   | `-- wrappy@1.0.2
+2390 silly saveTree | | |   +-- minimatch@3.0.4
+2390 silly saveTree | | |   | `-- brace-expansion@1.1.11
+2390 silly saveTree | | |   |   +-- balanced-match@1.0.2
+2390 silly saveTree | | |   |   `-- concat-map@0.0.1
+2390 silly saveTree | | |   +-- once@1.4.0
+2390 silly saveTree | | |   `-- path-is-absolute@1.0.1
+2390 silly saveTree | | +-- semver@7.3.5
+2390 silly saveTree | | | `-- lru-cache@6.0.0
+2390 silly saveTree | | |   `-- yallist@4.0.0
+2390 silly saveTree | | `-- tar@6.1.11
+2390 silly saveTree | |   +-- chownr@2.0.0
+2390 silly saveTree | |   +-- fs-minipass@2.1.0
+2390 silly saveTree | |   | `-- minipass@3.1.5
+2390 silly saveTree | |   +-- minipass@3.1.5
+2390 silly saveTree | |   +-- minizlib@2.1.2
+2390 silly saveTree | |   `-- mkdirp@1.0.4
+2390 silly saveTree | `-- node-addon-api@3.2.1
+2390 silly saveTree +-- cors@2.8.5
+2390 silly saveTree | `-- vary@1.1.2
+2390 silly saveTree +-- dotenv@10.0.0
+2390 silly saveTree +-- express@4.17.1
+2390 silly saveTree | +-- accepts@1.3.7
+2390 silly saveTree | | +-- mime-types@2.1.32
+2390 silly saveTree | | | `-- mime-db@1.49.0
+2390 silly saveTree | | `-- negotiator@0.6.2
+2390 silly saveTree | +-- array-flatten@1.1.1
+2390 silly saveTree | +-- body-parser@1.19.0
+2390 silly saveTree | | +-- bytes@3.1.0
+2390 silly saveTree | | +-- content-type@1.0.4
+2390 silly saveTree | | +-- debug@2.6.9
+2390 silly saveTree | | | `-- ms@2.0.0
+2390 silly saveTree | | +-- depd@1.1.2
+2390 silly saveTree | | +-- http-errors@1.7.2
+2390 silly saveTree | | | +-- setprototypeof@1.1.1
+2390 silly saveTree | | | +-- statuses@1.5.0
+2390 silly saveTree | | | `-- toidentifier@1.0.0
+2390 silly saveTree | | +-- iconv-lite@0.4.24
+2390 silly saveTree | | | `-- safer-buffer@2.1.2
+2390 silly saveTree | | +-- on-finished@2.3.0
+2390 silly saveTree | | | `-- ee-first@1.1.1
+2390 silly saveTree | | +-- qs@6.7.0
+2390 silly saveTree | | +-- raw-body@2.4.0
+2390 silly saveTree | | | `-- unpipe@1.0.0
+2390 silly saveTree | | `-- type-is@1.6.18
+2390 silly saveTree | |   `-- media-typer@0.3.0
+2390 silly saveTree | +-- content-disposition@0.5.3
+2390 silly saveTree | +-- content-type@1.0.4
+2390 silly saveTree | +-- cookie-signature@1.0.6
+2390 silly saveTree | +-- cookie@0.4.0
+2390 silly saveTree | +-- debug@2.6.9
+2390 silly saveTree | +-- depd@1.1.2
+2390 silly saveTree | +-- encodeurl@1.0.2
+2390 silly saveTree | +-- escape-html@1.0.3
+2390 silly saveTree | +-- etag@1.8.1
+2390 silly saveTree | +-- finalhandler@1.1.2
+2390 silly saveTree | | `-- parseurl@1.3.3
+2390 silly saveTree | +-- fresh@0.5.2
+2390 silly saveTree | +-- merge-descriptors@1.0.1
+2390 silly saveTree | +-- methods@1.1.2
+2390 silly saveTree | +-- on-finished@2.3.0
+2390 silly saveTree | +-- parseurl@1.3.3
+2390 silly saveTree | +-- path-to-regexp@0.1.7
+2390 silly saveTree | +-- proxy-addr@2.0.7
+2390 silly saveTree | | +-- forwarded@0.2.0
+2390 silly saveTree | | `-- ipaddr.js@1.9.1
+2390 silly saveTree | +-- qs@6.7.0
+2390 silly saveTree | +-- range-parser@1.2.1
+2390 silly saveTree | +-- send@0.17.1
+2390 silly saveTree | | +-- destroy@1.0.4
+2390 silly saveTree | | +-- mime@1.6.0
+2390 silly saveTree | | `-- ms@2.1.1
+2390 silly saveTree | +-- serve-static@1.14.1
+2390 silly saveTree | +-- setprototypeof@1.1.1
+2390 silly saveTree | +-- statuses@1.5.0
+2390 silly saveTree | +-- type-is@1.6.18
+2390 silly saveTree | `-- utils-merge@1.0.1
+2390 silly saveTree +-- fs@0.0.1-security
+2390 silly saveTree +-- jsonwebtoken@8.5.1
+2390 silly saveTree | +-- jws@3.2.2
+2390 silly saveTree | | `-- jwa@1.4.1
+2390 silly saveTree | |   +-- buffer-equal-constant-time@1.0.1
+2390 silly saveTree | |   `-- ecdsa-sig-formatter@1.0.11
+2390 silly saveTree | +-- lodash.includes@4.3.0
+2390 silly saveTree | +-- lodash.isboolean@3.0.3
+2390 silly saveTree | +-- lodash.isinteger@4.0.4
+2390 silly saveTree | +-- lodash.isnumber@3.0.3
+2390 silly saveTree | +-- lodash.isplainobject@4.0.6
+2390 silly saveTree | +-- lodash.isstring@4.0.1
+2390 silly saveTree | +-- lodash.once@4.1.1
+2390 silly saveTree | +-- ms@2.1.3
+2390 silly saveTree | `-- semver@5.7.1
+2390 silly saveTree +-- mongoose@6.0.6
+2390 silly saveTree | +-- bson@4.5.2
+2390 silly saveTree | | `-- buffer@5.7.1
+2390 silly saveTree | |   +-- base64-js@1.5.1
+2390 silly saveTree | |   `-- ieee754@1.2.1
+2390 silly saveTree | +-- kareem@2.3.2
+2390 silly saveTree | +-- mongodb@4.1.1
+2390 silly saveTree | | +-- denque@1.5.1
+2390 silly saveTree | | +-- mongodb-connection-string-url@2.0.0
+2390 silly saveTree | | | +-- @types/whatwg-url@8.2.1
+2390 silly saveTree | | | | +-- @types/node@16.9.2
+2390 silly saveTree | | | | `-- @types/webidl-conversions@6.1.1
+2390 silly saveTree | | | `-- whatwg-url@9.1.0
+2390 silly saveTree | | |   +-- tr46@2.1.0
+2390 silly saveTree | | |   | `-- punycode@2.1.1
+2390 silly saveTree | | |   `-- webidl-conversions@6.1.0
+2390 silly saveTree | | `-- saslprep@1.0.3
+2390 silly saveTree | |   `-- sparse-bitfield@3.0.3
+2390 silly saveTree | |     `-- memory-pager@1.5.0
+2390 silly saveTree | +-- mpath@0.8.4
+2390 silly saveTree | +-- mquery@4.0.0
+2390 silly saveTree | | +-- debug@4.3.2
+2390 silly saveTree | | | `-- ms@2.1.2
+2390 silly saveTree | | +-- regexp-clone@1.0.0
+2390 silly saveTree | | `-- sliced@1.0.1
+2390 silly saveTree | +-- ms@2.1.2
+2390 silly saveTree | +-- regexp-clone@1.0.0
+2390 silly saveTree | +-- sift@13.5.2
+2390 silly saveTree | `-- sliced@1.0.1
+2390 silly saveTree `-- multer@1.4.3
+2390 silly saveTree   +-- append-field@1.0.0
+2390 silly saveTree   +-- busboy@0.2.14
+2390 silly saveTree   | +-- dicer@0.2.5
+2390 silly saveTree   | | +-- readable-stream@1.1.14
+2390 silly saveTree   | | | +-- isarray@0.0.1
+2390 silly saveTree   | | | `-- string_decoder@0.10.31
+2390 silly saveTree   | | `-- streamsearch@0.1.2
+2390 silly saveTree   | `-- readable-stream@1.1.14
+2390 silly saveTree   |   +-- isarray@0.0.1
+2390 silly saveTree   |   `-- string_decoder@0.10.31
+2390 silly saveTree   +-- concat-stream@1.6.2
+2390 silly saveTree   | +-- buffer-from@1.1.2
+2390 silly saveTree   | `-- typedarray@0.0.6
+2390 silly saveTree   +-- mkdirp@0.5.5
+2390 silly saveTree   | `-- minimist@1.2.5
+2390 silly saveTree   `-- xtend@4.0.2
+2391 warn bem-km-ipb@1.0.0 No description
+2392 warn bem-km-ipb@1.0.0 No repository field.
+2393 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json.212327892' -> 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json'
+2394 verbose cwd C:\Users\Karapai\Documents\work\backend\bem-km-ipb
+2395 verbose Windows_NT 10.0.19043
+2396 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i"
+2397 verbose node v14.16.0
+2398 verbose npm  v6.14.11
+2399 error code EPERM
+2400 error syscall rename
+2401 error path C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json.212327892
+2402 error dest C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json
+2403 error errno -4048
+2404 error Error: EPERM: operation not permitted, rename 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json.212327892' -> 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json'
+2404 error  [OperationalError: EPERM: operation not permitted, rename 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json.212327892' -> 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json'] {
+2404 error   cause: [Error: EPERM: operation not permitted, rename 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json.212327892' -> 'C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bcrypt\package.json'] {
+2404 error     errno: -4048,
+2404 error     code: 'EPERM',
+2404 error     syscall: 'rename',
+2404 error     path: 'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\bcrypt\\package.json.212327892',
+2404 error     dest: 'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\bcrypt\\package.json'
+2404 error   },
+2404 error   errno: -4048,
+2404 error   code: 'EPERM',
+2404 error   syscall: 'rename',
+2404 error   path: 'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\bcrypt\\package.json.212327892',
+2404 error   dest: 'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\bcrypt\\package.json',
+2404 error   parent: 'bem-km-ipb'
+2404 error }
+2405 error The operation was rejected by your operating system.
+2405 error It's possible that the file was already in use (by a text editor or antivirus),
+2405 error or that you lack permissions to access it.
+2405 error
+2405 error If you believe this might be a permissions issue, please double-check the
+2405 error permissions of the file and its containing directories, or try running
+2405 error the command again as root/Administrator.
+2406 verbose exit [ -4048, true ]

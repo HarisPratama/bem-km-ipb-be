@@ -22,6 +22,7 @@ class ArticlesController {
             else sort = -1
 
             const data = await ArticleModel.find({
+                year: req.query.year,
                 $text: { $search: req.query.title }
             })
                 .sort({ title: sort })
@@ -50,7 +51,8 @@ class ArticlesController {
                 title: body.title,
                 desc: body.desc,
                 date: new Date(),
-                files: req.files
+                files: req.files,
+                year: body.year
             }
             const insertArticle = new ArticleModel(newArticle)
             await insertArticle.save()

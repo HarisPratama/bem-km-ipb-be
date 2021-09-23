@@ -1,33 +1,38 @@
-const KambioModel = require("../models/kambio")
+const WofModel = require("../models/wof")
 const { ObjectId } = require('mongodb')
 
-class KambioController {
+class wofController {
 
-    static async getKambio(req, res) {
+    static async getWof(req, res) {
         try {
-            const kambio = await KambioModel.find(
-                { type: req.query.type }
-            )
+            let { academic, skip } = req.query
+
+            if (academic === 'true') academic = true
+            else academic = false
+
+            const wof = await WofModel.find({ academic: academic })
                 .sort({ date: -1 })
-                .skip(req.query.skip)
-                .limit(10)
-            res.status(200).json({ status: 200, ok: true, data: kambio })
+                .skip(+skip)
+                .limit(6)
+
+            res.status(200).json({ status: 200, ok: true, data: wof })
         } catch (error) {
             res.status(500).json({ status: 500, message: 'Oops!! something error' })
         }
     }
 
-    static async getFilterKambio(req, res) {
+    static async getFilterWof(req, res) {
         try {
             let sort
-            if (req.query.category === 'ASC') sort = 1
-            else sort = -1
+            if (req.query.category === 'oldest') sort = -1
+            else sort = 1
 
-            const data = await KambioModel.find({
-                type: req.query.type,
+            const data = await WofModel.find({
+                month: req.query.month,
+                academic: req.query.academic,
                 $text: { $search: req.query.title }
             })
-                .sort({ title: sort })
+                .sort({ date: sort })
                 .skip(+req.query.skip)
                 .limit(6)
             res.status(200).json({ status: 200, ok: true, data: data })
@@ -36,39 +41,38 @@ class KambioController {
         }
     }
 
-    static async getDetailKambio(req, res) {
+    static async getDetailWof(req, res) {
         try {
-            const kambio = await KambioModel.findOne({ _id: ObjectId(req.params.id) })
-            res.status(200).json({ status: 200, ok: true, data: kambio })
+            const wof = await WofModel.findOne({ _id: ObjectId(req.params.id) })
+            res.status(200).json({ status: 200, ok: true, data: wof })
         } catch (error) {
             res.status(500).json({ status: 500, message: 'Oops!! something error' })
         }
     }
 
-    static async postKambio(req, res) {
+    static async postWof(req, res) {
         try {
             const body = JSON.parse(req.body.data)
             const data = {
                 title: body.title,
-                latinName: body.latinName,
                 desc: body.desc,
-                location: body.location,
-                taksonomi: body.taksonomi,
-                type: body.type,
+                name: body.name,
+                month: body.month,
+                academic: body.academic,
                 date: new Date(),
                 files: req.files
             }
-            const insertKambio = new KambioModel(data)
-            await insertKambio.save()
+            const insertwof = new WofModel(data)
+            await insertwof.save()
             res.status(200).json({ status: 200, ok: true, message: 'Success add' })
         } catch (error) {
             res.status(500).json({ status: 500, message: 'Oops!! something error' })
         }
     }
 
-    static async deleteKambio(req, res) {
+    static async deleteWof(req, res) {
         try {
-            await KambioModel.deleteOne({ _id: ObjectId(req.params.id) })
+            await WofModel.deleteOne({ _id: ObjectId(req.params.id) })
             res.status(200).json({ status: 200, ok: true, message: 'Success delete' })
         } catch (error) {
             console.log(error.message);
@@ -78,4 +82,4 @@ class KambioController {
 
 }
 
-module.exports = KambioController
+module.exports = wofController
