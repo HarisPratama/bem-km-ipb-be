@@ -1,0 +1,1511 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sharp'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.16.0
+4 verbose npm-session 26218c9ab30d0b86
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/sharp 1977ms (from cache)
+8 silly pacote tag manifest for sharp@latest fetched in 2013ms
+9 timing stage:loadCurrentTree Completed in 2803ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 8ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 404ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule sharp@0.29.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/prebuild-install 153ms (from cache)
+18 silly pacote range manifest for prebuild-install@^6.1.4 fetched in 166ms
+19 silly resolveWithNewModule prebuild-install@6.1.4 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/node-addon-api 276ms (from cache)
+21 silly pacote range manifest for node-addon-api@^4.1.0 fetched in 279ms
+22 silly resolveWithNewModule node-addon-api@4.2.0 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/color 408ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/tar-fs 401ms (from cache)
+25 silly pacote range manifest for color@^4.0.1 fetched in 417ms
+26 silly resolveWithNewModule color@4.0.1 checking installable status
+27 silly pacote range manifest for tar-fs@^2.1.1 fetched in 407ms
+28 silly resolveWithNewModule tar-fs@2.1.1 checking installable status
+29 http fetch GET 304 https://registry.npmjs.org/simple-get 414ms (from cache)
+30 silly pacote range manifest for simple-get@^3.1.0 fetched in 420ms
+31 silly resolveWithNewModule simple-get@3.1.0 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 427ms (from cache)
+33 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 430ms
+34 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/color-string 105ms (from cache)
+36 silly pacote range manifest for color-string@^1.6.0 fetched in 108ms
+37 silly resolveWithNewModule color-string@1.6.0 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/color-convert 173ms (from cache)
+39 silly pacote range manifest for color-convert@^2.0.1 fetched in 176ms
+40 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/color-name 113ms (from cache)
+42 silly pacote range manifest for color-name@~1.1.4 fetched in 118ms
+43 silly resolveWithNewModule color-name@1.1.4 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/simple-swizzle 122ms (from cache)
+45 silly pacote range manifest for simple-swizzle@^0.2.2 fetched in 126ms
+46 silly resolveWithNewModule simple-swizzle@0.2.2 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/is-arrayish 150ms (from cache)
+48 silly pacote range manifest for is-arrayish@^0.3.1 fetched in 152ms
+49 silly resolveWithNewModule is-arrayish@0.3.2 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/mkdirp-classic 161ms (from cache)
+51 http fetch GET 304 https://registry.npmjs.org/expand-template 165ms (from cache)
+52 http fetch GET 304 https://registry.npmjs.org/node-abi 164ms (from cache)
+53 http fetch GET 304 https://registry.npmjs.org/github-from-package 169ms (from cache)
+54 silly pacote range manifest for mkdirp-classic@^0.5.3 fetched in 172ms
+55 silly resolveWithNewModule mkdirp-classic@0.5.3 checking installable status
+56 silly pacote range manifest for expand-template@^2.0.3 fetched in 177ms
+57 silly resolveWithNewModule expand-template@2.0.3 checking installable status
+58 silly pacote range manifest for node-abi@^2.21.0 fetched in 175ms
+59 silly resolveWithNewModule node-abi@2.30.1 checking installable status
+60 silly pacote version manifest for github-from-package@0.0.0 fetched in 180ms
+61 silly resolveWithNewModule github-from-package@0.0.0 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/pump 178ms (from cache)
+63 http fetch GET 304 https://registry.npmjs.org/rc 181ms (from cache)
+64 silly pacote range manifest for pump@^3.0.0 fetched in 184ms
+65 silly resolveWithNewModule pump@3.0.0 checking installable status
+66 silly pacote range manifest for rc@^1.2.7 fetched in 185ms
+67 silly resolveWithNewModule rc@1.2.8 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/napi-build-utils 364ms (from cache)
+69 silly pacote range manifest for napi-build-utils@^1.0.1 fetched in 366ms
+70 silly resolveWithNewModule napi-build-utils@1.0.2 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/semver 115ms (from cache)
+72 silly pacote range manifest for semver@^5.4.1 fetched in 120ms
+73 silly resolveWithNewModule semver@5.7.1 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/end-of-stream 149ms (from cache)
+75 silly pacote range manifest for end-of-stream@^1.1.0 fetched in 152ms
+76 silly resolveWithNewModule end-of-stream@1.4.4 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 139ms (from cache)
+78 http fetch GET 304 https://registry.npmjs.org/deep-extend 141ms (from cache)
+79 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 143ms
+80 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+81 silly pacote range manifest for deep-extend@^0.6.0 fetched in 146ms
+82 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+83 http fetch GET 304 https://registry.npmjs.org/ini 915ms (from cache)
+84 silly pacote range manifest for ini@~1.3.0 fetched in 919ms
+85 silly resolveWithNewModule ini@1.3.8 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/decompress-response 125ms (from cache)
+87 silly pacote range manifest for decompress-response@^4.2.0 fetched in 129ms
+88 silly resolveWithNewModule decompress-response@4.2.1 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/simple-concat 128ms (from cache)
+90 silly pacote range manifest for simple-concat@^1.0.0 fetched in 130ms
+91 silly resolveWithNewModule simple-concat@1.0.1 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/mimic-response 103ms (from cache)
+93 silly pacote range manifest for mimic-response@^2.0.0 fetched in 106ms
+94 silly resolveWithNewModule mimic-response@2.1.0 checking installable status
+95 http fetch GET 304 https://registry.npmjs.org/tar-stream 132ms (from cache)
+96 silly pacote range manifest for tar-stream@^2.1.4 fetched in 135ms
+97 silly resolveWithNewModule tar-stream@2.2.0 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/chownr 156ms (from cache)
+99 silly pacote range manifest for chownr@^1.1.1 fetched in 160ms
+100 silly resolveWithNewModule chownr@1.1.4 checking installable status
+101 http fetch GET 304 https://registry.npmjs.org/fs-constants 142ms (from cache)
+102 http fetch GET 304 https://registry.npmjs.org/readable-stream 144ms (from cache)
+103 silly pacote range manifest for fs-constants@^1.0.0 fetched in 148ms
+104 silly resolveWithNewModule fs-constants@1.0.0 checking installable status
+105 http fetch GET 304 https://registry.npmjs.org/bl 150ms (from cache)
+106 silly pacote range manifest for readable-stream@^3.1.1 fetched in 152ms
+107 silly resolveWithNewModule readable-stream@3.6.0 checking installable status
+108 silly pacote range manifest for bl@^4.0.3 fetched in 155ms
+109 silly resolveWithNewModule bl@4.1.0 checking installable status
+110 silly pacote range manifest for readable-stream@^3.4.0 fetched in 4ms
+111 silly resolveWithNewModule readable-stream@3.6.0 checking installable status
+112 http fetch GET 304 https://registry.npmjs.org/inherits 117ms (from cache)
+113 silly pacote range manifest for inherits@^2.0.4 fetched in 119ms
+114 silly resolveWithNewModule inherits@2.0.4 checking installable status
+115 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3681ms
+116 timing stage:loadIdealTree Completed in 4223ms
+117 silly currentTree bem-km-ipb@1.0.0
+117 silly currentTree +-- @mapbox/node-pre-gyp@1.0.5
+117 silly currentTree +-- @types/node@16.9.2
+117 silly currentTree +-- @types/webidl-conversions@6.1.1
+117 silly currentTree +-- @types/whatwg-url@8.2.1
+117 silly currentTree +-- abbrev@1.1.1
+117 silly currentTree +-- accepts@1.3.7
+117 silly currentTree +-- agent-base@6.0.2
+117 silly currentTree | +-- debug@4.3.2
+117 silly currentTree | `-- ms@2.1.2
+117 silly currentTree +-- ansi-regex@2.1.1
+117 silly currentTree +-- append-field@1.0.0
+117 silly currentTree +-- aproba@1.2.0
+117 silly currentTree +-- are-we-there-yet@1.1.7
+117 silly currentTree +-- array-flatten@1.1.1
+117 silly currentTree +-- balanced-match@1.0.2
+117 silly currentTree +-- base64-js@1.5.1
+117 silly currentTree +-- bcrypt@5.0.1
+117 silly currentTree +-- body-parser@1.19.0
+117 silly currentTree +-- brace-expansion@1.1.11
+117 silly currentTree +-- bson@4.5.2
+117 silly currentTree +-- buffer-equal-constant-time@1.0.1
+117 silly currentTree +-- buffer-from@1.1.2
+117 silly currentTree +-- buffer@5.7.1
+117 silly currentTree +-- busboy@0.2.14
+117 silly currentTree | +-- isarray@0.0.1
+117 silly currentTree | +-- readable-stream@1.1.14
+117 silly currentTree | `-- string_decoder@0.10.31
+117 silly currentTree +-- bytes@3.1.0
+117 silly currentTree +-- chownr@2.0.0
+117 silly currentTree +-- code-point-at@1.1.0
+117 silly currentTree +-- concat-map@0.0.1
+117 silly currentTree +-- concat-stream@1.6.2
+117 silly currentTree +-- console-control-strings@1.1.0
+117 silly currentTree +-- content-disposition@0.5.3
+117 silly currentTree +-- content-type@1.0.4
+117 silly currentTree +-- cookie-signature@1.0.6
+117 silly currentTree +-- cookie@0.4.0
+117 silly currentTree +-- core-util-is@1.0.3
+117 silly currentTree +-- cors@2.8.5
+117 silly currentTree +-- debug@2.6.9
+117 silly currentTree +-- delegates@1.0.0
+117 silly currentTree +-- denque@1.5.1
+117 silly currentTree +-- depd@1.1.2
+117 silly currentTree +-- destroy@1.0.4
+117 silly currentTree +-- detect-libc@1.0.3
+117 silly currentTree +-- dicer@0.2.5
+117 silly currentTree | +-- isarray@0.0.1
+117 silly currentTree | +-- readable-stream@1.1.14
+117 silly currentTree | `-- string_decoder@0.10.31
+117 silly currentTree +-- dotenv@10.0.0
+117 silly currentTree +-- ecdsa-sig-formatter@1.0.11
+117 silly currentTree +-- ee-first@1.1.1
+117 silly currentTree +-- encodeurl@1.0.2
+117 silly currentTree +-- escape-html@1.0.3
+117 silly currentTree +-- etag@1.8.1
+117 silly currentTree +-- express@4.17.1
+117 silly currentTree +-- finalhandler@1.1.2
+117 silly currentTree +-- forwarded@0.2.0
+117 silly currentTree +-- fresh@0.5.2
+117 silly currentTree +-- fs-minipass@2.1.0
+117 silly currentTree +-- fs.realpath@1.0.0
+117 silly currentTree +-- fs@0.0.1-security
+117 silly currentTree +-- gauge@2.7.4
+117 silly currentTree +-- glob@7.1.7
+117 silly currentTree +-- has-unicode@2.0.1
+117 silly currentTree +-- http-errors@1.7.2
+117 silly currentTree +-- https-proxy-agent@5.0.0
+117 silly currentTree | +-- debug@4.3.2
+117 silly currentTree | `-- ms@2.1.2
+117 silly currentTree +-- iconv-lite@0.4.24
+117 silly currentTree +-- ieee754@1.2.1
+117 silly currentTree +-- inflight@1.0.6
+117 silly currentTree +-- inherits@2.0.3
+117 silly currentTree +-- ipaddr.js@1.9.1
+117 silly currentTree +-- is-fullwidth-code-point@1.0.0
+117 silly currentTree +-- isarray@1.0.0
+117 silly currentTree +-- jsonwebtoken@8.5.1
+117 silly currentTree | +-- ms@2.1.3
+117 silly currentTree | `-- semver@5.7.1
+117 silly currentTree +-- jwa@1.4.1
+117 silly currentTree +-- jws@3.2.2
+117 silly currentTree +-- kareem@2.3.2
+117 silly currentTree +-- lodash.includes@4.3.0
+117 silly currentTree +-- lodash.isboolean@3.0.3
+117 silly currentTree +-- lodash.isinteger@4.0.4
+117 silly currentTree +-- lodash.isnumber@3.0.3
+117 silly currentTree +-- lodash.isplainobject@4.0.6
+117 silly currentTree +-- lodash.isstring@4.0.1
+117 silly currentTree +-- lodash.once@4.1.1
+117 silly currentTree +-- lru-cache@6.0.0
+117 silly currentTree +-- make-dir@3.1.0
+117 silly currentTree | `-- semver@6.3.0
+117 silly currentTree +-- media-typer@0.3.0
+117 silly currentTree +-- memory-pager@1.5.0
+117 silly currentTree +-- merge-descriptors@1.0.1
+117 silly currentTree +-- methods@1.1.2
+117 silly currentTree +-- mime-db@1.49.0
+117 silly currentTree +-- mime-types@2.1.32
+117 silly currentTree +-- mime@1.6.0
+117 silly currentTree +-- minimatch@3.0.4
+117 silly currentTree +-- minimist@1.2.5
+117 silly currentTree +-- minipass@3.1.5
+117 silly currentTree +-- minizlib@2.1.2
+117 silly currentTree +-- mkdirp@1.0.4
+117 silly currentTree +-- mongodb-connection-string-url@2.0.0
+117 silly currentTree +-- mongodb@4.1.1
+117 silly currentTree +-- mongoose@6.0.6
+117 silly currentTree | `-- ms@2.1.2
+117 silly currentTree +-- mpath@0.8.4
+117 silly currentTree +-- mquery@4.0.0
+117 silly currentTree | +-- debug@4.3.2
+117 silly currentTree | `-- ms@2.1.2
+117 silly currentTree +-- ms@2.0.0
+117 silly currentTree +-- multer@1.4.3
+117 silly currentTree | `-- mkdirp@0.5.5
+117 silly currentTree +-- negotiator@0.6.2
+117 silly currentTree +-- node-addon-api@3.2.1
+117 silly currentTree +-- node-fetch@2.6.2
+117 silly currentTree +-- nopt@5.0.0
+117 silly currentTree +-- npmlog@4.1.2
+117 silly currentTree +-- number-is-nan@1.0.1
+117 silly currentTree +-- object-assign@4.1.1
+117 silly currentTree +-- on-finished@2.3.0
+117 silly currentTree +-- once@1.4.0
+117 silly currentTree +-- parseurl@1.3.3
+117 silly currentTree +-- path-is-absolute@1.0.1
+117 silly currentTree +-- path-to-regexp@0.1.7
+117 silly currentTree +-- process-nextick-args@2.0.1
+117 silly currentTree +-- proxy-addr@2.0.7
+117 silly currentTree +-- punycode@2.1.1
+117 silly currentTree +-- qs@6.7.0
+117 silly currentTree +-- range-parser@1.2.1
+117 silly currentTree +-- raw-body@2.4.0
+117 silly currentTree +-- readable-stream@2.3.7
+117 silly currentTree +-- regexp-clone@1.0.0
+117 silly currentTree +-- rimraf@3.0.2
+117 silly currentTree +-- safe-buffer@5.1.2
+117 silly currentTree +-- safer-buffer@2.1.2
+117 silly currentTree +-- saslprep@1.0.3
+117 silly currentTree +-- semver@7.3.5
+117 silly currentTree +-- send@0.17.1
+117 silly currentTree | `-- ms@2.1.1
+117 silly currentTree +-- serve-static@1.14.1
+117 silly currentTree +-- set-blocking@2.0.0
+117 silly currentTree +-- setprototypeof@1.1.1
+117 silly currentTree +-- sift@13.5.2
+117 silly currentTree +-- signal-exit@3.0.4
+117 silly currentTree +-- sliced@1.0.1
+117 silly currentTree +-- sparse-bitfield@3.0.3
+117 silly currentTree +-- statuses@1.5.0
+117 silly currentTree +-- streamsearch@0.1.2
+117 silly currentTree +-- string_decoder@1.1.1
+117 silly currentTree +-- string-width@1.0.2
+117 silly currentTree +-- strip-ansi@3.0.1
+117 silly currentTree +-- tar@6.1.11
+117 silly currentTree +-- toidentifier@1.0.0
+117 silly currentTree +-- tr46@2.1.0
+117 silly currentTree +-- type-is@1.6.18
+117 silly currentTree +-- typedarray@0.0.6
+117 silly currentTree +-- unpipe@1.0.0
+117 silly currentTree +-- util-deprecate@1.0.2
+117 silly currentTree +-- utils-merge@1.0.1
+117 silly currentTree +-- vary@1.1.2
+117 silly currentTree +-- webidl-conversions@6.1.0
+117 silly currentTree +-- whatwg-url@9.1.0
+117 silly currentTree +-- wide-align@1.1.3
+117 silly currentTree +-- wrappy@1.0.2
+117 silly currentTree +-- xtend@4.0.2
+117 silly currentTree `-- yallist@4.0.0
+118 silly idealTree bem-km-ipb@1.0.0
+118 silly idealTree +-- @mapbox/node-pre-gyp@1.0.5
+118 silly idealTree +-- @types/node@16.9.2
+118 silly idealTree +-- @types/webidl-conversions@6.1.1
+118 silly idealTree +-- @types/whatwg-url@8.2.1
+118 silly idealTree +-- abbrev@1.1.1
+118 silly idealTree +-- accepts@1.3.7
+118 silly idealTree +-- agent-base@6.0.2
+118 silly idealTree | +-- debug@4.3.2
+118 silly idealTree | `-- ms@2.1.2
+118 silly idealTree +-- ansi-regex@2.1.1
+118 silly idealTree +-- append-field@1.0.0
+118 silly idealTree +-- aproba@1.2.0
+118 silly idealTree +-- are-we-there-yet@1.1.7
+118 silly idealTree +-- array-flatten@1.1.1
+118 silly idealTree +-- balanced-match@1.0.2
+118 silly idealTree +-- base64-js@1.5.1
+118 silly idealTree +-- bcrypt@5.0.1
+118 silly idealTree +-- bl@4.1.0
+118 silly idealTree | +-- inherits@2.0.4
+118 silly idealTree | `-- readable-stream@3.6.0
+118 silly idealTree +-- body-parser@1.19.0
+118 silly idealTree +-- brace-expansion@1.1.11
+118 silly idealTree +-- bson@4.5.2
+118 silly idealTree +-- buffer-equal-constant-time@1.0.1
+118 silly idealTree +-- buffer-from@1.1.2
+118 silly idealTree +-- buffer@5.7.1
+118 silly idealTree +-- busboy@0.2.14
+118 silly idealTree | +-- isarray@0.0.1
+118 silly idealTree | +-- readable-stream@1.1.14
+118 silly idealTree | `-- string_decoder@0.10.31
+118 silly idealTree +-- bytes@3.1.0
+118 silly idealTree +-- chownr@2.0.0
+118 silly idealTree +-- code-point-at@1.1.0
+118 silly idealTree +-- color-convert@2.0.1
+118 silly idealTree +-- color-name@1.1.4
+118 silly idealTree +-- color-string@1.6.0
+118 silly idealTree +-- color@4.0.1
+118 silly idealTree +-- concat-map@0.0.1
+118 silly idealTree +-- concat-stream@1.6.2
+118 silly idealTree +-- console-control-strings@1.1.0
+118 silly idealTree +-- content-disposition@0.5.3
+118 silly idealTree +-- content-type@1.0.4
+118 silly idealTree +-- cookie-signature@1.0.6
+118 silly idealTree +-- cookie@0.4.0
+118 silly idealTree +-- core-util-is@1.0.3
+118 silly idealTree +-- cors@2.8.5
+118 silly idealTree +-- debug@2.6.9
+118 silly idealTree +-- decompress-response@4.2.1
+118 silly idealTree +-- deep-extend@0.6.0
+118 silly idealTree +-- delegates@1.0.0
+118 silly idealTree +-- denque@1.5.1
+118 silly idealTree +-- depd@1.1.2
+118 silly idealTree +-- destroy@1.0.4
+118 silly idealTree +-- detect-libc@1.0.3
+118 silly idealTree +-- dicer@0.2.5
+118 silly idealTree | +-- isarray@0.0.1
+118 silly idealTree | +-- readable-stream@1.1.14
+118 silly idealTree | `-- string_decoder@0.10.31
+118 silly idealTree +-- dotenv@10.0.0
+118 silly idealTree +-- ecdsa-sig-formatter@1.0.11
+118 silly idealTree +-- ee-first@1.1.1
+118 silly idealTree +-- encodeurl@1.0.2
+118 silly idealTree +-- end-of-stream@1.4.4
+118 silly idealTree +-- escape-html@1.0.3
+118 silly idealTree +-- etag@1.8.1
+118 silly idealTree +-- expand-template@2.0.3
+118 silly idealTree +-- express@4.17.1
+118 silly idealTree +-- finalhandler@1.1.2
+118 silly idealTree +-- forwarded@0.2.0
+118 silly idealTree +-- fresh@0.5.2
+118 silly idealTree +-- fs-constants@1.0.0
+118 silly idealTree +-- fs-minipass@2.1.0
+118 silly idealTree +-- fs.realpath@1.0.0
+118 silly idealTree +-- fs@0.0.1-security
+118 silly idealTree +-- gauge@2.7.4
+118 silly idealTree +-- github-from-package@0.0.0
+118 silly idealTree +-- glob@7.1.7
+118 silly idealTree +-- has-unicode@2.0.1
+118 silly idealTree +-- http-errors@1.7.2
+118 silly idealTree +-- https-proxy-agent@5.0.0
+118 silly idealTree | +-- debug@4.3.2
+118 silly idealTree | `-- ms@2.1.2
+118 silly idealTree +-- iconv-lite@0.4.24
+118 silly idealTree +-- ieee754@1.2.1
+118 silly idealTree +-- inflight@1.0.6
+118 silly idealTree +-- inherits@2.0.3
+118 silly idealTree +-- ini@1.3.8
+118 silly idealTree +-- ipaddr.js@1.9.1
+118 silly idealTree +-- is-arrayish@0.3.2
+118 silly idealTree +-- is-fullwidth-code-point@1.0.0
+118 silly idealTree +-- isarray@1.0.0
+118 silly idealTree +-- jsonwebtoken@8.5.1
+118 silly idealTree | +-- ms@2.1.3
+118 silly idealTree | `-- semver@5.7.1
+118 silly idealTree +-- jwa@1.4.1
+118 silly idealTree +-- jws@3.2.2
+118 silly idealTree +-- kareem@2.3.2
+118 silly idealTree +-- lodash.includes@4.3.0
+118 silly idealTree +-- lodash.isboolean@3.0.3
+118 silly idealTree +-- lodash.isinteger@4.0.4
+118 silly idealTree +-- lodash.isnumber@3.0.3
+118 silly idealTree +-- lodash.isplainobject@4.0.6
+118 silly idealTree +-- lodash.isstring@4.0.1
+118 silly idealTree +-- lodash.once@4.1.1
+118 silly idealTree +-- lru-cache@6.0.0
+118 silly idealTree +-- make-dir@3.1.0
+118 silly idealTree | `-- semver@6.3.0
+118 silly idealTree +-- media-typer@0.3.0
+118 silly idealTree +-- memory-pager@1.5.0
+118 silly idealTree +-- merge-descriptors@1.0.1
+118 silly idealTree +-- methods@1.1.2
+118 silly idealTree +-- mime-db@1.49.0
+118 silly idealTree +-- mime-types@2.1.32
+118 silly idealTree +-- mime@1.6.0
+118 silly idealTree +-- mimic-response@2.1.0
+118 silly idealTree +-- minimatch@3.0.4
+118 silly idealTree +-- minimist@1.2.5
+118 silly idealTree +-- minipass@3.1.5
+118 silly idealTree +-- minizlib@2.1.2
+118 silly idealTree +-- mkdirp-classic@0.5.3
+118 silly idealTree +-- mkdirp@1.0.4
+118 silly idealTree +-- mongodb-connection-string-url@2.0.0
+118 silly idealTree +-- mongodb@4.1.1
+118 silly idealTree +-- mongoose@6.0.6
+118 silly idealTree | `-- ms@2.1.2
+118 silly idealTree +-- mpath@0.8.4
+118 silly idealTree +-- mquery@4.0.0
+118 silly idealTree | +-- debug@4.3.2
+118 silly idealTree | `-- ms@2.1.2
+118 silly idealTree +-- ms@2.0.0
+118 silly idealTree +-- multer@1.4.3
+118 silly idealTree | `-- mkdirp@0.5.5
+118 silly idealTree +-- napi-build-utils@1.0.2
+118 silly idealTree +-- negotiator@0.6.2
+118 silly idealTree +-- node-abi@2.30.1
+118 silly idealTree | `-- semver@5.7.1
+118 silly idealTree +-- node-addon-api@3.2.1
+118 silly idealTree +-- node-fetch@2.6.2
+118 silly idealTree +-- nopt@5.0.0
+118 silly idealTree +-- npmlog@4.1.2
+118 silly idealTree +-- number-is-nan@1.0.1
+118 silly idealTree +-- object-assign@4.1.1
+118 silly idealTree +-- on-finished@2.3.0
+118 silly idealTree +-- once@1.4.0
+118 silly idealTree +-- parseurl@1.3.3
+118 silly idealTree +-- path-is-absolute@1.0.1
+118 silly idealTree +-- path-to-regexp@0.1.7
+118 silly idealTree +-- prebuild-install@6.1.4
+118 silly idealTree +-- process-nextick-args@2.0.1
+118 silly idealTree +-- proxy-addr@2.0.7
+118 silly idealTree +-- pump@3.0.0
+118 silly idealTree +-- punycode@2.1.1
+118 silly idealTree +-- qs@6.7.0
+118 silly idealTree +-- range-parser@1.2.1
+118 silly idealTree +-- raw-body@2.4.0
+118 silly idealTree +-- rc@1.2.8
+118 silly idealTree +-- readable-stream@2.3.7
+118 silly idealTree +-- regexp-clone@1.0.0
+118 silly idealTree +-- rimraf@3.0.2
+118 silly idealTree +-- safe-buffer@5.1.2
+118 silly idealTree +-- safer-buffer@2.1.2
+118 silly idealTree +-- saslprep@1.0.3
+118 silly idealTree +-- semver@7.3.5
+118 silly idealTree +-- send@0.17.1
+118 silly idealTree | `-- ms@2.1.1
+118 silly idealTree +-- serve-static@1.14.1
+118 silly idealTree +-- set-blocking@2.0.0
+118 silly idealTree +-- setprototypeof@1.1.1
+118 silly idealTree +-- sharp@0.29.1
+118 silly idealTree | `-- node-addon-api@4.2.0
+118 silly idealTree +-- sift@13.5.2
+118 silly idealTree +-- signal-exit@3.0.4
+118 silly idealTree +-- simple-concat@1.0.1
+118 silly idealTree +-- simple-get@3.1.0
+118 silly idealTree +-- simple-swizzle@0.2.2
+118 silly idealTree +-- sliced@1.0.1
+118 silly idealTree +-- sparse-bitfield@3.0.3
+118 silly idealTree +-- statuses@1.5.0
+118 silly idealTree +-- streamsearch@0.1.2
+118 silly idealTree +-- string_decoder@1.1.1
+118 silly idealTree +-- string-width@1.0.2
+118 silly idealTree +-- strip-ansi@3.0.1
+118 silly idealTree +-- strip-json-comments@2.0.1
+118 silly idealTree +-- tar-fs@2.1.1
+118 silly idealTree | `-- chownr@1.1.4
+118 silly idealTree +-- tar-stream@2.2.0
+118 silly idealTree | `-- readable-stream@3.6.0
+118 silly idealTree +-- tar@6.1.11
+118 silly idealTree +-- toidentifier@1.0.0
+118 silly idealTree +-- tr46@2.1.0
+118 silly idealTree +-- tunnel-agent@0.6.0
+118 silly idealTree +-- type-is@1.6.18
+118 silly idealTree +-- typedarray@0.0.6
+118 silly idealTree +-- unpipe@1.0.0
+118 silly idealTree +-- util-deprecate@1.0.2
+118 silly idealTree +-- utils-merge@1.0.1
+118 silly idealTree +-- vary@1.1.2
+118 silly idealTree +-- webidl-conversions@6.1.0
+118 silly idealTree +-- whatwg-url@9.1.0
+118 silly idealTree +-- wide-align@1.1.3
+118 silly idealTree +-- wrappy@1.0.2
+118 silly idealTree +-- xtend@4.0.2
+118 silly idealTree `-- yallist@4.0.0
+119 silly install generateActionsToTake
+120 timing stage:generateActionsToTake Completed in 52ms
+121 silly diffTrees action count 34
+122 silly diffTrees add inherits@2.0.4
+123 silly diffTrees add readable-stream@3.6.0
+124 silly diffTrees add bl@4.1.0
+125 silly diffTrees add color-name@1.1.4
+126 silly diffTrees add color-convert@2.0.1
+127 silly diffTrees add deep-extend@0.6.0
+128 silly diffTrees add end-of-stream@1.4.4
+129 silly diffTrees add expand-template@2.0.3
+130 silly diffTrees add fs-constants@1.0.0
+131 silly diffTrees add github-from-package@0.0.0
+132 silly diffTrees add ini@1.3.8
+133 silly diffTrees add is-arrayish@0.3.2
+134 silly diffTrees add mimic-response@2.1.0
+135 silly diffTrees add decompress-response@4.2.1
+136 silly diffTrees add mkdirp-classic@0.5.3
+137 silly diffTrees add napi-build-utils@1.0.2
+138 silly diffTrees add semver@5.7.1
+139 silly diffTrees add node-abi@2.30.1
+140 silly diffTrees add pump@3.0.0
+141 silly diffTrees add simple-concat@1.0.1
+142 silly diffTrees add simple-get@3.1.0
+143 silly diffTrees add simple-swizzle@0.2.2
+144 silly diffTrees add color-string@1.6.0
+145 silly diffTrees add strip-json-comments@2.0.1
+146 silly diffTrees add rc@1.2.8
+147 silly diffTrees add chownr@1.1.4
+148 silly diffTrees add readable-stream@3.6.0
+149 silly diffTrees add tar-stream@2.2.0
+150 silly diffTrees add tar-fs@2.1.1
+151 silly diffTrees add tunnel-agent@0.6.0
+152 silly diffTrees add color@4.0.1
+153 silly diffTrees add prebuild-install@6.1.4
+154 silly diffTrees add node-addon-api@4.2.0
+155 silly diffTrees add sharp@0.29.1
+156 silly decomposeActions action count 272
+157 silly decomposeActions fetch inherits@2.0.4
+158 silly decomposeActions extract inherits@2.0.4
+159 silly decomposeActions preinstall inherits@2.0.4
+160 silly decomposeActions build inherits@2.0.4
+161 silly decomposeActions install inherits@2.0.4
+162 silly decomposeActions postinstall inherits@2.0.4
+163 silly decomposeActions finalize inherits@2.0.4
+164 silly decomposeActions refresh-package-json inherits@2.0.4
+165 silly decomposeActions fetch readable-stream@3.6.0
+166 silly decomposeActions extract readable-stream@3.6.0
+167 silly decomposeActions preinstall readable-stream@3.6.0
+168 silly decomposeActions build readable-stream@3.6.0
+169 silly decomposeActions install readable-stream@3.6.0
+170 silly decomposeActions postinstall readable-stream@3.6.0
+171 silly decomposeActions finalize readable-stream@3.6.0
+172 silly decomposeActions refresh-package-json readable-stream@3.6.0
+173 silly decomposeActions fetch bl@4.1.0
+174 silly decomposeActions extract bl@4.1.0
+175 silly decomposeActions preinstall bl@4.1.0
+176 silly decomposeActions build bl@4.1.0
+177 silly decomposeActions install bl@4.1.0
+178 silly decomposeActions postinstall bl@4.1.0
+179 silly decomposeActions finalize bl@4.1.0
+180 silly decomposeActions refresh-package-json bl@4.1.0
+181 silly decomposeActions fetch color-name@1.1.4
+182 silly decomposeActions extract color-name@1.1.4
+183 silly decomposeActions preinstall color-name@1.1.4
+184 silly decomposeActions build color-name@1.1.4
+185 silly decomposeActions install color-name@1.1.4
+186 silly decomposeActions postinstall color-name@1.1.4
+187 silly decomposeActions finalize color-name@1.1.4
+188 silly decomposeActions refresh-package-json color-name@1.1.4
+189 silly decomposeActions fetch color-convert@2.0.1
+190 silly decomposeActions extract color-convert@2.0.1
+191 silly decomposeActions preinstall color-convert@2.0.1
+192 silly decomposeActions build color-convert@2.0.1
+193 silly decomposeActions install color-convert@2.0.1
+194 silly decomposeActions postinstall color-convert@2.0.1
+195 silly decomposeActions finalize color-convert@2.0.1
+196 silly decomposeActions refresh-package-json color-convert@2.0.1
+197 silly decomposeActions fetch deep-extend@0.6.0
+198 silly decomposeActions extract deep-extend@0.6.0
+199 silly decomposeActions preinstall deep-extend@0.6.0
+200 silly decomposeActions build deep-extend@0.6.0
+201 silly decomposeActions install deep-extend@0.6.0
+202 silly decomposeActions postinstall deep-extend@0.6.0
+203 silly decomposeActions finalize deep-extend@0.6.0
+204 silly decomposeActions refresh-package-json deep-extend@0.6.0
+205 silly decomposeActions fetch end-of-stream@1.4.4
+206 silly decomposeActions extract end-of-stream@1.4.4
+207 silly decomposeActions preinstall end-of-stream@1.4.4
+208 silly decomposeActions build end-of-stream@1.4.4
+209 silly decomposeActions install end-of-stream@1.4.4
+210 silly decomposeActions postinstall end-of-stream@1.4.4
+211 silly decomposeActions finalize end-of-stream@1.4.4
+212 silly decomposeActions refresh-package-json end-of-stream@1.4.4
+213 silly decomposeActions fetch expand-template@2.0.3
+214 silly decomposeActions extract expand-template@2.0.3
+215 silly decomposeActions preinstall expand-template@2.0.3
+216 silly decomposeActions build expand-template@2.0.3
+217 silly decomposeActions install expand-template@2.0.3
+218 silly decomposeActions postinstall expand-template@2.0.3
+219 silly decomposeActions finalize expand-template@2.0.3
+220 silly decomposeActions refresh-package-json expand-template@2.0.3
+221 silly decomposeActions fetch fs-constants@1.0.0
+222 silly decomposeActions extract fs-constants@1.0.0
+223 silly decomposeActions preinstall fs-constants@1.0.0
+224 silly decomposeActions build fs-constants@1.0.0
+225 silly decomposeActions install fs-constants@1.0.0
+226 silly decomposeActions postinstall fs-constants@1.0.0
+227 silly decomposeActions finalize fs-constants@1.0.0
+228 silly decomposeActions refresh-package-json fs-constants@1.0.0
+229 silly decomposeActions fetch github-from-package@0.0.0
+230 silly decomposeActions extract github-from-package@0.0.0
+231 silly decomposeActions preinstall github-from-package@0.0.0
+232 silly decomposeActions build github-from-package@0.0.0
+233 silly decomposeActions install github-from-package@0.0.0
+234 silly decomposeActions postinstall github-from-package@0.0.0
+235 silly decomposeActions finalize github-from-package@0.0.0
+236 silly decomposeActions refresh-package-json github-from-package@0.0.0
+237 silly decomposeActions fetch ini@1.3.8
+238 silly decomposeActions extract ini@1.3.8
+239 silly decomposeActions preinstall ini@1.3.8
+240 silly decomposeActions build ini@1.3.8
+241 silly decomposeActions install ini@1.3.8
+242 silly decomposeActions postinstall ini@1.3.8
+243 silly decomposeActions finalize ini@1.3.8
+244 silly decomposeActions refresh-package-json ini@1.3.8
+245 silly decomposeActions fetch is-arrayish@0.3.2
+246 silly decomposeActions extract is-arrayish@0.3.2
+247 silly decomposeActions preinstall is-arrayish@0.3.2
+248 silly decomposeActions build is-arrayish@0.3.2
+249 silly decomposeActions install is-arrayish@0.3.2
+250 silly decomposeActions postinstall is-arrayish@0.3.2
+251 silly decomposeActions finalize is-arrayish@0.3.2
+252 silly decomposeActions refresh-package-json is-arrayish@0.3.2
+253 silly decomposeActions fetch mimic-response@2.1.0
+254 silly decomposeActions extract mimic-response@2.1.0
+255 silly decomposeActions preinstall mimic-response@2.1.0
+256 silly decomposeActions build mimic-response@2.1.0
+257 silly decomposeActions install mimic-response@2.1.0
+258 silly decomposeActions postinstall mimic-response@2.1.0
+259 silly decomposeActions finalize mimic-response@2.1.0
+260 silly decomposeActions refresh-package-json mimic-response@2.1.0
+261 silly decomposeActions fetch decompress-response@4.2.1
+262 silly decomposeActions extract decompress-response@4.2.1
+263 silly decomposeActions preinstall decompress-response@4.2.1
+264 silly decomposeActions build decompress-response@4.2.1
+265 silly decomposeActions install decompress-response@4.2.1
+266 silly decomposeActions postinstall decompress-response@4.2.1
+267 silly decomposeActions finalize decompress-response@4.2.1
+268 silly decomposeActions refresh-package-json decompress-response@4.2.1
+269 silly decomposeActions fetch mkdirp-classic@0.5.3
+270 silly decomposeActions extract mkdirp-classic@0.5.3
+271 silly decomposeActions preinstall mkdirp-classic@0.5.3
+272 silly decomposeActions build mkdirp-classic@0.5.3
+273 silly decomposeActions install mkdirp-classic@0.5.3
+274 silly decomposeActions postinstall mkdirp-classic@0.5.3
+275 silly decomposeActions finalize mkdirp-classic@0.5.3
+276 silly decomposeActions refresh-package-json mkdirp-classic@0.5.3
+277 silly decomposeActions fetch napi-build-utils@1.0.2
+278 silly decomposeActions extract napi-build-utils@1.0.2
+279 silly decomposeActions preinstall napi-build-utils@1.0.2
+280 silly decomposeActions build napi-build-utils@1.0.2
+281 silly decomposeActions install napi-build-utils@1.0.2
+282 silly decomposeActions postinstall napi-build-utils@1.0.2
+283 silly decomposeActions finalize napi-build-utils@1.0.2
+284 silly decomposeActions refresh-package-json napi-build-utils@1.0.2
+285 silly decomposeActions fetch semver@5.7.1
+286 silly decomposeActions extract semver@5.7.1
+287 silly decomposeActions preinstall semver@5.7.1
+288 silly decomposeActions build semver@5.7.1
+289 silly decomposeActions install semver@5.7.1
+290 silly decomposeActions postinstall semver@5.7.1
+291 silly decomposeActions finalize semver@5.7.1
+292 silly decomposeActions refresh-package-json semver@5.7.1
+293 silly decomposeActions fetch node-abi@2.30.1
+294 silly decomposeActions extract node-abi@2.30.1
+295 silly decomposeActions preinstall node-abi@2.30.1
+296 silly decomposeActions build node-abi@2.30.1
+297 silly decomposeActions install node-abi@2.30.1
+298 silly decomposeActions postinstall node-abi@2.30.1
+299 silly decomposeActions finalize node-abi@2.30.1
+300 silly decomposeActions refresh-package-json node-abi@2.30.1
+301 silly decomposeActions fetch pump@3.0.0
+302 silly decomposeActions extract pump@3.0.0
+303 silly decomposeActions preinstall pump@3.0.0
+304 silly decomposeActions build pump@3.0.0
+305 silly decomposeActions install pump@3.0.0
+306 silly decomposeActions postinstall pump@3.0.0
+307 silly decomposeActions finalize pump@3.0.0
+308 silly decomposeActions refresh-package-json pump@3.0.0
+309 silly decomposeActions fetch simple-concat@1.0.1
+310 silly decomposeActions extract simple-concat@1.0.1
+311 silly decomposeActions preinstall simple-concat@1.0.1
+312 silly decomposeActions build simple-concat@1.0.1
+313 silly decomposeActions install simple-concat@1.0.1
+314 silly decomposeActions postinstall simple-concat@1.0.1
+315 silly decomposeActions finalize simple-concat@1.0.1
+316 silly decomposeActions refresh-package-json simple-concat@1.0.1
+317 silly decomposeActions fetch simple-get@3.1.0
+318 silly decomposeActions extract simple-get@3.1.0
+319 silly decomposeActions preinstall simple-get@3.1.0
+320 silly decomposeActions build simple-get@3.1.0
+321 silly decomposeActions install simple-get@3.1.0
+322 silly decomposeActions postinstall simple-get@3.1.0
+323 silly decomposeActions finalize simple-get@3.1.0
+324 silly decomposeActions refresh-package-json simple-get@3.1.0
+325 silly decomposeActions fetch simple-swizzle@0.2.2
+326 silly decomposeActions extract simple-swizzle@0.2.2
+327 silly decomposeActions preinstall simple-swizzle@0.2.2
+328 silly decomposeActions build simple-swizzle@0.2.2
+329 silly decomposeActions install simple-swizzle@0.2.2
+330 silly decomposeActions postinstall simple-swizzle@0.2.2
+331 silly decomposeActions finalize simple-swizzle@0.2.2
+332 silly decomposeActions refresh-package-json simple-swizzle@0.2.2
+333 silly decomposeActions fetch color-string@1.6.0
+334 silly decomposeActions extract color-string@1.6.0
+335 silly decomposeActions preinstall color-string@1.6.0
+336 silly decomposeActions build color-string@1.6.0
+337 silly decomposeActions install color-string@1.6.0
+338 silly decomposeActions postinstall color-string@1.6.0
+339 silly decomposeActions finalize color-string@1.6.0
+340 silly decomposeActions refresh-package-json color-string@1.6.0
+341 silly decomposeActions fetch strip-json-comments@2.0.1
+342 silly decomposeActions extract strip-json-comments@2.0.1
+343 silly decomposeActions preinstall strip-json-comments@2.0.1
+344 silly decomposeActions build strip-json-comments@2.0.1
+345 silly decomposeActions install strip-json-comments@2.0.1
+346 silly decomposeActions postinstall strip-json-comments@2.0.1
+347 silly decomposeActions finalize strip-json-comments@2.0.1
+348 silly decomposeActions refresh-package-json strip-json-comments@2.0.1
+349 silly decomposeActions fetch rc@1.2.8
+350 silly decomposeActions extract rc@1.2.8
+351 silly decomposeActions preinstall rc@1.2.8
+352 silly decomposeActions build rc@1.2.8
+353 silly decomposeActions install rc@1.2.8
+354 silly decomposeActions postinstall rc@1.2.8
+355 silly decomposeActions finalize rc@1.2.8
+356 silly decomposeActions refresh-package-json rc@1.2.8
+357 silly decomposeActions fetch chownr@1.1.4
+358 silly decomposeActions extract chownr@1.1.4
+359 silly decomposeActions preinstall chownr@1.1.4
+360 silly decomposeActions build chownr@1.1.4
+361 silly decomposeActions install chownr@1.1.4
+362 silly decomposeActions postinstall chownr@1.1.4
+363 silly decomposeActions finalize chownr@1.1.4
+364 silly decomposeActions refresh-package-json chownr@1.1.4
+365 silly decomposeActions fetch readable-stream@3.6.0
+366 silly decomposeActions extract readable-stream@3.6.0
+367 silly decomposeActions preinstall readable-stream@3.6.0
+368 silly decomposeActions build readable-stream@3.6.0
+369 silly decomposeActions install readable-stream@3.6.0
+370 silly decomposeActions postinstall readable-stream@3.6.0
+371 silly decomposeActions finalize readable-stream@3.6.0
+372 silly decomposeActions refresh-package-json readable-stream@3.6.0
+373 silly decomposeActions fetch tar-stream@2.2.0
+374 silly decomposeActions extract tar-stream@2.2.0
+375 silly decomposeActions preinstall tar-stream@2.2.0
+376 silly decomposeActions build tar-stream@2.2.0
+377 silly decomposeActions install tar-stream@2.2.0
+378 silly decomposeActions postinstall tar-stream@2.2.0
+379 silly decomposeActions finalize tar-stream@2.2.0
+380 silly decomposeActions refresh-package-json tar-stream@2.2.0
+381 silly decomposeActions fetch tar-fs@2.1.1
+382 silly decomposeActions extract tar-fs@2.1.1
+383 silly decomposeActions preinstall tar-fs@2.1.1
+384 silly decomposeActions build tar-fs@2.1.1
+385 silly decomposeActions install tar-fs@2.1.1
+386 silly decomposeActions postinstall tar-fs@2.1.1
+387 silly decomposeActions finalize tar-fs@2.1.1
+388 silly decomposeActions refresh-package-json tar-fs@2.1.1
+389 silly decomposeActions fetch tunnel-agent@0.6.0
+390 silly decomposeActions extract tunnel-agent@0.6.0
+391 silly decomposeActions preinstall tunnel-agent@0.6.0
+392 silly decomposeActions build tunnel-agent@0.6.0
+393 silly decomposeActions install tunnel-agent@0.6.0
+394 silly decomposeActions postinstall tunnel-agent@0.6.0
+395 silly decomposeActions finalize tunnel-agent@0.6.0
+396 silly decomposeActions refresh-package-json tunnel-agent@0.6.0
+397 silly decomposeActions fetch color@4.0.1
+398 silly decomposeActions extract color@4.0.1
+399 silly decomposeActions preinstall color@4.0.1
+400 silly decomposeActions build color@4.0.1
+401 silly decomposeActions install color@4.0.1
+402 silly decomposeActions postinstall color@4.0.1
+403 silly decomposeActions finalize color@4.0.1
+404 silly decomposeActions refresh-package-json color@4.0.1
+405 silly decomposeActions fetch prebuild-install@6.1.4
+406 silly decomposeActions extract prebuild-install@6.1.4
+407 silly decomposeActions preinstall prebuild-install@6.1.4
+408 silly decomposeActions build prebuild-install@6.1.4
+409 silly decomposeActions install prebuild-install@6.1.4
+410 silly decomposeActions postinstall prebuild-install@6.1.4
+411 silly decomposeActions finalize prebuild-install@6.1.4
+412 silly decomposeActions refresh-package-json prebuild-install@6.1.4
+413 silly decomposeActions fetch node-addon-api@4.2.0
+414 silly decomposeActions extract node-addon-api@4.2.0
+415 silly decomposeActions preinstall node-addon-api@4.2.0
+416 silly decomposeActions build node-addon-api@4.2.0
+417 silly decomposeActions install node-addon-api@4.2.0
+418 silly decomposeActions postinstall node-addon-api@4.2.0
+419 silly decomposeActions finalize node-addon-api@4.2.0
+420 silly decomposeActions refresh-package-json node-addon-api@4.2.0
+421 silly decomposeActions fetch sharp@0.29.1
+422 silly decomposeActions extract sharp@0.29.1
+423 silly decomposeActions preinstall sharp@0.29.1
+424 silly decomposeActions build sharp@0.29.1
+425 silly decomposeActions install sharp@0.29.1
+426 silly decomposeActions postinstall sharp@0.29.1
+427 silly decomposeActions finalize sharp@0.29.1
+428 silly decomposeActions refresh-package-json sharp@0.29.1
+429 silly install executeActions
+430 silly doSerial global-install 272
+431 verbose correctMkdir C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks correctMkdir not in flight; initializing
+432 verbose makeCacheDir UID & GID are irrelevant on win32
+433 verbose lock using C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks\staging-01e27175e07e2c97.lock for C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging
+434 silly doParallel extract 34
+435 silly extract inherits@2.0.4
+436 silly extract readable-stream@3.6.0
+437 silly extract bl@4.1.0
+438 silly extract color-name@1.1.4
+439 silly extract color-convert@2.0.1
+440 silly extract deep-extend@0.6.0
+441 silly extract end-of-stream@1.4.4
+442 silly extract expand-template@2.0.3
+443 silly extract fs-constants@1.0.0
+444 silly extract github-from-package@0.0.0
+445 silly extract ini@1.3.8
+446 silly extract is-arrayish@0.3.2
+447 silly extract mimic-response@2.1.0
+448 silly extract decompress-response@4.2.1
+449 silly extract mkdirp-classic@0.5.3
+450 silly extract napi-build-utils@1.0.2
+451 silly extract semver@5.7.1
+452 silly extract node-abi@2.30.1
+453 silly extract pump@3.0.0
+454 silly extract simple-concat@1.0.1
+455 silly extract simple-get@3.1.0
+456 silly extract simple-swizzle@0.2.2
+457 silly extract color-string@1.6.0
+458 silly extract strip-json-comments@2.0.1
+459 silly extract rc@1.2.8
+460 silly extract chownr@1.1.4
+461 silly extract readable-stream@3.6.0
+462 silly extract tar-stream@2.2.0
+463 silly extract tar-fs@2.1.1
+464 silly extract tunnel-agent@0.6.0
+465 silly extract color@4.0.1
+466 silly extract prebuild-install@6.1.4
+467 silly extract node-addon-api@4.2.0
+468 silly extract sharp@0.29.1
+469 silly tarball trying inherits@^2.0.4 by hash: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+470 silly tarball trying readable-stream@^3.4.0 by hash: sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
+471 silly tarball trying bl@^4.0.3 by hash: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==
+472 silly tarball trying color-name@~1.1.4 by hash: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+473 silly tarball trying color-convert@^2.0.1 by hash: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+474 silly tarball trying deep-extend@^0.6.0 by hash: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+475 silly tarball trying end-of-stream@^1.1.0 by hash: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
+476 silly tarball trying expand-template@^2.0.3 by hash: sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==
+477 silly tarball trying fs-constants@^1.0.0 by hash: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
+478 silly tarball trying github-from-package@0.0.0 by hash: sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
+479 silly tarball trying ini@~1.3.0 by hash: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
+480 silly tarball trying is-arrayish@^0.3.1 by hash: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
+481 silly tarball trying mimic-response@^2.0.0 by hash: sha512-wXqjST+SLt7R009ySCglWBCFpjUygmCIfD790/kVbiGmUgfYGuB14PiTd5DwVxSV4NcYHjzMkoj5LjQZwTQLEA==
+482 silly tarball trying decompress-response@^4.2.0 by hash: sha512-jOSne2qbyE+/r8G1VU+G/82LBs2Fs4LAsTiLSHOCOMZQl2OKZ6i8i4IyHemTe+/yIXOtTcRQMzPcgyhoFlqPkw==
+483 silly tarball trying mkdirp-classic@^0.5.3 by hash: sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
+484 silly tarball trying napi-build-utils@^1.0.1 by hash: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==
+485 silly tarball trying semver@^5.4.1 by hash: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+486 silly tarball trying node-abi@^2.21.0 by hash: sha512-/2D0wOQPgaUWzVSVgRMx+trKJRC2UG4SUc4oCJoXx9Uxjtp0Vy3/kt7zcbxHF8+Z/pK3UloLWzBISg72brfy1w==
+487 silly tarball trying pump@^3.0.0 by hash: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==
+488 silly tarball trying simple-concat@^1.0.0 by hash: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==
+489 silly tarball trying simple-get@^3.1.0 by hash: sha512-bCR6cP+aTdScaQCnQKbPKtJOKDp/hj9EDLJo3Nw4y1QksqaovlW/bnptB6/c1e+qmNIDHRK+oXFDdEqBT8WzUA==
+490 silly tarball trying simple-swizzle@^0.2.2 by hash: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
+491 silly tarball trying color-string@^1.6.0 by hash: sha512-c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==
+492 silly tarball trying strip-json-comments@~2.0.1 by hash: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+493 silly tarball trying rc@^1.2.7 by hash: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
+494 silly tarball trying chownr@^1.1.1 by hash: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
+495 silly tarball trying readable-stream@^3.1.1 by hash: sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
+496 silly tarball trying tar-stream@^2.1.4 by hash: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==
+497 silly tarball trying tar-fs@^2.1.1 by hash: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
+498 silly tarball trying tunnel-agent@^0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+499 silly tarball trying color@^4.0.1 by hash: sha512-rpZjOKN5O7naJxkH2Rx1sZzzBgaiWECc6BYXjeCE6kF0kcASJYbUq02u7JqIHwCb/j3NhV+QhRL2683aICeGZA==
+500 silly tarball trying prebuild-install@^6.1.4 by hash: sha512-Z4vpywnK1lBg+zdPCVCsKq0xO66eEV9rWo2zrROGGiRS4JtueBOdlB1FnY8lcy7JsUud/Q3ijUxyWN26Ika0vQ==
+501 silly tarball trying node-addon-api@^4.1.0 by hash: sha512-eazsqzwG2lskuzBqCGPi7Ac2UgOoMz8JVOXVhTvvPDYhthvNpefx8jWD8Np7Gv+2Sz0FlPWZk0nJV0z598Wn8Q==
+502 silly tarball trying sharp@latest by hash: sha512-DpgdAny9TuS+oWCQ7MRS8XyY9x6q1+yW3a5wNx0J3HrGuB/Jot/8WcT+lElHY9iJu2pwtegSGxqMaqFiMhs4rQ==
+503 silly extract color-name@~1.1.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\color-name-1c9bc072 (423ms)
+504 silly extract end-of-stream@^1.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\end-of-stream-3f1d18f8 (441ms)
+505 silly extract inherits@^2.0.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\inherits-5ffcd978 (444ms)
+506 silly extract ini@~1.3.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\ini-bc31831e (439ms)
+507 silly extract mkdirp-classic@^0.5.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mkdirp-classic-1237b469 (433ms)
+508 silly extract simple-swizzle@^0.2.2 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\simple-swizzle-fccf4cc3 (430ms)
+509 silly extract simple-get@^3.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\simple-get-d4bc662d (430ms)
+510 silly extract chownr@^1.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\chownr-e1654ea1 (428ms)
+511 silly extract color@^4.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\color-353803b5 (426ms)
+512 silly extract strip-json-comments@~2.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\strip-json-comments-1cdf70e8 (429ms)
+513 silly extract tunnel-agent@^0.6.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\tunnel-agent-5847f6bf (426ms)
+514 silly extract fs-constants@^1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\fs-constants-dd22b176 (459ms)
+515 silly extract decompress-response@^4.2.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\decompress-response-fbb31b88 (455ms)
+516 silly extract mimic-response@^2.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\mimic-response-cce79a1b (455ms)
+517 silly extract color-string@^1.6.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\color-string-a2a94f09 (448ms)
+518 silly extract expand-template@^2.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\expand-template-a3e3a90d (477ms)
+519 silly extract napi-build-utils@^1.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\napi-build-utils-cf02d983 (487ms)
+520 silly extract pump@^3.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\pump-49ad1c09 (486ms)
+521 silly extract is-arrayish@^0.3.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\is-arrayish-a3f22262 (527ms)
+522 silly extract color-convert@^2.0.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\color-convert-a135ad04 (530ms)
+523 timing audit submit Completed in 576ms
+524 silly extract deep-extend@^0.6.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\deep-extend-5bc2c6de (555ms)
+525 silly extract simple-concat@^1.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\simple-concat-8c208eb0 (545ms)
+526 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 576ms
+527 timing audit body Completed in 13ms
+528 silly extract tar-stream@^2.1.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\tar-stream-cad42ed3 (567ms)
+529 silly extract semver@^5.4.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\semver-7d7bdc5e (592ms)
+530 silly extract prebuild-install@^6.1.4 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\prebuild-install-4fed5e27 (600ms)
+531 silly extract bl@^4.0.3 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\bl-51d8e931 (623ms)
+532 silly extract github-from-package@0.0.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\github-from-package-81ef6280 (624ms)
+533 silly extract rc@^1.2.7 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\rc-4b8e5aa7 (619ms)
+534 silly extract node-abi@^2.21.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\node-abi-49c88484 (642ms)
+535 silly extract node-addon-api@^4.1.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\node-addon-api-415a0964 (720ms)
+536 silly extract readable-stream@^3.4.0 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\readable-stream-4c12f82c (744ms)
+537 silly extract readable-stream@^3.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\readable-stream-f154a9c5 (728ms)
+538 silly extract tar-fs@^2.1.1 extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\tar-fs-da76f616 (775ms)
+539 silly extract sharp@latest extracted to C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging\sharp-8f94a2e3 (795ms)
+540 timing action:extract Completed in 818ms
+541 silly doReverseSerial unbuild 272
+542 silly doSerial remove 272
+543 silly doSerial move 272
+544 silly doSerial finalize 272
+545 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules\inherits
+546 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules\readable-stream
+547 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl
+548 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-name
+549 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-convert
+550 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\deep-extend
+551 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\end-of-stream
+552 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\expand-template
+553 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs-constants
+554 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\github-from-package
+555 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ini
+556 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\is-arrayish
+557 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mimic-response
+558 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\decompress-response
+559 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mkdirp-classic
+560 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\napi-build-utils
+561 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-abi\node_modules\semver
+562 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-abi
+563 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\pump
+564 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-concat
+565 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-get
+566 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-swizzle
+567 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-string
+568 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\strip-json-comments
+569 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\rc
+570 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-fs\node_modules\chownr
+571 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-stream\node_modules\readable-stream
+572 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-stream
+573 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-fs
+574 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tunnel-agent
+575 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color
+576 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\prebuild-install
+577 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp\node_modules\node-addon-api
+578 silly finalize C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp
+579 timing action:finalize Completed in 305ms
+580 silly doParallel refresh-package-json 34
+581 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules\inherits
+582 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules\readable-stream
+583 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl
+584 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-name
+585 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-convert
+586 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\deep-extend
+587 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\end-of-stream
+588 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\expand-template
+589 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\fs-constants
+590 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\github-from-package
+591 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\ini
+592 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\is-arrayish
+593 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mimic-response
+594 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\decompress-response
+595 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\mkdirp-classic
+596 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\napi-build-utils
+597 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-abi\node_modules\semver
+598 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-abi
+599 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\pump
+600 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-concat
+601 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-get
+602 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\simple-swizzle
+603 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color-string
+604 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\strip-json-comments
+605 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\rc
+606 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-fs\node_modules\chownr
+607 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-stream\node_modules\readable-stream
+608 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-stream
+609 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-fs
+610 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tunnel-agent
+611 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\color
+612 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\prebuild-install
+613 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp\node_modules\node-addon-api
+614 silly refresh-package-json C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp
+615 timing action:refresh-package-json Completed in 243ms
+616 silly doParallel preinstall 34
+617 silly preinstall inherits@2.0.4
+618 info lifecycle inherits@2.0.4~preinstall: inherits@2.0.4
+619 silly preinstall readable-stream@3.6.0
+620 info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+621 silly preinstall bl@4.1.0
+622 info lifecycle bl@4.1.0~preinstall: bl@4.1.0
+623 silly preinstall color-name@1.1.4
+624 info lifecycle color-name@1.1.4~preinstall: color-name@1.1.4
+625 silly preinstall color-convert@2.0.1
+626 info lifecycle color-convert@2.0.1~preinstall: color-convert@2.0.1
+627 silly preinstall deep-extend@0.6.0
+628 info lifecycle deep-extend@0.6.0~preinstall: deep-extend@0.6.0
+629 silly preinstall end-of-stream@1.4.4
+630 info lifecycle end-of-stream@1.4.4~preinstall: end-of-stream@1.4.4
+631 silly preinstall expand-template@2.0.3
+632 info lifecycle expand-template@2.0.3~preinstall: expand-template@2.0.3
+633 silly preinstall fs-constants@1.0.0
+634 info lifecycle fs-constants@1.0.0~preinstall: fs-constants@1.0.0
+635 silly preinstall github-from-package@0.0.0
+636 info lifecycle github-from-package@0.0.0~preinstall: github-from-package@0.0.0
+637 silly preinstall ini@1.3.8
+638 info lifecycle ini@1.3.8~preinstall: ini@1.3.8
+639 silly preinstall is-arrayish@0.3.2
+640 info lifecycle is-arrayish@0.3.2~preinstall: is-arrayish@0.3.2
+641 silly preinstall mimic-response@2.1.0
+642 info lifecycle mimic-response@2.1.0~preinstall: mimic-response@2.1.0
+643 silly preinstall decompress-response@4.2.1
+644 info lifecycle decompress-response@4.2.1~preinstall: decompress-response@4.2.1
+645 silly preinstall mkdirp-classic@0.5.3
+646 info lifecycle mkdirp-classic@0.5.3~preinstall: mkdirp-classic@0.5.3
+647 silly preinstall napi-build-utils@1.0.2
+648 info lifecycle napi-build-utils@1.0.2~preinstall: napi-build-utils@1.0.2
+649 silly preinstall semver@5.7.1
+650 info lifecycle semver@5.7.1~preinstall: semver@5.7.1
+651 silly preinstall node-abi@2.30.1
+652 info lifecycle node-abi@2.30.1~preinstall: node-abi@2.30.1
+653 silly preinstall pump@3.0.0
+654 info lifecycle pump@3.0.0~preinstall: pump@3.0.0
+655 silly preinstall simple-concat@1.0.1
+656 info lifecycle simple-concat@1.0.1~preinstall: simple-concat@1.0.1
+657 silly preinstall simple-get@3.1.0
+658 info lifecycle simple-get@3.1.0~preinstall: simple-get@3.1.0
+659 silly preinstall simple-swizzle@0.2.2
+660 info lifecycle simple-swizzle@0.2.2~preinstall: simple-swizzle@0.2.2
+661 silly preinstall color-string@1.6.0
+662 info lifecycle color-string@1.6.0~preinstall: color-string@1.6.0
+663 silly preinstall strip-json-comments@2.0.1
+664 info lifecycle strip-json-comments@2.0.1~preinstall: strip-json-comments@2.0.1
+665 silly preinstall rc@1.2.8
+666 info lifecycle rc@1.2.8~preinstall: rc@1.2.8
+667 silly preinstall chownr@1.1.4
+668 info lifecycle chownr@1.1.4~preinstall: chownr@1.1.4
+669 silly preinstall readable-stream@3.6.0
+670 info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+671 silly preinstall tar-stream@2.2.0
+672 info lifecycle tar-stream@2.2.0~preinstall: tar-stream@2.2.0
+673 silly preinstall tar-fs@2.1.1
+674 info lifecycle tar-fs@2.1.1~preinstall: tar-fs@2.1.1
+675 silly preinstall tunnel-agent@0.6.0
+676 info lifecycle tunnel-agent@0.6.0~preinstall: tunnel-agent@0.6.0
+677 silly preinstall color@4.0.1
+678 info lifecycle color@4.0.1~preinstall: color@4.0.1
+679 silly preinstall prebuild-install@6.1.4
+680 info lifecycle prebuild-install@6.1.4~preinstall: prebuild-install@6.1.4
+681 silly preinstall node-addon-api@4.2.0
+682 info lifecycle node-addon-api@4.2.0~preinstall: node-addon-api@4.2.0
+683 silly preinstall sharp@0.29.1
+684 info lifecycle sharp@0.29.1~preinstall: sharp@0.29.1
+685 timing action:preinstall Completed in 10ms
+686 silly doSerial build 272
+687 silly build inherits@2.0.4
+688 info linkStuff inherits@2.0.4
+689 silly linkStuff inherits@2.0.4 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules as its parent node_modules
+690 silly build readable-stream@3.6.0
+691 info linkStuff readable-stream@3.6.0
+692 silly linkStuff readable-stream@3.6.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\bl\node_modules as its parent node_modules
+693 silly build bl@4.1.0
+694 info linkStuff bl@4.1.0
+695 silly linkStuff bl@4.1.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+696 silly build color-name@1.1.4
+697 info linkStuff color-name@1.1.4
+698 silly linkStuff color-name@1.1.4 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+699 silly build color-convert@2.0.1
+700 info linkStuff color-convert@2.0.1
+701 silly linkStuff color-convert@2.0.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+702 silly build deep-extend@0.6.0
+703 info linkStuff deep-extend@0.6.0
+704 silly linkStuff deep-extend@0.6.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+705 silly build end-of-stream@1.4.4
+706 info linkStuff end-of-stream@1.4.4
+707 silly linkStuff end-of-stream@1.4.4 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+708 silly build expand-template@2.0.3
+709 info linkStuff expand-template@2.0.3
+710 silly linkStuff expand-template@2.0.3 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+711 silly build fs-constants@1.0.0
+712 info linkStuff fs-constants@1.0.0
+713 silly linkStuff fs-constants@1.0.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+714 silly build github-from-package@0.0.0
+715 info linkStuff github-from-package@0.0.0
+716 silly linkStuff github-from-package@0.0.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+717 silly build ini@1.3.8
+718 info linkStuff ini@1.3.8
+719 silly linkStuff ini@1.3.8 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+720 silly build is-arrayish@0.3.2
+721 info linkStuff is-arrayish@0.3.2
+722 silly linkStuff is-arrayish@0.3.2 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+723 silly build mimic-response@2.1.0
+724 info linkStuff mimic-response@2.1.0
+725 silly linkStuff mimic-response@2.1.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+726 silly build decompress-response@4.2.1
+727 info linkStuff decompress-response@4.2.1
+728 silly linkStuff decompress-response@4.2.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+729 silly build mkdirp-classic@0.5.3
+730 info linkStuff mkdirp-classic@0.5.3
+731 silly linkStuff mkdirp-classic@0.5.3 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+732 silly build napi-build-utils@1.0.2
+733 info linkStuff napi-build-utils@1.0.2
+734 silly linkStuff napi-build-utils@1.0.2 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+735 silly build semver@5.7.1
+736 info linkStuff semver@5.7.1
+737 silly linkStuff semver@5.7.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\node-abi\node_modules as its parent node_modules
+738 verbose linkBins [
+738 verbose linkBins   { semver: 'bin/semver' },
+738 verbose linkBins   'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\node-abi\\node_modules\\.bin',
+738 verbose linkBins   false
+738 verbose linkBins ]
+739 silly build node-abi@2.30.1
+740 info linkStuff node-abi@2.30.1
+741 silly linkStuff node-abi@2.30.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+742 silly build pump@3.0.0
+743 info linkStuff pump@3.0.0
+744 silly linkStuff pump@3.0.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+745 silly build simple-concat@1.0.1
+746 info linkStuff simple-concat@1.0.1
+747 silly linkStuff simple-concat@1.0.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+748 silly build simple-get@3.1.0
+749 info linkStuff simple-get@3.1.0
+750 silly linkStuff simple-get@3.1.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+751 silly build simple-swizzle@0.2.2
+752 info linkStuff simple-swizzle@0.2.2
+753 silly linkStuff simple-swizzle@0.2.2 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+754 silly build color-string@1.6.0
+755 info linkStuff color-string@1.6.0
+756 silly linkStuff color-string@1.6.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+757 silly build strip-json-comments@2.0.1
+758 info linkStuff strip-json-comments@2.0.1
+759 silly linkStuff strip-json-comments@2.0.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+760 silly build rc@1.2.8
+761 info linkStuff rc@1.2.8
+762 silly linkStuff rc@1.2.8 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+763 verbose linkBins [
+763 verbose linkBins   { rc: 'cli.js' },
+763 verbose linkBins   'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\.bin',
+763 verbose linkBins   false
+763 verbose linkBins ]
+764 silly build chownr@1.1.4
+765 info linkStuff chownr@1.1.4
+766 silly linkStuff chownr@1.1.4 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-fs\node_modules as its parent node_modules
+767 silly build readable-stream@3.6.0
+768 info linkStuff readable-stream@3.6.0
+769 silly linkStuff readable-stream@3.6.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\tar-stream\node_modules as its parent node_modules
+770 silly build tar-stream@2.2.0
+771 info linkStuff tar-stream@2.2.0
+772 silly linkStuff tar-stream@2.2.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+773 silly build tar-fs@2.1.1
+774 info linkStuff tar-fs@2.1.1
+775 silly linkStuff tar-fs@2.1.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+776 silly build tunnel-agent@0.6.0
+777 info linkStuff tunnel-agent@0.6.0
+778 silly linkStuff tunnel-agent@0.6.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+779 silly build color@4.0.1
+780 info linkStuff color@4.0.1
+781 silly linkStuff color@4.0.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+782 silly build prebuild-install@6.1.4
+783 info linkStuff prebuild-install@6.1.4
+784 silly linkStuff prebuild-install@6.1.4 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+785 verbose linkBins [
+785 verbose linkBins   { 'prebuild-install': 'bin.js' },
+785 verbose linkBins   'C:\\Users\\Karapai\\Documents\\work\\backend\\bem-km-ipb\\node_modules\\.bin',
+785 verbose linkBins   false
+785 verbose linkBins ]
+786 silly build node-addon-api@4.2.0
+787 info linkStuff node-addon-api@4.2.0
+788 silly linkStuff node-addon-api@4.2.0 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp\node_modules as its parent node_modules
+789 silly build sharp@0.29.1
+790 info linkStuff sharp@0.29.1
+791 silly linkStuff sharp@0.29.1 has C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules as its parent node_modules
+792 timing action:build Completed in 50ms
+793 silly doSerial global-link 272
+794 silly doParallel update-linked 0
+795 silly doSerial install 272
+796 silly install inherits@2.0.4
+797 info lifecycle inherits@2.0.4~install: inherits@2.0.4
+798 silly install readable-stream@3.6.0
+799 info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+800 silly install bl@4.1.0
+801 info lifecycle bl@4.1.0~install: bl@4.1.0
+802 silly install color-name@1.1.4
+803 info lifecycle color-name@1.1.4~install: color-name@1.1.4
+804 silly install color-convert@2.0.1
+805 info lifecycle color-convert@2.0.1~install: color-convert@2.0.1
+806 silly install deep-extend@0.6.0
+807 info lifecycle deep-extend@0.6.0~install: deep-extend@0.6.0
+808 silly install end-of-stream@1.4.4
+809 info lifecycle end-of-stream@1.4.4~install: end-of-stream@1.4.4
+810 silly install expand-template@2.0.3
+811 info lifecycle expand-template@2.0.3~install: expand-template@2.0.3
+812 silly install fs-constants@1.0.0
+813 info lifecycle fs-constants@1.0.0~install: fs-constants@1.0.0
+814 silly install github-from-package@0.0.0
+815 info lifecycle github-from-package@0.0.0~install: github-from-package@0.0.0
+816 silly install ini@1.3.8
+817 info lifecycle ini@1.3.8~install: ini@1.3.8
+818 silly install is-arrayish@0.3.2
+819 info lifecycle is-arrayish@0.3.2~install: is-arrayish@0.3.2
+820 silly install mimic-response@2.1.0
+821 info lifecycle mimic-response@2.1.0~install: mimic-response@2.1.0
+822 silly install decompress-response@4.2.1
+823 info lifecycle decompress-response@4.2.1~install: decompress-response@4.2.1
+824 silly install mkdirp-classic@0.5.3
+825 info lifecycle mkdirp-classic@0.5.3~install: mkdirp-classic@0.5.3
+826 silly install napi-build-utils@1.0.2
+827 info lifecycle napi-build-utils@1.0.2~install: napi-build-utils@1.0.2
+828 silly install semver@5.7.1
+829 info lifecycle semver@5.7.1~install: semver@5.7.1
+830 silly install node-abi@2.30.1
+831 info lifecycle node-abi@2.30.1~install: node-abi@2.30.1
+832 silly install pump@3.0.0
+833 info lifecycle pump@3.0.0~install: pump@3.0.0
+834 silly install simple-concat@1.0.1
+835 info lifecycle simple-concat@1.0.1~install: simple-concat@1.0.1
+836 silly install simple-get@3.1.0
+837 info lifecycle simple-get@3.1.0~install: simple-get@3.1.0
+838 silly install simple-swizzle@0.2.2
+839 info lifecycle simple-swizzle@0.2.2~install: simple-swizzle@0.2.2
+840 silly install color-string@1.6.0
+841 info lifecycle color-string@1.6.0~install: color-string@1.6.0
+842 silly install strip-json-comments@2.0.1
+843 info lifecycle strip-json-comments@2.0.1~install: strip-json-comments@2.0.1
+844 silly install rc@1.2.8
+845 info lifecycle rc@1.2.8~install: rc@1.2.8
+846 silly install chownr@1.1.4
+847 info lifecycle chownr@1.1.4~install: chownr@1.1.4
+848 silly install readable-stream@3.6.0
+849 info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+850 silly install tar-stream@2.2.0
+851 info lifecycle tar-stream@2.2.0~install: tar-stream@2.2.0
+852 silly install tar-fs@2.1.1
+853 info lifecycle tar-fs@2.1.1~install: tar-fs@2.1.1
+854 silly install tunnel-agent@0.6.0
+855 info lifecycle tunnel-agent@0.6.0~install: tunnel-agent@0.6.0
+856 silly install color@4.0.1
+857 info lifecycle color@4.0.1~install: color@4.0.1
+858 silly install prebuild-install@6.1.4
+859 info lifecycle prebuild-install@6.1.4~install: prebuild-install@6.1.4
+860 silly install node-addon-api@4.2.0
+861 info lifecycle node-addon-api@4.2.0~install: node-addon-api@4.2.0
+862 silly install sharp@0.29.1
+863 info lifecycle sharp@0.29.1~install: sharp@0.29.1
+864 verbose lifecycle sharp@0.29.1~install: unsafe-perm in lifecycle true
+865 verbose lifecycle sharp@0.29.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp\node_modules\.bin;C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.bin;C:\Users\Karapai\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Karapai\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\Karapai\AppData\Local\Microsoft\WindowsApps;C:\Users\Karapai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Karapai\AppData\Roaming\npm;C:\Users\Karapai\AppData\Local\Android\Sdk\platform-tools;C:\Users\Karapai\AppData\Local\Android\Sdk\emulator;C:\Users\Karapai\go\bin;C:\Users\Karapai\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+866 verbose lifecycle sharp@0.29.1~install: CWD: C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\sharp
+867 silly lifecycle sharp@0.29.1~install: Args: [
+867 silly lifecycle   '/d /s /c',
+867 silly lifecycle   '(node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)'
+867 silly lifecycle ]
+868 silly lifecycle sharp@0.29.1~install: Returned: code: 1  signal: null
+869 info lifecycle sharp@0.29.1~install: Failed to exec install script
+870 timing action:install Completed in 304525ms
+871 verbose unlock done using C:\Users\Karapai\Documents\work\backend\bem-km-ipb\npm-globalnpm-cache\_locks\staging-01e27175e07e2c97.lock for C:\Users\Karapai\Documents\work\backend\bem-km-ipb\node_modules\.staging
+872 timing stage:rollbackFailedOptional Completed in 242ms
+873 timing stage:runTopLevelLifecycles Completed in 313462ms
+874 silly saveTree bem-km-ipb@1.0.0
+874 silly saveTree +-- bcrypt@5.0.1
+874 silly saveTree | +-- @mapbox/node-pre-gyp@1.0.5
+874 silly saveTree | | +-- detect-libc@1.0.3
+874 silly saveTree | | +-- https-proxy-agent@5.0.0
+874 silly saveTree | | | +-- agent-base@6.0.2
+874 silly saveTree | | | | `-- debug@4.3.2
+874 silly saveTree | | | |   `-- ms@2.1.2
+874 silly saveTree | | | `-- debug@4.3.2
+874 silly saveTree | | |   `-- ms@2.1.2
+874 silly saveTree | | +-- make-dir@3.1.0
+874 silly saveTree | | | `-- semver@6.3.0
+874 silly saveTree | | +-- node-fetch@2.6.2
+874 silly saveTree | | +-- nopt@5.0.0
+874 silly saveTree | | | `-- abbrev@1.1.1
+874 silly saveTree | | +-- npmlog@4.1.2
+874 silly saveTree | | | +-- are-we-there-yet@1.1.7
+874 silly saveTree | | | | +-- delegates@1.0.0
+874 silly saveTree | | | | `-- readable-stream@2.3.7
+874 silly saveTree | | | |   +-- core-util-is@1.0.3
+874 silly saveTree | | | |   +-- inherits@2.0.3
+874 silly saveTree | | | |   +-- isarray@1.0.0
+874 silly saveTree | | | |   +-- process-nextick-args@2.0.1
+874 silly saveTree | | | |   +-- safe-buffer@5.1.2
+874 silly saveTree | | | |   +-- string_decoder@1.1.1
+874 silly saveTree | | | |   `-- util-deprecate@1.0.2
+874 silly saveTree | | | +-- console-control-strings@1.1.0
+874 silly saveTree | | | +-- gauge@2.7.4
+874 silly saveTree | | | | +-- aproba@1.2.0
+874 silly saveTree | | | | +-- has-unicode@2.0.1
+874 silly saveTree | | | | +-- object-assign@4.1.1
+874 silly saveTree | | | | +-- signal-exit@3.0.4
+874 silly saveTree | | | | +-- string-width@1.0.2
+874 silly saveTree | | | | | +-- code-point-at@1.1.0
+874 silly saveTree | | | | | +-- is-fullwidth-code-point@1.0.0
+874 silly saveTree | | | | | | `-- number-is-nan@1.0.1
+874 silly saveTree | | | | | `-- strip-ansi@3.0.1
+874 silly saveTree | | | | |   `-- ansi-regex@2.1.1
+874 silly saveTree | | | | +-- strip-ansi@3.0.1
+874 silly saveTree | | | | `-- wide-align@1.1.3
+874 silly saveTree | | | `-- set-blocking@2.0.0
+874 silly saveTree | | +-- rimraf@3.0.2
+874 silly saveTree | | | `-- glob@7.1.7
+874 silly saveTree | | |   +-- fs.realpath@1.0.0
+874 silly saveTree | | |   +-- inflight@1.0.6
+874 silly saveTree | | |   | +-- once@1.4.0
+874 silly saveTree | | |   | | `-- wrappy@1.0.2
+874 silly saveTree | | |   | `-- wrappy@1.0.2
+874 silly saveTree | | |   +-- minimatch@3.0.4
+874 silly saveTree | | |   | `-- brace-expansion@1.1.11
+874 silly saveTree | | |   |   +-- balanced-match@1.0.2
+874 silly saveTree | | |   |   `-- concat-map@0.0.1
+874 silly saveTree | | |   +-- once@1.4.0
+874 silly saveTree | | |   `-- path-is-absolute@1.0.1
+874 silly saveTree | | +-- semver@7.3.5
+874 silly saveTree | | | `-- lru-cache@6.0.0
+874 silly saveTree | | |   `-- yallist@4.0.0
+874 silly saveTree | | `-- tar@6.1.11
+874 silly saveTree | |   +-- chownr@2.0.0
+874 silly saveTree | |   +-- fs-minipass@2.1.0
+874 silly saveTree | |   | `-- minipass@3.1.5
+874 silly saveTree | |   +-- minipass@3.1.5
+874 silly saveTree | |   +-- minizlib@2.1.2
+874 silly saveTree | |   `-- mkdirp@1.0.4
+874 silly saveTree | `-- node-addon-api@3.2.1
+874 silly saveTree +-- cors@2.8.5
+874 silly saveTree | `-- vary@1.1.2
+874 silly saveTree +-- dotenv@10.0.0
+874 silly saveTree +-- express@4.17.1
+874 silly saveTree | +-- accepts@1.3.7
+874 silly saveTree | | +-- mime-types@2.1.32
+874 silly saveTree | | | `-- mime-db@1.49.0
+874 silly saveTree | | `-- negotiator@0.6.2
+874 silly saveTree | +-- array-flatten@1.1.1
+874 silly saveTree | +-- body-parser@1.19.0
+874 silly saveTree | | +-- bytes@3.1.0
+874 silly saveTree | | +-- content-type@1.0.4
+874 silly saveTree | | +-- debug@2.6.9
+874 silly saveTree | | | `-- ms@2.0.0
+874 silly saveTree | | +-- depd@1.1.2
+874 silly saveTree | | +-- http-errors@1.7.2
+874 silly saveTree | | | +-- setprototypeof@1.1.1
+874 silly saveTree | | | +-- statuses@1.5.0
+874 silly saveTree | | | `-- toidentifier@1.0.0
+874 silly saveTree | | +-- iconv-lite@0.4.24
+874 silly saveTree | | | `-- safer-buffer@2.1.2
+874 silly saveTree | | +-- on-finished@2.3.0
+874 silly saveTree | | | `-- ee-first@1.1.1
+874 silly saveTree | | +-- qs@6.7.0
+874 silly saveTree | | +-- raw-body@2.4.0
+874 silly saveTree | | | `-- unpipe@1.0.0
+874 silly saveTree | | `-- type-is@1.6.18
+874 silly saveTree | |   `-- media-typer@0.3.0
+874 silly saveTree | +-- content-disposition@0.5.3
+874 silly saveTree | +-- content-type@1.0.4
+874 silly saveTree | +-- cookie-signature@1.0.6
+874 silly saveTree | +-- cookie@0.4.0
+874 silly saveTree | +-- debug@2.6.9
+874 silly saveTree | +-- depd@1.1.2
+874 silly saveTree | +-- encodeurl@1.0.2
+874 silly saveTree | +-- escape-html@1.0.3
+874 silly saveTree | +-- etag@1.8.1
+874 silly saveTree | +-- finalhandler@1.1.2
+874 silly saveTree | | `-- parseurl@1.3.3
+874 silly saveTree | +-- fresh@0.5.2
+874 silly saveTree | +-- merge-descriptors@1.0.1
+874 silly saveTree | +-- methods@1.1.2
+874 silly saveTree | +-- on-finished@2.3.0
+874 silly saveTree | +-- parseurl@1.3.3
+874 silly saveTree | +-- path-to-regexp@0.1.7
+874 silly saveTree | +-- proxy-addr@2.0.7
+874 silly saveTree | | +-- forwarded@0.2.0
+874 silly saveTree | | `-- ipaddr.js@1.9.1
+874 silly saveTree | +-- qs@6.7.0
+874 silly saveTree | +-- range-parser@1.2.1
+874 silly saveTree | +-- send@0.17.1
+874 silly saveTree | | +-- destroy@1.0.4
+874 silly saveTree | | +-- mime@1.6.0
+874 silly saveTree | | `-- ms@2.1.1
+874 silly saveTree | +-- serve-static@1.14.1
+874 silly saveTree | +-- setprototypeof@1.1.1
+874 silly saveTree | +-- statuses@1.5.0
+874 silly saveTree | +-- type-is@1.6.18
+874 silly saveTree | `-- utils-merge@1.0.1
+874 silly saveTree +-- fs@0.0.1-security
+874 silly saveTree +-- jsonwebtoken@8.5.1
+874 silly saveTree | +-- jws@3.2.2
+874 silly saveTree | | `-- jwa@1.4.1
+874 silly saveTree | |   +-- buffer-equal-constant-time@1.0.1
+874 silly saveTree | |   `-- ecdsa-sig-formatter@1.0.11
+874 silly saveTree | +-- lodash.includes@4.3.0
+874 silly saveTree | +-- lodash.isboolean@3.0.3
+874 silly saveTree | +-- lodash.isinteger@4.0.4
+874 silly saveTree | +-- lodash.isnumber@3.0.3
+874 silly saveTree | +-- lodash.isplainobject@4.0.6
+874 silly saveTree | +-- lodash.isstring@4.0.1
+874 silly saveTree | +-- lodash.once@4.1.1
+874 silly saveTree | +-- ms@2.1.3
+874 silly saveTree | `-- semver@5.7.1
+874 silly saveTree +-- mongoose@6.0.6
+874 silly saveTree | +-- bson@4.5.2
+874 silly saveTree | | `-- buffer@5.7.1
+874 silly saveTree | |   +-- base64-js@1.5.1
+874 silly saveTree | |   `-- ieee754@1.2.1
+874 silly saveTree | +-- kareem@2.3.2
+874 silly saveTree | +-- mongodb@4.1.1
+874 silly saveTree | | +-- denque@1.5.1
+874 silly saveTree | | +-- mongodb-connection-string-url@2.0.0
+874 silly saveTree | | | +-- @types/whatwg-url@8.2.1
+874 silly saveTree | | | | +-- @types/node@16.9.2
+874 silly saveTree | | | | `-- @types/webidl-conversions@6.1.1
+874 silly saveTree | | | `-- whatwg-url@9.1.0
+874 silly saveTree | | |   +-- tr46@2.1.0
+874 silly saveTree | | |   | `-- punycode@2.1.1
+874 silly saveTree | | |   `-- webidl-conversions@6.1.0
+874 silly saveTree | | `-- saslprep@1.0.3
+874 silly saveTree | |   `-- sparse-bitfield@3.0.3
+874 silly saveTree | |     `-- memory-pager@1.5.0
+874 silly saveTree | +-- mpath@0.8.4
+874 silly saveTree | +-- mquery@4.0.0
+874 silly saveTree | | +-- debug@4.3.2
+874 silly saveTree | | | `-- ms@2.1.2
+874 silly saveTree | | +-- regexp-clone@1.0.0
+874 silly saveTree | | `-- sliced@1.0.1
+874 silly saveTree | +-- ms@2.1.2
+874 silly saveTree | +-- regexp-clone@1.0.0
+874 silly saveTree | +-- sift@13.5.2
+874 silly saveTree | `-- sliced@1.0.1
+874 silly saveTree +-- multer@1.4.3
+874 silly saveTree | +-- append-field@1.0.0
+874 silly saveTree | +-- busboy@0.2.14
+874 silly saveTree | | +-- dicer@0.2.5
+874 silly saveTree | | | +-- readable-stream@1.1.14
+874 silly saveTree | | | | +-- isarray@0.0.1
+874 silly saveTree | | | | `-- string_decoder@0.10.31
+874 silly saveTree | | | `-- streamsearch@0.1.2
+874 silly saveTree | | `-- readable-stream@1.1.14
+874 silly saveTree | |   +-- isarray@0.0.1
+874 silly saveTree | |   `-- string_decoder@0.10.31
+874 silly saveTree | +-- concat-stream@1.6.2
+874 silly saveTree | | +-- buffer-from@1.1.2
+874 silly saveTree | | `-- typedarray@0.0.6
+874 silly saveTree | +-- mkdirp@0.5.5
+874 silly saveTree | | `-- minimist@1.2.5
+874 silly saveTree | `-- xtend@4.0.2
+874 silly saveTree `-- sharp@0.29.1
+874 silly saveTree   +-- color@4.0.1
+874 silly saveTree   | +-- color-convert@2.0.1
+874 silly saveTree   | | `-- color-name@1.1.4
+874 silly saveTree   | `-- color-string@1.6.0
+874 silly saveTree   |   `-- simple-swizzle@0.2.2
+874 silly saveTree   |     `-- is-arrayish@0.3.2
+874 silly saveTree   +-- node-addon-api@4.2.0
+874 silly saveTree   +-- prebuild-install@6.1.4
+874 silly saveTree   | +-- expand-template@2.0.3
+874 silly saveTree   | +-- github-from-package@0.0.0
+874 silly saveTree   | +-- mkdirp-classic@0.5.3
+874 silly saveTree   | +-- napi-build-utils@1.0.2
+874 silly saveTree   | +-- node-abi@2.30.1
+874 silly saveTree   | | `-- semver@5.7.1
+874 silly saveTree   | +-- pump@3.0.0
+874 silly saveTree   | | `-- end-of-stream@1.4.4
+874 silly saveTree   | +-- rc@1.2.8
+874 silly saveTree   | | +-- deep-extend@0.6.0
+874 silly saveTree   | | +-- ini@1.3.8
+874 silly saveTree   | | `-- strip-json-comments@2.0.1
+874 silly saveTree   | +-- simple-get@3.1.0
+874 silly saveTree   | | +-- decompress-response@4.2.1
+874 silly saveTree   | | | `-- mimic-response@2.1.0
+874 silly saveTree   | | `-- simple-concat@1.0.1
+874 silly saveTree   | +-- tar-fs@2.1.1
+874 silly saveTree   | | +-- chownr@1.1.4
+874 silly saveTree   | | `-- tar-stream@2.2.0
+874 silly saveTree   | |   +-- bl@4.1.0
+874 silly saveTree   | |   | +-- inherits@2.0.4
+874 silly saveTree   | |   | `-- readable-stream@3.6.0
+874 silly saveTree   | |   +-- fs-constants@1.0.0
+874 silly saveTree   | |   `-- readable-stream@3.6.0
+874 silly saveTree   | `-- tunnel-agent@0.6.0
+874 silly saveTree   +-- simple-get@3.1.0
+874 silly saveTree   +-- tar-fs@2.1.1
+874 silly saveTree   `-- tunnel-agent@0.6.0
+875 warn bem-km-ipb@1.0.0 No description
+876 warn bem-km-ipb@1.0.0 No repository field.
+877 verbose stack Error: sharp@0.29.1 install: `(node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)`
+877 verbose stack Exit status 1
+877 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+877 verbose stack     at EventEmitter.emit (events.js:315:20)
+877 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+877 verbose stack     at ChildProcess.emit (events.js:315:20)
+877 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+877 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+878 verbose pkgid sharp@0.29.1
+879 verbose cwd C:\Users\Karapai\Documents\work\backend\bem-km-ipb
+880 verbose Windows_NT 10.0.19043
+881 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sharp"
+882 verbose node v14.16.0
+883 verbose npm  v6.14.11
+884 error code ELIFECYCLE
+885 error errno 1
+886 error sharp@0.29.1 install: `(node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)`
+886 error Exit status 1
+887 error Failed at the sharp@0.29.1 install script.
+887 error This is probably not a problem with npm. There is likely additional logging output above.
+888 verbose exit [ 1, true ]
