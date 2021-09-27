@@ -25,10 +25,15 @@ const storage1 = multer.diskStorage({
         cb(null, file.originalname)
     }
 })
-const upload1 = multer({ storage: storage1 }).array('files', 2)
+const upload1 = multer({ storage: storage1 }).array('images', 1)
+const upload2 = multer({ storage: storage1 }).array('pdf', 1)
 
 function uploadPdf(req, res, next) {
     upload1(req, res, (err) => {
+        if (!err) next()
+        else next(err)
+    })
+    upload2(req, res, (err) => {
         if (!err) next()
         else next(err)
     })

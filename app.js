@@ -11,7 +11,7 @@ mongoose.connect(process.env.DATABASE, { useNewUrlParser: true, useUnifiedTopolo
 const db = mongoose.connection
 
 db.on('error', err => {
-    console.log('connection error:', err)
+    console.log('connection error:', err.message)
 })
 db.once('open', () => {
     console.log('database connected')
