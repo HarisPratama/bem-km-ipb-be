@@ -8,7 +8,7 @@ class NewsController {
             const news = await NewsModel.find().sort({ date: -1 }).skip(+req.query.skip).limit(6)
             res.status(200).json({ status: 200, ok: true, data: news })
         } catch (error) {
-            res.status(500).json({ status: 500, message: 'Ooops! something error' })
+            res.status(500).json({ status: 500, message: 'Ooops! something error', error: JSON.stringify(error.message) })
         }
     }
 
@@ -55,7 +55,7 @@ class NewsController {
             await insertNews.save()
             res.status(200).json({ status: 200, ok: true, message: 'Success add news' })
         } catch (error) {
-            res.status(500).json({ status: 500, message: 'Ooops! something error' })
+            res.status(500).json({ status: 500, message: 'Ooops! something error', error: error.message })
         }
     }
 
@@ -73,7 +73,7 @@ class NewsController {
             await insertComment.save()
             res.status(200).json({ status: 200, ok: true, message: 'Comment has send' })
         } catch (error) {
-            res.status(500).json({ status: 500, message: 'Ooops! something error' })
+            res.status(500).json({ status: 500, message: 'Ooops! something error', error: error.message })
         }
     }
 
@@ -82,7 +82,7 @@ class NewsController {
             await NewsModel.deleteOne({ _id: ObjectId(req.params.id) })
             res.status(200).json({ status: 200, ok: true, message: 'Success delete news' })
         } catch (error) {
-            res.status(500).json({ status: 500, message: 'Ooops! something error' })
+            res.status(500).json({ status: 500, message: 'Ooops! something error', error: error.message })
         }
     }
 }
