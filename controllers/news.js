@@ -81,6 +81,42 @@ class NewsController {
 		}
 	}
 
+	static async updateNews(req, res) {
+		try {
+			const body = req.body;
+
+			const getNews = await NewsModel.findOne({ _id: ObjectId(req.params.id) });
+
+			if (getNews) {
+				let news = {
+					title: body.title ?? getNews.title,
+					desc: body.desc ?? getNews.news,
+					category: body.category ?? getNews.category,
+					date: getNews.date ?? new Date(),
+					images: getNews.images
+				};
+
+				const file = fs.readFileSync(req.file.path);
+
+				if (file) {
+					news['images'] = `data:image/png;base64,${ file.toString('base64') }`;
+				}
+
+				await NewsModel.updateOne(
+					{ _id: ObjectId(req.params.id) },
+					{ $set: news }
+				);
+
+				res.status(200).json({ status: 200, ok: true, message: 'Success update news' });
+			} else {
+				res.status(400).json({ status: 400, ok: true, message: 'Data not found' });
+			}
+
+		} catch (error) {
+			res.status(500).json({ status: 500, message: 'Ooops! something error', error: error.message });
+		}
+	}
+
 	static async deleteNews(req, res) {
 		try {
 			await NewsModel.deleteOne({ _id: ObjectId(req.params.id) });
