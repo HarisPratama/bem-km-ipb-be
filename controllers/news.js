@@ -88,16 +88,12 @@ class NewsController {
 			if (getNews) {
 				let news = {
 					title: getNews.title,
-					desc: getNews.news,
+					desc: getNews.desc,
 					category: getNews.category,
 					date: getNews.date ?? new Date(),
 				};
 
-				let file;
-
-				if (req.file && req.file.path) {
-					file = fs.readFileSync(req.file.path);
-				}
+				const file = fs.readFileSync(req.file.path);
 
 				if (file) {
 					news['images'] = `data:image/png;base64,${ file.toString('base64') }`;
@@ -127,7 +123,7 @@ class NewsController {
 			if (getNews) {
 				const news = {
 					title: body.title ?? getNews.title,
-					desc: body.desc ?? getNews.news,
+					desc: body.desc ?? getNews.desc,
 					category: body.category ?? getNews.category,
 					date: getNews.date ?? new Date(),
 					images: getNews.images
