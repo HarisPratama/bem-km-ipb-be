@@ -111,7 +111,7 @@ class NewsController {
 					{ $set: news }
 				);
 
-				res.status(200).json({ status: 200, ok: true, message: 'Success update news' });
+				res.status(200).json({ status: 200, ok: true, message: 'Success update news', data: news });
 			} else {
 				res.status(400).json({ status: 400, ok: true, message: 'Data not found' });
 			}
