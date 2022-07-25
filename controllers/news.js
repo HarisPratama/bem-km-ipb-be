@@ -83,7 +83,7 @@ class NewsController {
 
 	static async updateImageNews(req, res) {
 		try {
-			const getNews = await NewsModel.findOne({ _id: ObjectId(req.params.id) });
+			const getNews = await NewsModel.findOne({ _id: ObjectId(String(req.body.id)) });
 
 			if (getNews) {
 				let news = {

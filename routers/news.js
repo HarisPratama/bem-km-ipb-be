@@ -7,7 +7,7 @@ router.get('/', NewsController.getNews);
 router.post('/', uploadImage, NewsController.postNews);
 router.get('/filter', NewsController.getFilterNews);
 router.post('/comment', NewsController.postComment);
-router.post('/:id', uploadImage, NewsController.updateImageNews);
+router.post('/update-image', uploadImage, NewsController.updateImageNews);
 router.put('/:id', NewsController.updateNews);
 router.get('/:id', NewsController.getDetailNews);
 router.delete('/:id', NewsController.deleteNews);
