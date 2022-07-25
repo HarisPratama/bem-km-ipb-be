@@ -96,7 +96,11 @@ class NewsController {
 					images: getNews.images
 				};
 
-				const file = fs.readFileSync(req.file.path);
+				let file;
+
+				if (req.file.path) {
+					file = fs.readFileSync(req.file.path);
+				}
 
 				if (file) {
 					news['images'] = `data:image/png;base64,${ file.toString('base64') }`;
