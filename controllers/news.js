@@ -98,7 +98,7 @@ class NewsController {
 
 				let file;
 
-				if (req.file.path) {
+				if (req.file && req.file.path) {
 					file = fs.readFileSync(req.file.path);
 				}
 
