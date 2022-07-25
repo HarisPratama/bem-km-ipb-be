@@ -125,23 +125,13 @@ class NewsController {
 			const getNews = await NewsModel.findOne({ _id: ObjectId(req.params.id) });
 
 			if (getNews) {
-				let news = {
+				const news = {
 					title: body.title ?? getNews.title,
 					desc: body.desc ?? getNews.news,
 					category: body.category ?? getNews.category,
 					date: getNews.date ?? new Date(),
 					images: getNews.images
 				};
-
-				let file;
-
-				if (req.file && req.file.path) {
-					file = fs.readFileSync(req.file.path);
-				}
-
-				if (file) {
-					news['images'] = `data:image/png;base64,${ file.toString('base64') }`;
-				}
 
 				await NewsModel.updateOne(
 					{ _id: ObjectId(req.params.id) },
