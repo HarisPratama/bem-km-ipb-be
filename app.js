@@ -11,8 +11,6 @@ mongoose.connect(process.env.DATABASE, {
 	useUnifiedTopology: true
 });
 
-console.log(process.env.DATABASE, '<<< process.env.DATABASE');
-
 const db = mongoose.connection;
 
 db.on('error', err => {

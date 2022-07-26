@@ -44,7 +44,9 @@ class NewsController {
 		try {
 			const body = req.body;
 
-			const file = fs.readFileSync(req.file.path);
+			console.log(req.files, '<<< body');
+
+			const file = fs.readFileSync(req.files[0].path);
 
 			const news = {
 				title: body.title,
@@ -93,7 +95,7 @@ class NewsController {
 					date: getNews.date ?? new Date(),
 				};
 
-				const file = fs.readFileSync(req.file.path);
+				const file = fs.readFileSync(req.files[0].path);
 
 				if (file) {
 					news['images'] = `data:image/png;base64,${ file.toString('base64') }`;
